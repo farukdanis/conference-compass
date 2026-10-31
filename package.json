@@ -1,0 +1,27 @@
+{
+  "name": "conference-compass",
+  "version": "1.0.0",
+  "description": "Privacy-first, AI-assisted personal congress planner: multilingual semantic matching, conflict-free scheduling, ICS/PDF export, offline-ready.",
+  "license": "MIT",
+  "author": "Faruk Danış",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "node scripts/serve-static.mjs",
+    "demo": "python3 scripts/make-demo-program.py > public/program.json && node scripts/build-vectors.mjs && node scripts/gen-session-ids.mjs",
+    "vectors": "node scripts/build-vectors.mjs",
+    "pretest": "node scripts/gen-session-ids.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/build-worker.mjs",
+    "start": "node scripts/start.mjs",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "3.8.1"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.10",
+    "drizzle-orm": "^0.45.2",
+    "wrangler": "^4.92.0"
+  }
+}

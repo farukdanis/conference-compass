@@ -1,0 +1,8 @@
+node_modules/
+.model-cache/
+.venv/
+.wrangler/
+dist/
+.DS_Store
+.env
+.dev.vars

@@ -1,0 +1,5 @@
+const CACHE='conference-compass-v1';
+const ASSETS=['./','./index.html','./styles.css','./app.js','./analytics.js','./analytics-config.js','./engine.js','./icons.js','./ai-client.js','./ai-worker.js','./program.json','./vectors.json','./manifest.json'];
+self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)));self.skipWaiting()});
+self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('conference-compass-')&&k!==CACHE).map(k=>caches.delete(k)))));self.clients.claim()});
+self.addEventListener('fetch',event=>{if(new URL(event.request.url).pathname.startsWith('/stats'))return;if(event.request.method!=='GET'||new URL(event.request.url).pathname.startsWith('/api/'))return;if(new URL(event.request.url).origin!==location.origin)return;event.respondWith(fetch(event.request).then(response=>{if(response.ok){let clone=response.clone();caches.open(CACHE).then(c=>c.put(event.request,clone))}return response}).catch(()=>caches.match(event.request)))});

@@ -1,0 +1,47 @@
+export const normalize = s => String(s??'').toLocaleLowerCase('tr-TR').replace(/ı/g,'i').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9 ]/g,' ').replace(/\s+/g,' ').trim();
+export const TOPICS = [
+{id:'ai',tr:'Yapay zekâ',en:'AI & technology',words:['yapay zeka','artificial intelligence','machine learning',' ai ','dijital','digital','karar destek','teknoloji','technology']},
+{id:'critical',tr:'Kritik bakım',en:'Critical care',words:['kritik','critical','sok','shock','sepsis','septik','hemodinami','vasopressor','vazopres','fluid','sivi','ecmo','e cpr','ecpr']},
+{id:'us',tr:'Ultrasonografi',en:'Ultrasound',words:['ultrason','ultrasound','pocus','usg','focus','ekokard','echocard']},
+{id:'trauma',tr:'Travma',en:'Trauma',words:['travma','trauma','injur','atls','yaralan','kanama','hemorrhag']},
+{id:'airway',tr:'Havayolu & ventilasyon',en:'Airway & ventilation',words:['havayolu','hava yolu','airway','ventila','entub','intub','solunum','respira','akciger','lung']},
+{id:'cardio',tr:'Kardiyoloji & resüsitasyon',en:'Cardiology & resuscitation',words:['kardiy','cardi','resusi','resusc','arrest','aritmi','rhythm','ventrik','ventric','heart','kalp','aks','acs','cp r']},
+{id:'neuro',tr:'Nörolojik aciller',en:'Neurologic emergencies',words:['norolo','neuro','inme','stroke','epilep','nobet','seizure','migren','migraine','bas agrisi','headache','vertigo','hints','basdon']},
+{id:'toxic',tr:'Toksikoloji',en:'Toxicology',words:['toksik','toxic','zehir','poison','antidot','metil','methyl','methanol']},
+{id:'peds',tr:'Pediatri',en:'Pediatrics',words:['pediatr','cocuk','child','little patient']},
+{id:'disaster',tr:'Afet & hastane öncesi',en:'Disaster & prehospital',words:['afet','disaster','hastane oncesi','prehospital','pre hospital','kitlesel','mass casualty','hot zone','evacuation','olay yeri','under fire']},
+{id:'research',tr:'Araştırma & kanıt',en:'Research & evidence',words:['kanita','evidence','journal club','literatur','literature','arastirma','research','abstract','bildiri','papers','kilavuz','guideline']},
+{id:'education',tr:'Eğitim & liderlik',en:'Education & leadership',words:['egitim','education','ogren','learning','teaching','leadership','lider','workforce','mentoring','debrief','asem','ifem']},
+{id:'ethics',tr:'Etik & hasta güvenliği',en:'Ethics & patient safety',words:['etik','ethic','onam','consent','yasal','legal','sorumluluk','hata','error','kalite','quality','hasta guven','patient safety','dnr']},
+{id:'geriatrics',tr:'Geriatri & kırılgan gruplar',en:'Geriatrics & vulnerable groups',words:['geriat','yasli','older','age friendly','kirilgan','vulnerab','evsiz','homeless','obez','obes']},
+{id:'metabolic',tr:'Metabolik & iç hastalıkları',en:'Metabolic & internal medicine',words:['metabol','elektrolit','electrolyt','sodyum','sodium','diyabet','diabet','immu','endokrin','gis','gastro','abdominal','karin agrisi']}
+];
+export const minutes=s=>Number(s.split(':')[0])*60+Number(s.split(':')[1]);
+export const title=(e,lang='tr')=>e.translations[lang]?.title||e.translations.tr.title;
+export function tagEvent(e){let text=' '+normalize(title(e)+' '+title(e,'en')+' '+e.translations.tr.description+' '+e.translations.en?.description)+' ';return TOPICS.filter(t=>t.words.some(w=>text.includes(w))).map(t=>t.id)}
+export function inferTopics(text){const n=' '+normalize(text)+' ';return TOPICS.filter(t=>t.words.some(w=>n.includes(w))).map(t=>t.id)}
+export function searchable(e){return normalize(Object.values(e.translations).map(t=>[t.title,t.chairs,t.description,...(t.people||[]).map(p=>p.name)].join(' ')).join(' '))}
+export function queryMatch(text,query){const terms=normalize(query).split(' ').filter(Boolean);return terms.every(w=>text.includes(w))}
+export function overlaps(a,b,buffer=0){if(a.date!==b.date)return false;const gap=a.room&&b.room&&a.room!==b.room&&a.type!=='break'&&b.type!=='break'?buffer:0;return minutes(a.start)<minutes(b.end)+gap && minutes(b.start)<minutes(a.end)+gap}
+export function evaluate(e,p){const selected=[...new Set([...(p.topics||[]),...inferTopics(p.goal||'')])];const matched=(e.tags||tagEvent(e)).filter(t=>selected.includes(t));const text=searchable(e);const stop=new Set(['acil','emergency','medicine','ogrenmek','istiyorum','klinik','clinical','ve','ile','icin','istiyorum','ilgileniyorum','olsun','daha','bir','the','and','for','want','to','i','on']);const keywords=normalize(p.goal).split(' ').filter(x=>x.length>3&&!stop.has(x));const wordMatches=keywords.filter(x=>text.includes(x));const similarity=Number(p.semantic?.[e.id]||0);let score=4+matched.length*12+Math.min(wordMatches.length,5)*3+Math.max(0,similarity)*24;
+if(e.type==='ceremony')score+=4;if(p.role==='academic'&&(e.tags||[]).includes('research'))score+=3;if(p.role==='resident'&&(e.tags||[]).includes('education'))score+=2;if(e.type==='satellite')score-=3;
+return {score,matched,wordMatches,similarity,reason:matched.length?'topics':wordMatches.length?'goal':similarity>.28?'semantic':e.type==='ceremony'?'ceremony':'available'};}
+export function buildPlan(events,p,pinned=[],blocks=[],excluded=[]){const valid=events.filter(e=>e.valid!==false&&minutes(e.end)>minutes(e.start));const anchors=[...pinned.map(id=>valid.find(e=>e.id===id)).filter(Boolean),...blocks];const errors=[];const buffer=Number(p.buffer)||0;
+for(let i=0;i<anchors.length;i++){let a=anchors[i];let av=p.availability[a.date];if(!av?.enabled||minutes(a.start)<minutes(av.start)||minutes(a.end)>minutes(av.end)) errors.push({type:'availability',a});for(let j=i+1;j<anchors.length;j++)if(overlaps(a,anchors[j],buffer))errors.push({type:'conflict',a,b:anchors[j]})}
+if(errors.length)return {ok:false,errors,items:[]};
+let items=[];let reasons={};
+for(const [day,av]of Object.entries(p.availability)){if(!av.enabled)continue;const fixed=anchors.filter(x=>x.date===day).sort((a,b)=>a.start.localeCompare(b.start));const max=p.pace==='focused'?4:p.pace==='full'?10:6;let candidates=valid.filter(e=>e.date===day&&e.type!=='break'&&!excluded.includes(e.id)&&!pinned.includes(e.id)&&minutes(e.start)>=minutes(av.start)&&minutes(e.end)<=minutes(av.end)&&(e.type!=='course'||p.confirmedCourses?.includes(e.id))&&(e.type!=='satellite'||p.satellites)&&fixed.every(a=>!overlaps(e,a,buffer)));
+// Exact DAG dynamic program across candidates and required anchors. State carries last venue and item count.
+const nodes=[...candidates,...fixed].sort((a,b)=>a.start.localeCompare(b.start)||a.end.localeCompare(b.end)||a.id.localeCompare(b.id));
+const fixedIds=new Set(fixed.map(a=>a.id));const dp=new Map();let best={value:0,path:[],fixed:0,count:0,last:null};dp.set('root',best);
+for(const e of nodes){const mandatory=fixedIds.has(e.id);const prior=[...dp.values()];let additions=[];for(const st of prior){if(st.last&&overlaps(st.last,e,buffer))continue;if(st.last&&minutes(st.last.end)>minutes(e.start))continue;const missed=fixed.some(a=>minutes(a.end)<=minutes(e.start)&&!st.path.includes(a.id));if(missed)continue;const count=st.count+(e.type==='custom'?0:1);if(count>Math.max(max,fixed.filter(a=>a.type!=='custom').length))continue;const value=st.value+(mandatory?100000:evaluate(e,p).score);const state={value,path:[...st.path,e.id],fixed:st.fixed+(mandatory?1:0),count,last:e};additions.push(state)}
+for(const st of additions){const key=e.id+':'+st.count+':'+st.fixed;const prev=dp.get(key);if(!prev||st.value>prev.value)dp.set(key,st)}
+}
+for(const st of dp.values())if(st.fixed===fixed.length&&(best.fixed!==fixed.length||st.value>best.value))best=st;
+const found=best.path.map(id=>nodes.find(e=>e.id===id));for(const e of found){items.push(e);reasons[e.id]=fixedIds.has(e.id)?{reason:e.type==='custom'?'custom':'pinned'}:evaluate(e,p)}
+// A shared break appears once, only if the entire published break fits the plan.
+if(p.breaks){const seen=new Set();for(const e of valid.filter(e=>e.date===day&&e.type==='break')){let key=e.start+e.end+title(e);if(seen.has(key))continue;seen.add(key);if(minutes(e.start)<minutes(av.start)||minutes(e.end)>minutes(av.end))continue;if(found.some(f=>overlaps(e,f,0)))continue;if(found.some(f=>f.end<=e.start)&&found.some(f=>f.start>=e.end))items.push(e)}}
+}
+items.sort((a,b)=>a.date.localeCompare(b.date)||a.start.localeCompare(b.start));
+return {ok:true,items,reasons,errors:[]};}
+export function makeICS(items,lang='tr',opts={}){const offset=opts.offset||'+00:00',calName=opts.calendarName||'Conference Compass',uidDomain=opts.uidDomain||'conference-compass.local';const escape=s=>String(s??'').replace(/\\/g,'\\\\').replace(/\n/g,'\\n').replace(/,/g,'\\,').replace(/;/g,'\\;');const stamp=new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');const dateUTC=(day,time)=>new Date(day+'T'+time+':00'+offset).toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Conference Compass//Personal Planner//EN','CALSCALE:GREGORIAN','METHOD:PUBLISH','X-WR-CALNAME:'+escape(calName)];for(const e of items){lines.push('BEGIN:VEVENT','UID:'+e.id+'@'+uidDomain,'DTSTAMP:'+stamp,'DTSTART:'+dateUTC(e.date,e.start),'DTEND:'+dateUTC(e.date,e.end),'SUMMARY:'+escape(e.type==='custom'?e.title:title(e,lang)),'LOCATION:'+escape(e.room||''),'DESCRIPTION:'+escape((e.translations?.[lang]?.description||'')+'\n'+(e.sourceUrl||'')),'END:VEVENT')}lines.push('END:VCALENDAR');return lines.map(line=>{let out='',cur='',bytes=0;for(const ch of line){let n=new TextEncoder().encode(ch).length;if(bytes+n>74){out+=cur+'\r\n ';cur='';bytes=1}cur+=ch;bytes+=n}return out+cur}).join('\r\n')+'\r\n'}

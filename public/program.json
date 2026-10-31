@@ -1,0 +1,6378 @@
+{
+ "title": "Demo Emergency Medicine Congress 2027",
+ "conference": {
+  "id": "demo-em-2027",
+  "shortName": "COMPASS",
+  "yearTag": "’27",
+  "name": {
+   "tr": "Demo Acil Tıp Kongresi 2027",
+   "en": "Demo Emergency Medicine Congress 2027"
+  },
+  "dates": {
+   "tr": "6–9 Nisan 2027",
+   "en": "6–9 April 2027"
+  },
+  "venue": {
+   "tr": "Örnek Kongre Merkezi",
+   "en": "Example Congress Centre"
+  },
+  "timezone": "Europe/Istanbul",
+  "utcOffset": "+03:00",
+  "timezoneLabel": {
+   "tr": "Türkiye saati (UTC+3)",
+   "en": "Türkiye time (UTC+3)"
+  },
+  "url": null,
+  "notice": {
+   "tr": "Bu program tamamen kurgusaldır; gerçek bir kongreyi veya kişiyi temsil etmez.",
+   "en": "This programme is entirely fictional and does not represent any real congress or person."
+  }
+ },
+ "fetchedAt": "2027-01-15T09:00:00+00:00",
+ "source": null,
+ "days": [
+  "2027-04-06",
+  "2027-04-07",
+  "2027-04-08",
+  "2027-04-09"
+ ],
+ "rooms": {
+  "100": "Hall A",
+  "101": "Hall B",
+  "102": "Hall C",
+  "103": "Hall D",
+  "104": "Hall E",
+  "105": "Hall F"
+ },
+ "countsByDay": {
+  "2027-04-06": 7,
+  "2027-04-07": 24,
+  "2027-04-08": 24,
+  "2027-04-09": 8
+ },
+ "events": [
+  {
+   "id": "1001",
+   "date": "2027-04-06",
+   "start": "09:00",
+   "end": "16:30",
+   "room": "Hall C",
+   "roomId": "102",
+   "type": "course",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Yatak Başı Ultrasonografi Kursu",
+     "title": "Yatak Başı Ultrasonografi Kursu",
+     "chairs": "",
+     "description": "Uygulamalı kurs; ayrı kayıt gerektirir.",
+     "talks": [],
+     "people": [
+      {
+       "id": "p1",
+       "name": "Speaker A"
+      },
+      {
+       "id": "p2",
+       "name": "Speaker B"
+      },
+      {
+       "id": "p3",
+       "name": "Speaker C"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Yatak Başı Ultrasonografi Kursu\n6 Nisan 2027\n09:00 - 16:30\nHall C\nUygulamalı kurs; ayrı kayıt gerektirir."
+    },
+    "en": {
+     "listing": "Point-of-Care Ultrasound Course",
+     "title": "Point-of-Care Ultrasound Course",
+     "chairs": "",
+     "description": "Hands-on course; separate registration required.",
+     "talks": [],
+     "people": [
+      {
+       "id": "p1",
+       "name": "Speaker A"
+      },
+      {
+       "id": "p2",
+       "name": "Speaker B"
+      },
+      {
+       "id": "p3",
+       "name": "Speaker C"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Point-of-Care Ultrasound Course\n6 April 2027\n09:00 - 16:30\nHall C\nHands-on course; separate registration required."
+    }
+   }
+  },
+  {
+   "id": "1002",
+   "date": "2027-04-06",
+   "start": "09:00",
+   "end": "16:30",
+   "room": "Hall D",
+   "roomId": "103",
+   "type": "course",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "İleri Havayolu Becerileri Kursu",
+     "title": "İleri Havayolu Becerileri Kursu",
+     "chairs": "",
+     "description": "Uygulamalı kurs; ayrı kayıt gerektirir.",
+     "talks": [],
+     "people": [
+      {
+       "id": "p4",
+       "name": "Speaker D"
+      },
+      {
+       "id": "p5",
+       "name": "Speaker E"
+      },
+      {
+       "id": "p6",
+       "name": "Speaker F"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "İleri Havayolu Becerileri Kursu\n6 Nisan 2027\n09:00 - 16:30\nHall D\nUygulamalı kurs; ayrı kayıt gerektirir."
+    },
+    "en": {
+     "listing": "Advanced Airway Skills Course",
+     "title": "Advanced Airway Skills Course",
+     "chairs": "",
+     "description": "Hands-on course; separate registration required.",
+     "talks": [],
+     "people": [
+      {
+       "id": "p4",
+       "name": "Speaker D"
+      },
+      {
+       "id": "p5",
+       "name": "Speaker E"
+      },
+      {
+       "id": "p6",
+       "name": "Speaker F"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Advanced Airway Skills Course\n6 April 2027\n09:00 - 16:30\nHall D\nHands-on course; separate registration required."
+    }
+   }
+  },
+  {
+   "id": "1003",
+   "date": "2027-04-06",
+   "start": "09:00",
+   "end": "16:30",
+   "room": "Hall E",
+   "roomId": "104",
+   "type": "course",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Mekanik Ventilatör Kursu",
+     "title": "Mekanik Ventilatör Kursu",
+     "chairs": "",
+     "description": "Uygulamalı kurs; ayrı kayıt gerektirir.",
+     "talks": [],
+     "people": [
+      {
+       "id": "p7",
+       "name": "Speaker G"
+      },
+      {
+       "id": "p8",
+       "name": "Speaker H"
+      },
+      {
+       "id": "p9",
+       "name": "Speaker I"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Mekanik Ventilatör Kursu\n6 Nisan 2027\n09:00 - 16:30\nHall E\nUygulamalı kurs; ayrı kayıt gerektirir."
+    },
+    "en": {
+     "listing": "Mechanical Ventilation Course",
+     "title": "Mechanical Ventilation Course",
+     "chairs": "",
+     "description": "Hands-on course; separate registration required.",
+     "talks": [],
+     "people": [
+      {
+       "id": "p7",
+       "name": "Speaker G"
+      },
+      {
+       "id": "p8",
+       "name": "Speaker H"
+      },
+      {
+       "id": "p9",
+       "name": "Speaker I"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Mechanical Ventilation Course\n6 April 2027\n09:00 - 16:30\nHall E\nHands-on course; separate registration required."
+    }
+   }
+  },
+  {
+   "id": "1004",
+   "date": "2027-04-06",
+   "start": "09:00",
+   "end": "16:30",
+   "room": "Hall F",
+   "roomId": "105",
+   "type": "course",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Travma Resüsitasyonu Beceri Kursu",
+     "title": "Travma Resüsitasyonu Beceri Kursu",
+     "chairs": "",
+     "description": "Uygulamalı kurs; ayrı kayıt gerektirir.",
+     "talks": [],
+     "people": [
+      {
+       "id": "p10",
+       "name": "Speaker J"
+      },
+      {
+       "id": "p11",
+       "name": "Speaker K"
+      },
+      {
+       "id": "p12",
+       "name": "Speaker L"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Travma Resüsitasyonu Beceri Kursu\n6 Nisan 2027\n09:00 - 16:30\nHall F\nUygulamalı kurs; ayrı kayıt gerektirir."
+    },
+    "en": {
+     "listing": "Trauma Resuscitation Skills Course",
+     "title": "Trauma Resuscitation Skills Course",
+     "chairs": "",
+     "description": "Hands-on course; separate registration required.",
+     "talks": [],
+     "people": [
+      {
+       "id": "p10",
+       "name": "Speaker J"
+      },
+      {
+       "id": "p11",
+       "name": "Speaker K"
+      },
+      {
+       "id": "p12",
+       "name": "Speaker L"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Trauma Resuscitation Skills Course\n6 April 2027\n09:00 - 16:30\nHall F\nHands-on course; separate registration required."
+    }
+   }
+  },
+  {
+   "id": "1005",
+   "date": "2027-04-06",
+   "start": "12:30",
+   "end": "13:30",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "break",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Öğle Arası",
+     "title": "Öğle Arası",
+     "chairs": "",
+     "description": "",
+     "talks": [],
+     "people": [],
+     "sourceUrl": null,
+     "detailText": "Öğle Arası\n6 Nisan 2027\n12:30 - 13:30\nHall A"
+    },
+    "en": {
+     "listing": "Lunch Break",
+     "title": "Lunch Break",
+     "chairs": "",
+     "description": "",
+     "talks": [],
+     "people": [],
+     "sourceUrl": null,
+     "detailText": "Lunch Break\n6 April 2027\n12:30 - 13:30\nHall A"
+    }
+   }
+  },
+  {
+   "id": "1006",
+   "date": "2027-04-06",
+   "start": "17:00",
+   "end": "18:00",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "ceremony",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Açılış Töreni ve Açılış Konferansı",
+     "title": "Açılış Töreni ve Açılış Konferansı",
+     "chairs": "Oturum Başkanları: Speaker M, Speaker N",
+     "description": "",
+     "talks": [
+      {
+       "title": "Acil tıbbın önümüzdeki on yılı",
+       "speaker": "Speaker O"
+      }
+     ],
+     "people": [
+      {
+       "id": "p13",
+       "name": "Speaker M"
+      },
+      {
+       "id": "p14",
+       "name": "Speaker N"
+      },
+      {
+       "id": "p15",
+       "name": "Speaker O"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Açılış Töreni ve Açılış Konferansı\n6 Nisan 2027\n17:00 - 18:00\nHall A\nOturum Başkanları: Speaker M, Speaker N\nAcil tıbbın önümüzdeki on yılı — Speaker O"
+    },
+    "en": {
+     "listing": "Opening Ceremony and Keynote",
+     "title": "Opening Ceremony and Keynote",
+     "chairs": "Chairs: Speaker M, Speaker N",
+     "description": "",
+     "talks": [
+      {
+       "title": "The next decade of emergency medicine",
+       "speaker": "Speaker O"
+      }
+     ],
+     "people": [
+      {
+       "id": "p13",
+       "name": "Speaker M"
+      },
+      {
+       "id": "p14",
+       "name": "Speaker N"
+      },
+      {
+       "id": "p15",
+       "name": "Speaker O"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Opening Ceremony and Keynote\n6 April 2027\n17:00 - 18:00\nHall A\nChairs: Speaker M, Speaker N\nThe next decade of emergency medicine — Speaker O"
+    }
+   }
+  },
+  {
+   "id": "1007",
+   "date": "2027-04-06",
+   "start": "18:15",
+   "end": "19:15",
+   "room": "Hall B",
+   "roomId": "101",
+   "type": "satellite",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Uydu Sempozyumu: Antikoagülasyonda Güncel Yaklaşımlar",
+     "title": "Uydu Sempozyumu: Antikoagülasyonda Güncel Yaklaşımlar",
+     "chairs": "",
+     "description": "",
+     "talks": [
+      {
+       "title": "Sunum",
+       "speaker": "Speaker P"
+      }
+     ],
+     "people": [
+      {
+       "id": "p16",
+       "name": "Speaker P"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Uydu Sempozyumu: Antikoagülasyonda Güncel Yaklaşımlar\n6 Nisan 2027\n18:15 - 19:15\nHall B\nSunum — Speaker P"
+    },
+    "en": {
+     "listing": "Satellite Symposium: Current Approaches to Anticoagulation",
+     "title": "Satellite Symposium: Current Approaches to Anticoagulation",
+     "chairs": "",
+     "description": "",
+     "talks": [
+      {
+       "title": "Presentation",
+       "speaker": "Speaker P"
+      }
+     ],
+     "people": [
+      {
+       "id": "p16",
+       "name": "Speaker P"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Satellite Symposium: Current Approaches to Anticoagulation\n6 April 2027\n18:15 - 19:15\nHall B\nPresentation — Speaker P"
+    }
+   }
+  },
+  {
+   "id": "1008",
+   "date": "2027-04-07",
+   "start": "08:30",
+   "end": "09:40",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Acil Serviste Yapay Zekâ: Abartı mı Gerçek mi?",
+     "title": "Acil Serviste Yapay Zekâ: Abartı mı Gerçek mi?",
+     "chairs": "Oturum Başkanları: Speaker Q, Speaker R",
+     "description": "",
+     "talks": [
+      {
+       "title": "Triyajda makine öğrenmesi",
+       "speaker": "Speaker S"
+      },
+      {
+       "title": "Klinik karar destek sistemlerinde hata kaynakları",
+       "speaker": "Speaker T"
+      },
+      {
+       "title": "Büyük dil modelleri ve klinik dokümantasyon",
+       "speaker": "Speaker U"
+      }
+     ],
+     "people": [
+      {
+       "id": "p17",
+       "name": "Speaker Q"
+      },
+      {
+       "id": "p18",
+       "name": "Speaker R"
+      },
+      {
+       "id": "p19",
+       "name": "Speaker S"
+      },
+      {
+       "id": "p20",
+       "name": "Speaker T"
+      },
+      {
+       "id": "p21",
+       "name": "Speaker U"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Acil Serviste Yapay Zekâ: Abartı mı Gerçek mi?\n7 Nisan 2027\n08:30 - 09:40\nHall A\nOturum Başkanları: Speaker Q, Speaker R\nTriyajda makine öğrenmesi — Speaker S\nKlinik karar destek sistemlerinde hata kaynakları — Speaker T\nBüyük dil modelleri ve klinik dokümantasyon — Speaker U"
+    },
+    "en": {
+     "listing": "AI in the Emergency Department: Hype or Reality?",
+     "title": "AI in the Emergency Department: Hype or Reality?",
+     "chairs": "Chairs: Speaker Q, Speaker R",
+     "description": "",
+     "talks": [
+      {
+       "title": "Machine learning at triage",
+       "speaker": "Speaker S"
+      },
+      {
+       "title": "Failure modes of clinical decision support",
+       "speaker": "Speaker T"
+      },
+      {
+       "title": "Large language models and clinical documentation",
+       "speaker": "Speaker U"
+      }
+     ],
+     "people": [
+      {
+       "id": "p17",
+       "name": "Speaker Q"
+      },
+      {
+       "id": "p18",
+       "name": "Speaker R"
+      },
+      {
+       "id": "p19",
+       "name": "Speaker S"
+      },
+      {
+       "id": "p20",
+       "name": "Speaker T"
+      },
+      {
+       "id": "p21",
+       "name": "Speaker U"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "AI in the Emergency Department: Hype or Reality?\n7 April 2027\n08:30 - 09:40\nHall A\nChairs: Speaker Q, Speaker R\nMachine learning at triage — Speaker S\nFailure modes of clinical decision support — Speaker T\nLarge language models and clinical documentation — Speaker U"
+    }
+   }
+  },
+  {
+   "id": "1009",
+   "date": "2027-04-07",
+   "start": "08:30",
+   "end": "09:40",
+   "room": "Hall B",
+   "roomId": "101",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Sepsiste İlk Saat",
+     "title": "Sepsiste İlk Saat",
+     "chairs": "Oturum Başkanları: Speaker V, Speaker W",
+     "description": "",
+     "talks": [
+      {
+       "title": "Erken tanı skorları",
+       "speaker": "Speaker X"
+      },
+      {
+       "title": "Sıvı mı, erken vazopresör mü?",
+       "speaker": "Speaker Y"
+      },
+      {
+       "title": "Laktat rehberli resüsitasyon",
+       "speaker": "Speaker Z"
+      }
+     ],
+     "people": [
+      {
+       "id": "p22",
+       "name": "Speaker V"
+      },
+      {
+       "id": "p23",
+       "name": "Speaker W"
+      },
+      {
+       "id": "p24",
+       "name": "Speaker X"
+      },
+      {
+       "id": "p25",
+       "name": "Speaker Y"
+      },
+      {
+       "id": "p26",
+       "name": "Speaker Z"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Sepsiste İlk Saat\n7 Nisan 2027\n08:30 - 09:40\nHall B\nOturum Başkanları: Speaker V, Speaker W\nErken tanı skorları — Speaker X\nSıvı mı, erken vazopresör mü? — Speaker Y\nLaktat rehberli resüsitasyon — Speaker Z"
+    },
+    "en": {
+     "listing": "The First Hour in Sepsis",
+     "title": "The First Hour in Sepsis",
+     "chairs": "Chairs: Speaker V, Speaker W",
+     "description": "",
+     "talks": [
+      {
+       "title": "Early recognition scores",
+       "speaker": "Speaker X"
+      },
+      {
+       "title": "Fluids or early vasopressors?",
+       "speaker": "Speaker Y"
+      },
+      {
+       "title": "Lactate-guided resuscitation",
+       "speaker": "Speaker Z"
+      }
+     ],
+     "people": [
+      {
+       "id": "p22",
+       "name": "Speaker V"
+      },
+      {
+       "id": "p23",
+       "name": "Speaker W"
+      },
+      {
+       "id": "p24",
+       "name": "Speaker X"
+      },
+      {
+       "id": "p25",
+       "name": "Speaker Y"
+      },
+      {
+       "id": "p26",
+       "name": "Speaker Z"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "The First Hour in Sepsis\n7 April 2027\n08:30 - 09:40\nHall B\nChairs: Speaker V, Speaker W\nEarly recognition scores — Speaker X\nFluids or early vasopressors? — Speaker Y\nLactate-guided resuscitation — Speaker Z"
+    }
+   }
+  },
+  {
+   "id": "1010",
+   "date": "2027-04-07",
+   "start": "08:30",
+   "end": "09:40",
+   "room": "Hall C",
+   "roomId": "102",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Şokta Yatak Başı Ultrasonografi",
+     "title": "Şokta Yatak Başı Ultrasonografi",
+     "chairs": "Oturum Başkanları: Speaker AA, Speaker AB",
+     "description": "",
+     "talks": [
+      {
+       "title": "RUSH protokolü",
+       "speaker": "Speaker AC"
+      },
+      {
+       "title": "VExUS ile venöz konjesyon",
+       "speaker": "Speaker AD"
+      },
+      {
+       "title": "Sıvı yanıtlılığını öngörmek",
+       "speaker": "Speaker AE"
+      }
+     ],
+     "people": [
+      {
+       "id": "p27",
+       "name": "Speaker AA"
+      },
+      {
+       "id": "p28",
+       "name": "Speaker AB"
+      },
+      {
+       "id": "p29",
+       "name": "Speaker AC"
+      },
+      {
+       "id": "p30",
+       "name": "Speaker AD"
+      },
+      {
+       "id": "p31",
+       "name": "Speaker AE"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Şokta Yatak Başı Ultrasonografi\n7 Nisan 2027\n08:30 - 09:40\nHall C\nOturum Başkanları: Speaker AA, Speaker AB\nRUSH protokolü — Speaker AC\nVExUS ile venöz konjesyon — Speaker AD\nSıvı yanıtlılığını öngörmek — Speaker AE"
+    },
+    "en": {
+     "listing": "Point-of-Care Ultrasound in Shock",
+     "title": "Point-of-Care Ultrasound in Shock",
+     "chairs": "Chairs: Speaker AA, Speaker AB",
+     "description": "",
+     "talks": [
+      {
+       "title": "The RUSH protocol",
+       "speaker": "Speaker AC"
+      },
+      {
+       "title": "Venous congestion with VExUS",
+       "speaker": "Speaker AD"
+      },
+      {
+       "title": "Predicting fluid responsiveness",
+       "speaker": "Speaker AE"
+      }
+     ],
+     "people": [
+      {
+       "id": "p27",
+       "name": "Speaker AA"
+      },
+      {
+       "id": "p28",
+       "name": "Speaker AB"
+      },
+      {
+       "id": "p29",
+       "name": "Speaker AC"
+      },
+      {
+       "id": "p30",
+       "name": "Speaker AD"
+      },
+      {
+       "id": "p31",
+       "name": "Speaker AE"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Point-of-Care Ultrasound in Shock\n7 April 2027\n08:30 - 09:40\nHall C\nChairs: Speaker AA, Speaker AB\nThe RUSH protocol — Speaker AC\nVenous congestion with VExUS — Speaker AD\nPredicting fluid responsiveness — Speaker AE"
+    }
+   }
+  },
+  {
+   "id": "1011",
+   "date": "2027-04-07",
+   "start": "08:30",
+   "end": "09:40",
+   "room": "Hall D",
+   "roomId": "103",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Zor Havayolu: Planlı Yaklaşım",
+     "title": "Zor Havayolu: Planlı Yaklaşım",
+     "chairs": "Oturum Başkanları: Speaker AF, Speaker AG",
+     "description": "",
+     "talks": [
+      {
+       "title": "Fizyolojik zor havayolu",
+       "speaker": "Speaker AH"
+      },
+      {
+       "title": "Videolaringoskopi ilk tercih mi?",
+       "speaker": "Speaker AI"
+      },
+      {
+       "title": "Cerrahi havayoluna geçiş kararı",
+       "speaker": "Speaker AJ"
+      }
+     ],
+     "people": [
+      {
+       "id": "p32",
+       "name": "Speaker AF"
+      },
+      {
+       "id": "p33",
+       "name": "Speaker AG"
+      },
+      {
+       "id": "p34",
+       "name": "Speaker AH"
+      },
+      {
+       "id": "p35",
+       "name": "Speaker AI"
+      },
+      {
+       "id": "p36",
+       "name": "Speaker AJ"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Zor Havayolu: Planlı Yaklaşım\n7 Nisan 2027\n08:30 - 09:40\nHall D\nOturum Başkanları: Speaker AF, Speaker AG\nFizyolojik zor havayolu — Speaker AH\nVideolaringoskopi ilk tercih mi? — Speaker AI\nCerrahi havayoluna geçiş kararı — Speaker AJ"
+    },
+    "en": {
+     "listing": "The Difficult Airway: A Planned Approach",
+     "title": "The Difficult Airway: A Planned Approach",
+     "chairs": "Chairs: Speaker AF, Speaker AG",
+     "description": "",
+     "talks": [
+      {
+       "title": "The physiologically difficult airway",
+       "speaker": "Speaker AH"
+      },
+      {
+       "title": "Is video laryngoscopy first-line?",
+       "speaker": "Speaker AI"
+      },
+      {
+       "title": "Deciding on a surgical airway",
+       "speaker": "Speaker AJ"
+      }
+     ],
+     "people": [
+      {
+       "id": "p32",
+       "name": "Speaker AF"
+      },
+      {
+       "id": "p33",
+       "name": "Speaker AG"
+      },
+      {
+       "id": "p34",
+       "name": "Speaker AH"
+      },
+      {
+       "id": "p35",
+       "name": "Speaker AI"
+      },
+      {
+       "id": "p36",
+       "name": "Speaker AJ"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "The Difficult Airway: A Planned Approach\n7 April 2027\n08:30 - 09:40\nHall D\nChairs: Speaker AF, Speaker AG\nThe physiologically difficult airway — Speaker AH\nIs video laryngoscopy first-line? — Speaker AI\nDeciding on a surgical airway — Speaker AJ"
+    }
+   }
+  },
+  {
+   "id": "1012",
+   "date": "2027-04-07",
+   "start": "09:50",
+   "end": "11:00",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Çoklu Travmada Kanama Kontrolü",
+     "title": "Çoklu Travmada Kanama Kontrolü",
+     "chairs": "Oturum Başkanları: Speaker AK, Speaker AL",
+     "description": "",
+     "talks": [
+      {
+       "title": "Masif transfüzyon protokolü",
+       "speaker": "Speaker AM"
+      },
+      {
+       "title": "REBOA nerede durur?",
+       "speaker": "Speaker AN"
+      },
+      {
+       "title": "Traneksamik asit güncellemesi",
+       "speaker": "Speaker AO"
+      }
+     ],
+     "people": [
+      {
+       "id": "p37",
+       "name": "Speaker AK"
+      },
+      {
+       "id": "p38",
+       "name": "Speaker AL"
+      },
+      {
+       "id": "p39",
+       "name": "Speaker AM"
+      },
+      {
+       "id": "p40",
+       "name": "Speaker AN"
+      },
+      {
+       "id": "p41",
+       "name": "Speaker AO"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Çoklu Travmada Kanama Kontrolü\n7 Nisan 2027\n09:50 - 11:00\nHall A\nOturum Başkanları: Speaker AK, Speaker AL\nMasif transfüzyon protokolü — Speaker AM\nREBOA nerede durur? — Speaker AN\nTraneksamik asit güncellemesi — Speaker AO"
+    },
+    "en": {
+     "listing": "Haemorrhage Control in Major Trauma",
+     "title": "Haemorrhage Control in Major Trauma",
+     "chairs": "Chairs: Speaker AK, Speaker AL",
+     "description": "",
+     "talks": [
+      {
+       "title": "Massive transfusion protocol",
+       "speaker": "Speaker AM"
+      },
+      {
+       "title": "Where does REBOA stand?",
+       "speaker": "Speaker AN"
+      },
+      {
+       "title": "Tranexamic acid update",
+       "speaker": "Speaker AO"
+      }
+     ],
+     "people": [
+      {
+       "id": "p37",
+       "name": "Speaker AK"
+      },
+      {
+       "id": "p38",
+       "name": "Speaker AL"
+      },
+      {
+       "id": "p39",
+       "name": "Speaker AM"
+      },
+      {
+       "id": "p40",
+       "name": "Speaker AN"
+      },
+      {
+       "id": "p41",
+       "name": "Speaker AO"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Haemorrhage Control in Major Trauma\n7 April 2027\n09:50 - 11:00\nHall A\nChairs: Speaker AK, Speaker AL\nMassive transfusion protocol — Speaker AM\nWhere does REBOA stand? — Speaker AN\nTranexamic acid update — Speaker AO"
+    }
+   }
+  },
+  {
+   "id": "1013",
+   "date": "2027-04-07",
+   "start": "09:50",
+   "end": "11:00",
+   "room": "Hall B",
+   "roomId": "101",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Kardiyak Arrestte Yeni Kanıtlar",
+     "title": "Kardiyak Arrestte Yeni Kanıtlar",
+     "chairs": "Oturum Başkanları: Speaker AP, Speaker AQ",
+     "description": "",
+     "talks": [
+      {
+       "title": "Mekanik KPR cihazları",
+       "speaker": "Speaker AR"
+      },
+      {
+       "title": "E-CPR için hasta seçimi",
+       "speaker": "Speaker AS"
+      },
+      {
+       "title": "Arrest sonrası bakım paketi",
+       "speaker": "Speaker AT"
+      }
+     ],
+     "people": [
+      {
+       "id": "p42",
+       "name": "Speaker AP"
+      },
+      {
+       "id": "p43",
+       "name": "Speaker AQ"
+      },
+      {
+       "id": "p44",
+       "name": "Speaker AR"
+      },
+      {
+       "id": "p45",
+       "name": "Speaker AS"
+      },
+      {
+       "id": "p46",
+       "name": "Speaker AT"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Kardiyak Arrestte Yeni Kanıtlar\n7 Nisan 2027\n09:50 - 11:00\nHall B\nOturum Başkanları: Speaker AP, Speaker AQ\nMekanik KPR cihazları — Speaker AR\nE-CPR için hasta seçimi — Speaker AS\nArrest sonrası bakım paketi — Speaker AT"
+    },
+    "en": {
+     "listing": "New Evidence in Cardiac Arrest",
+     "title": "New Evidence in Cardiac Arrest",
+     "chairs": "Chairs: Speaker AP, Speaker AQ",
+     "description": "",
+     "talks": [
+      {
+       "title": "Mechanical CPR devices",
+       "speaker": "Speaker AR"
+      },
+      {
+       "title": "Patient selection for E-CPR",
+       "speaker": "Speaker AS"
+      },
+      {
+       "title": "Post-arrest care bundle",
+       "speaker": "Speaker AT"
+      }
+     ],
+     "people": [
+      {
+       "id": "p42",
+       "name": "Speaker AP"
+      },
+      {
+       "id": "p43",
+       "name": "Speaker AQ"
+      },
+      {
+       "id": "p44",
+       "name": "Speaker AR"
+      },
+      {
+       "id": "p45",
+       "name": "Speaker AS"
+      },
+      {
+       "id": "p46",
+       "name": "Speaker AT"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "New Evidence in Cardiac Arrest\n7 April 2027\n09:50 - 11:00\nHall B\nChairs: Speaker AP, Speaker AQ\nMechanical CPR devices — Speaker AR\nPatient selection for E-CPR — Speaker AS\nPost-arrest care bundle — Speaker AT"
+    }
+   }
+  },
+  {
+   "id": "1014",
+   "date": "2027-04-07",
+   "start": "09:50",
+   "end": "11:00",
+   "room": "Hall C",
+   "roomId": "102",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Akut İnmede Zaman Kazanmak",
+     "title": "Akut İnmede Zaman Kazanmak",
+     "chairs": "Oturum Başkanları: Speaker AU, Speaker AV",
+     "description": "",
+     "talks": [
+      {
+       "title": "Büyük damar oklüzyonu tanıma",
+       "speaker": "Speaker A"
+      },
+      {
+       "title": "Trombolizde güncel pencere",
+       "speaker": "Speaker B"
+      },
+      {
+       "title": "Hastane öncesi bildirim",
+       "speaker": "Speaker C"
+      }
+     ],
+     "people": [
+      {
+       "id": "p47",
+       "name": "Speaker AU"
+      },
+      {
+       "id": "p48",
+       "name": "Speaker AV"
+      },
+      {
+       "id": "p1",
+       "name": "Speaker A"
+      },
+      {
+       "id": "p2",
+       "name": "Speaker B"
+      },
+      {
+       "id": "p3",
+       "name": "Speaker C"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Akut İnmede Zaman Kazanmak\n7 Nisan 2027\n09:50 - 11:00\nHall C\nOturum Başkanları: Speaker AU, Speaker AV\nBüyük damar oklüzyonu tanıma — Speaker A\nTrombolizde güncel pencere — Speaker B\nHastane öncesi bildirim — Speaker C"
+    },
+    "en": {
+     "listing": "Saving Time in Acute Stroke",
+     "title": "Saving Time in Acute Stroke",
+     "chairs": "Chairs: Speaker AU, Speaker AV",
+     "description": "",
+     "talks": [
+      {
+       "title": "Recognising large vessel occlusion",
+       "speaker": "Speaker A"
+      },
+      {
+       "title": "Current thrombolysis windows",
+       "speaker": "Speaker B"
+      },
+      {
+       "title": "Prehospital notification",
+       "speaker": "Speaker C"
+      }
+     ],
+     "people": [
+      {
+       "id": "p47",
+       "name": "Speaker AU"
+      },
+      {
+       "id": "p48",
+       "name": "Speaker AV"
+      },
+      {
+       "id": "p1",
+       "name": "Speaker A"
+      },
+      {
+       "id": "p2",
+       "name": "Speaker B"
+      },
+      {
+       "id": "p3",
+       "name": "Speaker C"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Saving Time in Acute Stroke\n7 April 2027\n09:50 - 11:00\nHall C\nChairs: Speaker AU, Speaker AV\nRecognising large vessel occlusion — Speaker A\nCurrent thrombolysis windows — Speaker B\nPrehospital notification — Speaker C"
+    }
+   }
+  },
+  {
+   "id": "1015",
+   "date": "2027-04-07",
+   "start": "09:50",
+   "end": "11:00",
+   "room": "Hall D",
+   "roomId": "103",
+   "type": "abstract",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Sözlü Bildiriler: Resüsitasyon",
+     "title": "Sözlü Bildiriler: Resüsitasyon",
+     "chairs": "Oturum Başkanları: Speaker D, Speaker E",
+     "description": "",
+     "talks": [],
+     "people": [
+      {
+       "id": "p4",
+       "name": "Speaker D"
+      },
+      {
+       "id": "p5",
+       "name": "Speaker E"
+      },
+      {
+       "id": "p6",
+       "name": "Speaker F"
+      },
+      {
+       "id": "p7",
+       "name": "Speaker G"
+      },
+      {
+       "id": "p8",
+       "name": "Speaker H"
+      },
+      {
+       "id": "p9",
+       "name": "Speaker I"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Sözlü Bildiriler: Resüsitasyon\n7 Nisan 2027\n09:50 - 11:00\nHall D\nOturum Başkanları: Speaker D, Speaker E"
+    },
+    "en": {
+     "listing": "Oral Abstracts: Resuscitation",
+     "title": "Oral Abstracts: Resuscitation",
+     "chairs": "Chairs: Speaker D, Speaker E",
+     "description": "",
+     "talks": [],
+     "people": [
+      {
+       "id": "p4",
+       "name": "Speaker D"
+      },
+      {
+       "id": "p5",
+       "name": "Speaker E"
+      },
+      {
+       "id": "p6",
+       "name": "Speaker F"
+      },
+      {
+       "id": "p7",
+       "name": "Speaker G"
+      },
+      {
+       "id": "p8",
+       "name": "Speaker H"
+      },
+      {
+       "id": "p9",
+       "name": "Speaker I"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Oral Abstracts: Resuscitation\n7 April 2027\n09:50 - 11:00\nHall D\nChairs: Speaker D, Speaker E"
+    }
+   }
+  },
+  {
+   "id": "1016",
+   "date": "2027-04-07",
+   "start": "11:30",
+   "end": "12:40",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Toksikolojide Zor Vakalar",
+     "title": "Toksikolojide Zor Vakalar",
+     "chairs": "Oturum Başkanları: Speaker J, Speaker K",
+     "description": "",
+     "talks": [
+      {
+       "title": "Yeni sentetik opioidler",
+       "speaker": "Speaker L"
+      },
+      {
+       "title": "Kalsiyum kanal bloker zehirlenmesi",
+       "speaker": "Speaker M"
+      },
+      {
+       "title": "Antidot stok yönetimi",
+       "speaker": "Speaker N"
+      }
+     ],
+     "people": [
+      {
+       "id": "p10",
+       "name": "Speaker J"
+      },
+      {
+       "id": "p11",
+       "name": "Speaker K"
+      },
+      {
+       "id": "p12",
+       "name": "Speaker L"
+      },
+      {
+       "id": "p13",
+       "name": "Speaker M"
+      },
+      {
+       "id": "p14",
+       "name": "Speaker N"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Toksikolojide Zor Vakalar\n7 Nisan 2027\n11:30 - 12:40\nHall A\nOturum Başkanları: Speaker J, Speaker K\nYeni sentetik opioidler — Speaker L\nKalsiyum kanal bloker zehirlenmesi — Speaker M\nAntidot stok yönetimi — Speaker N"
+    },
+    "en": {
+     "listing": "Challenging Cases in Toxicology",
+     "title": "Challenging Cases in Toxicology",
+     "chairs": "Chairs: Speaker J, Speaker K",
+     "description": "",
+     "talks": [
+      {
+       "title": "Novel synthetic opioids",
+       "speaker": "Speaker L"
+      },
+      {
+       "title": "Calcium channel blocker poisoning",
+       "speaker": "Speaker M"
+      },
+      {
+       "title": "Antidote stock management",
+       "speaker": "Speaker N"
+      }
+     ],
+     "people": [
+      {
+       "id": "p10",
+       "name": "Speaker J"
+      },
+      {
+       "id": "p11",
+       "name": "Speaker K"
+      },
+      {
+       "id": "p12",
+       "name": "Speaker L"
+      },
+      {
+       "id": "p13",
+       "name": "Speaker M"
+      },
+      {
+       "id": "p14",
+       "name": "Speaker N"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Challenging Cases in Toxicology\n7 April 2027\n11:30 - 12:40\nHall A\nChairs: Speaker J, Speaker K\nNovel synthetic opioids — Speaker L\nCalcium channel blocker poisoning — Speaker M\nAntidote stock management — Speaker N"
+    }
+   }
+  },
+  {
+   "id": "1017",
+   "date": "2027-04-07",
+   "start": "11:30",
+   "end": "12:40",
+   "room": "Hall B",
+   "roomId": "101",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Çocuk Acilde Kırmızı Bayraklar",
+     "title": "Çocuk Acilde Kırmızı Bayraklar",
+     "chairs": "Oturum Başkanları: Speaker O, Speaker P",
+     "description": "",
+     "talks": [
+      {
+       "title": "Ateşli bebeğe yaklaşım",
+       "speaker": "Speaker Q"
+      },
+      {
+       "title": "Pediatrik sepsiste sıvı",
+       "speaker": "Speaker R"
+      },
+      {
+       "title": "Çocuk istismarını tanımak",
+       "speaker": "Speaker S"
+      }
+     ],
+     "people": [
+      {
+       "id": "p15",
+       "name": "Speaker O"
+      },
+      {
+       "id": "p16",
+       "name": "Speaker P"
+      },
+      {
+       "id": "p17",
+       "name": "Speaker Q"
+      },
+      {
+       "id": "p18",
+       "name": "Speaker R"
+      },
+      {
+       "id": "p19",
+       "name": "Speaker S"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Çocuk Acilde Kırmızı Bayraklar\n7 Nisan 2027\n11:30 - 12:40\nHall B\nOturum Başkanları: Speaker O, Speaker P\nAteşli bebeğe yaklaşım — Speaker Q\nPediatrik sepsiste sıvı — Speaker R\nÇocuk istismarını tanımak — Speaker S"
+    },
+    "en": {
+     "listing": "Red Flags in Paediatric Emergencies",
+     "title": "Red Flags in Paediatric Emergencies",
+     "chairs": "Chairs: Speaker O, Speaker P",
+     "description": "",
+     "talks": [
+      {
+       "title": "The febrile infant",
+       "speaker": "Speaker Q"
+      },
+      {
+       "title": "Fluids in paediatric sepsis",
+       "speaker": "Speaker R"
+      },
+      {
+       "title": "Recognising child maltreatment",
+       "speaker": "Speaker S"
+      }
+     ],
+     "people": [
+      {
+       "id": "p15",
+       "name": "Speaker O"
+      },
+      {
+       "id": "p16",
+       "name": "Speaker P"
+      },
+      {
+       "id": "p17",
+       "name": "Speaker Q"
+      },
+      {
+       "id": "p18",
+       "name": "Speaker R"
+      },
+      {
+       "id": "p19",
+       "name": "Speaker S"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Red Flags in Paediatric Emergencies\n7 April 2027\n11:30 - 12:40\nHall B\nChairs: Speaker O, Speaker P\nThe febrile infant — Speaker Q\nFluids in paediatric sepsis — Speaker R\nRecognising child maltreatment — Speaker S"
+    }
+   }
+  },
+  {
+   "id": "1018",
+   "date": "2027-04-07",
+   "start": "11:30",
+   "end": "12:40",
+   "room": "Hall C",
+   "roomId": "102",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Afet Tıbbında Hazırlık",
+     "title": "Afet Tıbbında Hazırlık",
+     "chairs": "Oturum Başkanları: Speaker T, Speaker U",
+     "description": "",
+     "talks": [
+      {
+       "title": "Kitlesel yaralanmada triyaj",
+       "speaker": "Speaker V"
+      },
+      {
+       "title": "Hastane afet planı tatbikatı",
+       "speaker": "Speaker W"
+      },
+      {
+       "title": "Deprem sonrası ezilme sendromu",
+       "speaker": "Speaker X"
+      }
+     ],
+     "people": [
+      {
+       "id": "p20",
+       "name": "Speaker T"
+      },
+      {
+       "id": "p21",
+       "name": "Speaker U"
+      },
+      {
+       "id": "p22",
+       "name": "Speaker V"
+      },
+      {
+       "id": "p23",
+       "name": "Speaker W"
+      },
+      {
+       "id": "p24",
+       "name": "Speaker X"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Afet Tıbbında Hazırlık\n7 Nisan 2027\n11:30 - 12:40\nHall C\nOturum Başkanları: Speaker T, Speaker U\nKitlesel yaralanmada triyaj — Speaker V\nHastane afet planı tatbikatı — Speaker W\nDeprem sonrası ezilme sendromu — Speaker X"
+    },
+    "en": {
+     "listing": "Preparedness in Disaster Medicine",
+     "title": "Preparedness in Disaster Medicine",
+     "chairs": "Chairs: Speaker T, Speaker U",
+     "description": "",
+     "talks": [
+      {
+       "title": "Triage in mass casualty incidents",
+       "speaker": "Speaker V"
+      },
+      {
+       "title": "Hospital disaster drills",
+       "speaker": "Speaker W"
+      },
+      {
+       "title": "Crush syndrome after earthquakes",
+       "speaker": "Speaker X"
+      }
+     ],
+     "people": [
+      {
+       "id": "p20",
+       "name": "Speaker T"
+      },
+      {
+       "id": "p21",
+       "name": "Speaker U"
+      },
+      {
+       "id": "p22",
+       "name": "Speaker V"
+      },
+      {
+       "id": "p23",
+       "name": "Speaker W"
+      },
+      {
+       "id": "p24",
+       "name": "Speaker X"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Preparedness in Disaster Medicine\n7 April 2027\n11:30 - 12:40\nHall C\nChairs: Speaker T, Speaker U\nTriage in mass casualty incidents — Speaker V\nHospital disaster drills — Speaker W\nCrush syndrome after earthquakes — Speaker X"
+    }
+   }
+  },
+  {
+   "id": "1019",
+   "date": "2027-04-07",
+   "start": "11:30",
+   "end": "12:40",
+   "room": "Hall D",
+   "roomId": "103",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Araştırma Yöntemleri: Kanıtı Okumak",
+     "title": "Araştırma Yöntemleri: Kanıtı Okumak",
+     "chairs": "Oturum Başkanları: Speaker Y, Speaker Z",
+     "description": "",
+     "talks": [
+      {
+       "title": "Gözlemsel çalışmalarda yanlılık",
+       "speaker": "Speaker AA"
+      },
+      {
+       "title": "Tanısal doğruluk çalışmaları",
+       "speaker": "Speaker AB"
+      },
+      {
+       "title": "Meta-analizi eleştirel okumak",
+       "speaker": "Speaker AC"
+      }
+     ],
+     "people": [
+      {
+       "id": "p25",
+       "name": "Speaker Y"
+      },
+      {
+       "id": "p26",
+       "name": "Speaker Z"
+      },
+      {
+       "id": "p27",
+       "name": "Speaker AA"
+      },
+      {
+       "id": "p28",
+       "name": "Speaker AB"
+      },
+      {
+       "id": "p29",
+       "name": "Speaker AC"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Araştırma Yöntemleri: Kanıtı Okumak\n7 Nisan 2027\n11:30 - 12:40\nHall D\nOturum Başkanları: Speaker Y, Speaker Z\nGözlemsel çalışmalarda yanlılık — Speaker AA\nTanısal doğruluk çalışmaları — Speaker AB\nMeta-analizi eleştirel okumak — Speaker AC"
+    },
+    "en": {
+     "listing": "Research Methods: Reading the Evidence",
+     "title": "Research Methods: Reading the Evidence",
+     "chairs": "Chairs: Speaker Y, Speaker Z",
+     "description": "",
+     "talks": [
+      {
+       "title": "Bias in observational studies",
+       "speaker": "Speaker AA"
+      },
+      {
+       "title": "Diagnostic accuracy studies",
+       "speaker": "Speaker AB"
+      },
+      {
+       "title": "Appraising a meta-analysis",
+       "speaker": "Speaker AC"
+      }
+     ],
+     "people": [
+      {
+       "id": "p25",
+       "name": "Speaker Y"
+      },
+      {
+       "id": "p26",
+       "name": "Speaker Z"
+      },
+      {
+       "id": "p27",
+       "name": "Speaker AA"
+      },
+      {
+       "id": "p28",
+       "name": "Speaker AB"
+      },
+      {
+       "id": "p29",
+       "name": "Speaker AC"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Research Methods: Reading the Evidence\n7 April 2027\n11:30 - 12:40\nHall D\nChairs: Speaker Y, Speaker Z\nBias in observational studies — Speaker AA\nDiagnostic accuracy studies — Speaker AB\nAppraising a meta-analysis — Speaker AC"
+    }
+   }
+  },
+  {
+   "id": "1020",
+   "date": "2027-04-07",
+   "start": "14:00",
+   "end": "15:10",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Acil Tıp Eğitiminde Simülasyon",
+     "title": "Acil Tıp Eğitiminde Simülasyon",
+     "chairs": "Oturum Başkanları: Speaker AD, Speaker AE",
+     "description": "",
+     "talks": [
+      {
+       "title": "Senaryo tasarımı",
+       "speaker": "Speaker AF"
+      },
+      {
+       "title": "Etkili debriefing",
+       "speaker": "Speaker AG"
+      },
+      {
+       "title": "Yerinde simülasyon",
+       "speaker": "Speaker AH"
+      }
+     ],
+     "people": [
+      {
+       "id": "p30",
+       "name": "Speaker AD"
+      },
+      {
+       "id": "p31",
+       "name": "Speaker AE"
+      },
+      {
+       "id": "p32",
+       "name": "Speaker AF"
+      },
+      {
+       "id": "p33",
+       "name": "Speaker AG"
+      },
+      {
+       "id": "p34",
+       "name": "Speaker AH"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Acil Tıp Eğitiminde Simülasyon\n7 Nisan 2027\n14:00 - 15:10\nHall A\nOturum Başkanları: Speaker AD, Speaker AE\nSenaryo tasarımı — Speaker AF\nEtkili debriefing — Speaker AG\nYerinde simülasyon — Speaker AH"
+    },
+    "en": {
+     "listing": "Simulation in Emergency Medicine Education",
+     "title": "Simulation in Emergency Medicine Education",
+     "chairs": "Chairs: Speaker AD, Speaker AE",
+     "description": "",
+     "talks": [
+      {
+       "title": "Scenario design",
+       "speaker": "Speaker AF"
+      },
+      {
+       "title": "Effective debriefing",
+       "speaker": "Speaker AG"
+      },
+      {
+       "title": "In-situ simulation",
+       "speaker": "Speaker AH"
+      }
+     ],
+     "people": [
+      {
+       "id": "p30",
+       "name": "Speaker AD"
+      },
+      {
+       "id": "p31",
+       "name": "Speaker AE"
+      },
+      {
+       "id": "p32",
+       "name": "Speaker AF"
+      },
+      {
+       "id": "p33",
+       "name": "Speaker AG"
+      },
+      {
+       "id": "p34",
+       "name": "Speaker AH"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Simulation in Emergency Medicine Education\n7 April 2027\n14:00 - 15:10\nHall A\nChairs: Speaker AD, Speaker AE\nScenario design — Speaker AF\nEffective debriefing — Speaker AG\nIn-situ simulation — Speaker AH"
+    }
+   }
+  },
+  {
+   "id": "1021",
+   "date": "2027-04-07",
+   "start": "14:00",
+   "end": "15:10",
+   "room": "Hall B",
+   "roomId": "101",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Hasta Güvenliği ve Tıbbi Hata",
+     "title": "Hasta Güvenliği ve Tıbbi Hata",
+     "chairs": "Oturum Başkanları: Speaker AI, Speaker AJ",
+     "description": "",
+     "talks": [
+      {
+       "title": "Atlanan tanılar",
+       "speaker": "Speaker AK"
+      },
+      {
+       "title": "İletişim kopukluğu ve devir",
+       "speaker": "Speaker AL"
+      },
+      {
+       "title": "Hata sonrası açıklama",
+       "speaker": "Speaker AM"
+      }
+     ],
+     "people": [
+      {
+       "id": "p35",
+       "name": "Speaker AI"
+      },
+      {
+       "id": "p36",
+       "name": "Speaker AJ"
+      },
+      {
+       "id": "p37",
+       "name": "Speaker AK"
+      },
+      {
+       "id": "p38",
+       "name": "Speaker AL"
+      },
+      {
+       "id": "p39",
+       "name": "Speaker AM"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Hasta Güvenliği ve Tıbbi Hata\n7 Nisan 2027\n14:00 - 15:10\nHall B\nOturum Başkanları: Speaker AI, Speaker AJ\nAtlanan tanılar — Speaker AK\nİletişim kopukluğu ve devir — Speaker AL\nHata sonrası açıklama — Speaker AM"
+    },
+    "en": {
+     "listing": "Patient Safety and Medical Error",
+     "title": "Patient Safety and Medical Error",
+     "chairs": "Chairs: Speaker AI, Speaker AJ",
+     "description": "",
+     "talks": [
+      {
+       "title": "Missed diagnoses",
+       "speaker": "Speaker AK"
+      },
+      {
+       "title": "Communication breakdown at handover",
+       "speaker": "Speaker AL"
+      },
+      {
+       "title": "Disclosure after error",
+       "speaker": "Speaker AM"
+      }
+     ],
+     "people": [
+      {
+       "id": "p35",
+       "name": "Speaker AI"
+      },
+      {
+       "id": "p36",
+       "name": "Speaker AJ"
+      },
+      {
+       "id": "p37",
+       "name": "Speaker AK"
+      },
+      {
+       "id": "p38",
+       "name": "Speaker AL"
+      },
+      {
+       "id": "p39",
+       "name": "Speaker AM"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Patient Safety and Medical Error\n7 April 2027\n14:00 - 15:10\nHall B\nChairs: Speaker AI, Speaker AJ\nMissed diagnoses — Speaker AK\nCommunication breakdown at handover — Speaker AL\nDisclosure after error — Speaker AM"
+    }
+   }
+  },
+  {
+   "id": "1022",
+   "date": "2027-04-07",
+   "start": "14:00",
+   "end": "15:10",
+   "room": "Hall C",
+   "roomId": "102",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Yaşlı Hastada Acil Bakım",
+     "title": "Yaşlı Hastada Acil Bakım",
+     "chairs": "Oturum Başkanları: Speaker AN, Speaker AO",
+     "description": "",
+     "talks": [
+      {
+       "title": "Deliryum taraması",
+       "speaker": "Speaker AP"
+      },
+      {
+       "title": "Düşme sonrası değerlendirme",
+       "speaker": "Speaker AQ"
+      },
+      {
+       "title": "Polifarmasi riskleri",
+       "speaker": "Speaker AR"
+      }
+     ],
+     "people": [
+      {
+       "id": "p40",
+       "name": "Speaker AN"
+      },
+      {
+       "id": "p41",
+       "name": "Speaker AO"
+      },
+      {
+       "id": "p42",
+       "name": "Speaker AP"
+      },
+      {
+       "id": "p43",
+       "name": "Speaker AQ"
+      },
+      {
+       "id": "p44",
+       "name": "Speaker AR"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Yaşlı Hastada Acil Bakım\n7 Nisan 2027\n14:00 - 15:10\nHall C\nOturum Başkanları: Speaker AN, Speaker AO\nDeliryum taraması — Speaker AP\nDüşme sonrası değerlendirme — Speaker AQ\nPolifarmasi riskleri — Speaker AR"
+    },
+    "en": {
+     "listing": "Emergency Care of the Older Adult",
+     "title": "Emergency Care of the Older Adult",
+     "chairs": "Chairs: Speaker AN, Speaker AO",
+     "description": "",
+     "talks": [
+      {
+       "title": "Delirium screening",
+       "speaker": "Speaker AP"
+      },
+      {
+       "title": "Assessment after a fall",
+       "speaker": "Speaker AQ"
+      },
+      {
+       "title": "Risks of polypharmacy",
+       "speaker": "Speaker AR"
+      }
+     ],
+     "people": [
+      {
+       "id": "p40",
+       "name": "Speaker AN"
+      },
+      {
+       "id": "p41",
+       "name": "Speaker AO"
+      },
+      {
+       "id": "p42",
+       "name": "Speaker AP"
+      },
+      {
+       "id": "p43",
+       "name": "Speaker AQ"
+      },
+      {
+       "id": "p44",
+       "name": "Speaker AR"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Emergency Care of the Older Adult\n7 April 2027\n14:00 - 15:10\nHall C\nChairs: Speaker AN, Speaker AO\nDelirium screening — Speaker AP\nAssessment after a fall — Speaker AQ\nRisks of polypharmacy — Speaker AR"
+    }
+   }
+  },
+  {
+   "id": "1023",
+   "date": "2027-04-07",
+   "start": "14:00",
+   "end": "15:10",
+   "room": "Hall D",
+   "roomId": "103",
+   "type": "abstract",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Sözlü Bildiriler: Travma",
+     "title": "Sözlü Bildiriler: Travma",
+     "chairs": "Oturum Başkanları: Speaker AS, Speaker AT",
+     "description": "",
+     "talks": [],
+     "people": [
+      {
+       "id": "p45",
+       "name": "Speaker AS"
+      },
+      {
+       "id": "p46",
+       "name": "Speaker AT"
+      },
+      {
+       "id": "p47",
+       "name": "Speaker AU"
+      },
+      {
+       "id": "p48",
+       "name": "Speaker AV"
+      },
+      {
+       "id": "p1",
+       "name": "Speaker A"
+      },
+      {
+       "id": "p2",
+       "name": "Speaker B"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Sözlü Bildiriler: Travma\n7 Nisan 2027\n14:00 - 15:10\nHall D\nOturum Başkanları: Speaker AS, Speaker AT"
+    },
+    "en": {
+     "listing": "Oral Abstracts: Trauma",
+     "title": "Oral Abstracts: Trauma",
+     "chairs": "Chairs: Speaker AS, Speaker AT",
+     "description": "",
+     "talks": [],
+     "people": [
+      {
+       "id": "p45",
+       "name": "Speaker AS"
+      },
+      {
+       "id": "p46",
+       "name": "Speaker AT"
+      },
+      {
+       "id": "p47",
+       "name": "Speaker AU"
+      },
+      {
+       "id": "p48",
+       "name": "Speaker AV"
+      },
+      {
+       "id": "p1",
+       "name": "Speaker A"
+      },
+      {
+       "id": "p2",
+       "name": "Speaker B"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Oral Abstracts: Trauma\n7 April 2027\n14:00 - 15:10\nHall D\nChairs: Speaker AS, Speaker AT"
+    }
+   }
+  },
+  {
+   "id": "1024",
+   "date": "2027-04-07",
+   "start": "15:30",
+   "end": "16:40",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Elektrolit Acilleri",
+     "title": "Elektrolit Acilleri",
+     "chairs": "Oturum Başkanları: Speaker C, Speaker D",
+     "description": "",
+     "talks": [
+      {
+       "title": "Ağır hiponatremi",
+       "speaker": "Speaker E"
+      },
+      {
+       "title": "Hiperkalemide EKG",
+       "speaker": "Speaker F"
+      },
+      {
+       "title": "Diyabetik ketoasidoz protokolleri",
+       "speaker": "Speaker G"
+      }
+     ],
+     "people": [
+      {
+       "id": "p3",
+       "name": "Speaker C"
+      },
+      {
+       "id": "p4",
+       "name": "Speaker D"
+      },
+      {
+       "id": "p5",
+       "name": "Speaker E"
+      },
+      {
+       "id": "p6",
+       "name": "Speaker F"
+      },
+      {
+       "id": "p7",
+       "name": "Speaker G"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Elektrolit Acilleri\n7 Nisan 2027\n15:30 - 16:40\nHall A\nOturum Başkanları: Speaker C, Speaker D\nAğır hiponatremi — Speaker E\nHiperkalemide EKG — Speaker F\nDiyabetik ketoasidoz protokolleri — Speaker G"
+    },
+    "en": {
+     "listing": "Electrolyte Emergencies",
+     "title": "Electrolyte Emergencies",
+     "chairs": "Chairs: Speaker C, Speaker D",
+     "description": "",
+     "talks": [
+      {
+       "title": "Severe hyponatraemia",
+       "speaker": "Speaker E"
+      },
+      {
+       "title": "ECG in hyperkalaemia",
+       "speaker": "Speaker F"
+      },
+      {
+       "title": "Diabetic ketoacidosis protocols",
+       "speaker": "Speaker G"
+      }
+     ],
+     "people": [
+      {
+       "id": "p3",
+       "name": "Speaker C"
+      },
+      {
+       "id": "p4",
+       "name": "Speaker D"
+      },
+      {
+       "id": "p5",
+       "name": "Speaker E"
+      },
+      {
+       "id": "p6",
+       "name": "Speaker F"
+      },
+      {
+       "id": "p7",
+       "name": "Speaker G"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Electrolyte Emergencies\n7 April 2027\n15:30 - 16:40\nHall A\nChairs: Speaker C, Speaker D\nSevere hyponatraemia — Speaker E\nECG in hyperkalaemia — Speaker F\nDiabetic ketoacidosis protocols — Speaker G"
+    }
+   }
+  },
+  {
+   "id": "1025",
+   "date": "2027-04-07",
+   "start": "15:30",
+   "end": "16:40",
+   "room": "Hall B",
+   "roomId": "101",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Mekanik Ventilasyonun Temelleri",
+     "title": "Mekanik Ventilasyonun Temelleri",
+     "chairs": "Oturum Başkanları: Speaker H, Speaker I",
+     "description": "",
+     "talks": [
+      {
+       "title": "Akciğer koruyucu ventilasyon",
+       "speaker": "Speaker J"
+      },
+      {
+       "title": "Acilde yüksek akış oksijen",
+       "speaker": "Speaker K"
+      },
+      {
+       "title": "Non-invaziv ventilasyonda başarısızlık",
+       "speaker": "Speaker L"
+      }
+     ],
+     "people": [
+      {
+       "id": "p8",
+       "name": "Speaker H"
+      },
+      {
+       "id": "p9",
+       "name": "Speaker I"
+      },
+      {
+       "id": "p10",
+       "name": "Speaker J"
+      },
+      {
+       "id": "p11",
+       "name": "Speaker K"
+      },
+      {
+       "id": "p12",
+       "name": "Speaker L"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Mekanik Ventilasyonun Temelleri\n7 Nisan 2027\n15:30 - 16:40\nHall B\nOturum Başkanları: Speaker H, Speaker I\nAkciğer koruyucu ventilasyon — Speaker J\nAcilde yüksek akış oksijen — Speaker K\nNon-invaziv ventilasyonda başarısızlık — Speaker L"
+    },
+    "en": {
+     "listing": "Mechanical Ventilation Essentials",
+     "title": "Mechanical Ventilation Essentials",
+     "chairs": "Chairs: Speaker H, Speaker I",
+     "description": "",
+     "talks": [
+      {
+       "title": "Lung-protective ventilation",
+       "speaker": "Speaker J"
+      },
+      {
+       "title": "High-flow oxygen in the ED",
+       "speaker": "Speaker K"
+      },
+      {
+       "title": "Non-invasive ventilation failure",
+       "speaker": "Speaker L"
+      }
+     ],
+     "people": [
+      {
+       "id": "p8",
+       "name": "Speaker H"
+      },
+      {
+       "id": "p9",
+       "name": "Speaker I"
+      },
+      {
+       "id": "p10",
+       "name": "Speaker J"
+      },
+      {
+       "id": "p11",
+       "name": "Speaker K"
+      },
+      {
+       "id": "p12",
+       "name": "Speaker L"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Mechanical Ventilation Essentials\n7 April 2027\n15:30 - 16:40\nHall B\nChairs: Speaker H, Speaker I\nLung-protective ventilation — Speaker J\nHigh-flow oxygen in the ED — Speaker K\nNon-invasive ventilation failure — Speaker L"
+    }
+   }
+  },
+  {
+   "id": "1026",
+   "date": "2027-04-07",
+   "start": "15:30",
+   "end": "16:40",
+   "room": "Hall C",
+   "roomId": "102",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Klinik Yapay Zekâyı Değerlendirmek",
+     "title": "Klinik Yapay Zekâyı Değerlendirmek",
+     "chairs": "Oturum Başkanları: Speaker M, Speaker N",
+     "description": "",
+     "talks": [
+      {
+       "title": "Dış doğrulama neden şart?",
+       "speaker": "Speaker O"
+      },
+      {
+       "title": "Model kayması ve izleme",
+       "speaker": "Speaker P"
+      },
+      {
+       "title": "Etik ve sorumluluk",
+       "speaker": "Speaker Q"
+      }
+     ],
+     "people": [
+      {
+       "id": "p13",
+       "name": "Speaker M"
+      },
+      {
+       "id": "p14",
+       "name": "Speaker N"
+      },
+      {
+       "id": "p15",
+       "name": "Speaker O"
+      },
+      {
+       "id": "p16",
+       "name": "Speaker P"
+      },
+      {
+       "id": "p17",
+       "name": "Speaker Q"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Klinik Yapay Zekâyı Değerlendirmek\n7 Nisan 2027\n15:30 - 16:40\nHall C\nOturum Başkanları: Speaker M, Speaker N\nDış doğrulama neden şart? — Speaker O\nModel kayması ve izleme — Speaker P\nEtik ve sorumluluk — Speaker Q"
+    },
+    "en": {
+     "listing": "Evaluating Clinical AI Tools",
+     "title": "Evaluating Clinical AI Tools",
+     "chairs": "Chairs: Speaker M, Speaker N",
+     "description": "",
+     "talks": [
+      {
+       "title": "Why external validation matters",
+       "speaker": "Speaker O"
+      },
+      {
+       "title": "Model drift and monitoring",
+       "speaker": "Speaker P"
+      },
+      {
+       "title": "Ethics and accountability",
+       "speaker": "Speaker Q"
+      }
+     ],
+     "people": [
+      {
+       "id": "p13",
+       "name": "Speaker M"
+      },
+      {
+       "id": "p14",
+       "name": "Speaker N"
+      },
+      {
+       "id": "p15",
+       "name": "Speaker O"
+      },
+      {
+       "id": "p16",
+       "name": "Speaker P"
+      },
+      {
+       "id": "p17",
+       "name": "Speaker Q"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Evaluating Clinical AI Tools\n7 April 2027\n15:30 - 16:40\nHall C\nChairs: Speaker M, Speaker N\nWhy external validation matters — Speaker O\nModel drift and monitoring — Speaker P\nEthics and accountability — Speaker Q"
+    }
+   }
+  },
+  {
+   "id": "1027",
+   "date": "2027-04-07",
+   "start": "15:30",
+   "end": "16:40",
+   "room": "Hall D",
+   "roomId": "103",
+   "type": "abstract",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Sözlü Bildiriler: Yapay Zekâ ve Dijital Sağlık",
+     "title": "Sözlü Bildiriler: Yapay Zekâ ve Dijital Sağlık",
+     "chairs": "Oturum Başkanları: Speaker R, Speaker S",
+     "description": "",
+     "talks": [],
+     "people": [
+      {
+       "id": "p18",
+       "name": "Speaker R"
+      },
+      {
+       "id": "p19",
+       "name": "Speaker S"
+      },
+      {
+       "id": "p20",
+       "name": "Speaker T"
+      },
+      {
+       "id": "p21",
+       "name": "Speaker U"
+      },
+      {
+       "id": "p22",
+       "name": "Speaker V"
+      },
+      {
+       "id": "p23",
+       "name": "Speaker W"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Sözlü Bildiriler: Yapay Zekâ ve Dijital Sağlık\n7 Nisan 2027\n15:30 - 16:40\nHall D\nOturum Başkanları: Speaker R, Speaker S"
+    },
+    "en": {
+     "listing": "Oral Abstracts: AI and Digital Health",
+     "title": "Oral Abstracts: AI and Digital Health",
+     "chairs": "Chairs: Speaker R, Speaker S",
+     "description": "",
+     "talks": [],
+     "people": [
+      {
+       "id": "p18",
+       "name": "Speaker R"
+      },
+      {
+       "id": "p19",
+       "name": "Speaker S"
+      },
+      {
+       "id": "p20",
+       "name": "Speaker T"
+      },
+      {
+       "id": "p21",
+       "name": "Speaker U"
+      },
+      {
+       "id": "p22",
+       "name": "Speaker V"
+      },
+      {
+       "id": "p23",
+       "name": "Speaker W"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Oral Abstracts: AI and Digital Health\n7 April 2027\n15:30 - 16:40\nHall D\nChairs: Speaker R, Speaker S"
+    }
+   }
+  },
+  {
+   "id": "1028",
+   "date": "2027-04-07",
+   "start": "11:00",
+   "end": "11:30",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "break",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Kahve Arası",
+     "title": "Kahve Arası",
+     "chairs": "",
+     "description": "",
+     "talks": [],
+     "people": [],
+     "sourceUrl": null,
+     "detailText": "Kahve Arası\n7 Nisan 2027\n11:00 - 11:30\nHall A"
+    },
+    "en": {
+     "listing": "Coffee Break",
+     "title": "Coffee Break",
+     "chairs": "",
+     "description": "",
+     "talks": [],
+     "people": [],
+     "sourceUrl": null,
+     "detailText": "Coffee Break\n7 April 2027\n11:00 - 11:30\nHall A"
+    }
+   }
+  },
+  {
+   "id": "1029",
+   "date": "2027-04-07",
+   "start": "12:40",
+   "end": "14:00",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "break",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Öğle Arası",
+     "title": "Öğle Arası",
+     "chairs": "",
+     "description": "",
+     "talks": [],
+     "people": [],
+     "sourceUrl": null,
+     "detailText": "Öğle Arası\n7 Nisan 2027\n12:40 - 14:00\nHall A"
+    },
+    "en": {
+     "listing": "Lunch Break",
+     "title": "Lunch Break",
+     "chairs": "",
+     "description": "",
+     "talks": [],
+     "people": [],
+     "sourceUrl": null,
+     "detailText": "Lunch Break\n7 April 2027\n12:40 - 14:00\nHall A"
+    }
+   }
+  },
+  {
+   "id": "1030",
+   "date": "2027-04-07",
+   "start": "12:50",
+   "end": "13:50",
+   "room": "Hall E",
+   "roomId": "104",
+   "type": "satellite",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Uydu Sempozyumu: Acilde Analjezi",
+     "title": "Uydu Sempozyumu: Acilde Analjezi",
+     "chairs": "",
+     "description": "",
+     "talks": [
+      {
+       "title": "Sunum",
+       "speaker": "Speaker X"
+      }
+     ],
+     "people": [
+      {
+       "id": "p24",
+       "name": "Speaker X"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Uydu Sempozyumu: Acilde Analjezi\n7 Nisan 2027\n12:50 - 13:50\nHall E\nSunum — Speaker X"
+    },
+    "en": {
+     "listing": "Satellite Symposium: Analgesia in the ED",
+     "title": "Satellite Symposium: Analgesia in the ED",
+     "chairs": "",
+     "description": "",
+     "talks": [
+      {
+       "title": "Presentation",
+       "speaker": "Speaker X"
+      }
+     ],
+     "people": [
+      {
+       "id": "p24",
+       "name": "Speaker X"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Satellite Symposium: Analgesia in the ED\n7 April 2027\n12:50 - 13:50\nHall E\nPresentation — Speaker X"
+    }
+   }
+  },
+  {
+   "id": "1031",
+   "date": "2027-04-07",
+   "start": "12:50",
+   "end": "13:50",
+   "room": "Hall F",
+   "roomId": "105",
+   "type": "satellite",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Uydu Sempozyumu: Dijital Triyaj Platformları",
+     "title": "Uydu Sempozyumu: Dijital Triyaj Platformları",
+     "chairs": "",
+     "description": "",
+     "talks": [
+      {
+       "title": "Sunum",
+       "speaker": "Speaker Y"
+      }
+     ],
+     "people": [
+      {
+       "id": "p25",
+       "name": "Speaker Y"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Uydu Sempozyumu: Dijital Triyaj Platformları\n7 Nisan 2027\n12:50 - 13:50\nHall F\nSunum — Speaker Y"
+    },
+    "en": {
+     "listing": "Satellite Symposium: Digital Triage Platforms",
+     "title": "Satellite Symposium: Digital Triage Platforms",
+     "chairs": "",
+     "description": "",
+     "talks": [
+      {
+       "title": "Presentation",
+       "speaker": "Speaker Y"
+      }
+     ],
+     "people": [
+      {
+       "id": "p25",
+       "name": "Speaker Y"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Satellite Symposium: Digital Triage Platforms\n7 April 2027\n12:50 - 13:50\nHall F\nPresentation — Speaker Y"
+    }
+   }
+  },
+  {
+   "id": "1032",
+   "date": "2027-04-08",
+   "start": "08:30",
+   "end": "09:40",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Göğüs Ağrısında Hızlı Karar",
+     "title": "Göğüs Ağrısında Hızlı Karar",
+     "chairs": "Oturum Başkanları: Speaker Z, Speaker AA",
+     "description": "",
+     "talks": [
+      {
+       "title": "Yüksek duyarlıklı troponin algoritmaları",
+       "speaker": "Speaker AB"
+      },
+      {
+       "title": "OMI kavramı",
+       "speaker": "Speaker AC"
+      },
+      {
+       "title": "Aort diseksiyonunu atlamamak",
+       "speaker": "Speaker AD"
+      }
+     ],
+     "people": [
+      {
+       "id": "p26",
+       "name": "Speaker Z"
+      },
+      {
+       "id": "p27",
+       "name": "Speaker AA"
+      },
+      {
+       "id": "p28",
+       "name": "Speaker AB"
+      },
+      {
+       "id": "p29",
+       "name": "Speaker AC"
+      },
+      {
+       "id": "p30",
+       "name": "Speaker AD"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Göğüs Ağrısında Hızlı Karar\n8 Nisan 2027\n08:30 - 09:40\nHall A\nOturum Başkanları: Speaker Z, Speaker AA\nYüksek duyarlıklı troponin algoritmaları — Speaker AB\nOMI kavramı — Speaker AC\nAort diseksiyonunu atlamamak — Speaker AD"
+    },
+    "en": {
+     "listing": "Rapid Decisions in Chest Pain",
+     "title": "Rapid Decisions in Chest Pain",
+     "chairs": "Chairs: Speaker Z, Speaker AA",
+     "description": "",
+     "talks": [
+      {
+       "title": "High-sensitivity troponin pathways",
+       "speaker": "Speaker AB"
+      },
+      {
+       "title": "The occlusion MI paradigm",
+       "speaker": "Speaker AC"
+      },
+      {
+       "title": "Not missing aortic dissection",
+       "speaker": "Speaker AD"
+      }
+     ],
+     "people": [
+      {
+       "id": "p26",
+       "name": "Speaker Z"
+      },
+      {
+       "id": "p27",
+       "name": "Speaker AA"
+      },
+      {
+       "id": "p28",
+       "name": "Speaker AB"
+      },
+      {
+       "id": "p29",
+       "name": "Speaker AC"
+      },
+      {
+       "id": "p30",
+       "name": "Speaker AD"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Rapid Decisions in Chest Pain\n8 April 2027\n08:30 - 09:40\nHall A\nChairs: Speaker Z, Speaker AA\nHigh-sensitivity troponin pathways — Speaker AB\nThe occlusion MI paradigm — Speaker AC\nNot missing aortic dissection — Speaker AD"
+    }
+   }
+  },
+  {
+   "id": "1033",
+   "date": "2027-04-08",
+   "start": "08:30",
+   "end": "09:40",
+   "room": "Hall B",
+   "roomId": "101",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Baş Ağrısı ve Baş Dönmesi",
+     "title": "Baş Ağrısı ve Baş Dönmesi",
+     "chairs": "Oturum Başkanları: Speaker AE, Speaker AF",
+     "description": "",
+     "talks": [
+      {
+       "title": "Subaraknoid kanamayı dışlamak",
+       "speaker": "Speaker AG"
+      },
+      {
+       "title": "HINTS muayenesi",
+       "speaker": "Speaker AH"
+      },
+      {
+       "title": "Migren tedavisinde yenilikler",
+       "speaker": "Speaker AI"
+      }
+     ],
+     "people": [
+      {
+       "id": "p31",
+       "name": "Speaker AE"
+      },
+      {
+       "id": "p32",
+       "name": "Speaker AF"
+      },
+      {
+       "id": "p33",
+       "name": "Speaker AG"
+      },
+      {
+       "id": "p34",
+       "name": "Speaker AH"
+      },
+      {
+       "id": "p35",
+       "name": "Speaker AI"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Baş Ağrısı ve Baş Dönmesi\n8 Nisan 2027\n08:30 - 09:40\nHall B\nOturum Başkanları: Speaker AE, Speaker AF\nSubaraknoid kanamayı dışlamak — Speaker AG\nHINTS muayenesi — Speaker AH\nMigren tedavisinde yenilikler — Speaker AI"
+    },
+    "en": {
+     "listing": "Headache and Dizziness",
+     "title": "Headache and Dizziness",
+     "chairs": "Chairs: Speaker AE, Speaker AF",
+     "description": "",
+     "talks": [
+      {
+       "title": "Ruling out subarachnoid haemorrhage",
+       "speaker": "Speaker AG"
+      },
+      {
+       "title": "The HINTS examination",
+       "speaker": "Speaker AH"
+      },
+      {
+       "title": "Advances in migraine treatment",
+       "speaker": "Speaker AI"
+      }
+     ],
+     "people": [
+      {
+       "id": "p31",
+       "name": "Speaker AE"
+      },
+      {
+       "id": "p32",
+       "name": "Speaker AF"
+      },
+      {
+       "id": "p33",
+       "name": "Speaker AG"
+      },
+      {
+       "id": "p34",
+       "name": "Speaker AH"
+      },
+      {
+       "id": "p35",
+       "name": "Speaker AI"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Headache and Dizziness\n8 April 2027\n08:30 - 09:40\nHall B\nChairs: Speaker AE, Speaker AF\nRuling out subarachnoid haemorrhage — Speaker AG\nThe HINTS examination — Speaker AH\nAdvances in migraine treatment — Speaker AI"
+    }
+   }
+  },
+  {
+   "id": "1034",
+   "date": "2027-04-08",
+   "start": "08:30",
+   "end": "09:40",
+   "room": "Hall C",
+   "roomId": "102",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Hastane Öncesi Acil Bakım",
+     "title": "Hastane Öncesi Acil Bakım",
+     "chairs": "Oturum Başkanları: Speaker AJ, Speaker AK",
+     "description": "",
+     "talks": [
+      {
+       "title": "Sahada havayolu",
+       "speaker": "Speaker AL"
+      },
+      {
+       "title": "Hastane öncesi kan ürünleri",
+       "speaker": "Speaker AM"
+      },
+      {
+       "title": "Uzaktan tıbbi yönlendirme",
+       "speaker": "Speaker AN"
+      }
+     ],
+     "people": [
+      {
+       "id": "p36",
+       "name": "Speaker AJ"
+      },
+      {
+       "id": "p37",
+       "name": "Speaker AK"
+      },
+      {
+       "id": "p38",
+       "name": "Speaker AL"
+      },
+      {
+       "id": "p39",
+       "name": "Speaker AM"
+      },
+      {
+       "id": "p40",
+       "name": "Speaker AN"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Hastane Öncesi Acil Bakım\n8 Nisan 2027\n08:30 - 09:40\nHall C\nOturum Başkanları: Speaker AJ, Speaker AK\nSahada havayolu — Speaker AL\nHastane öncesi kan ürünleri — Speaker AM\nUzaktan tıbbi yönlendirme — Speaker AN"
+    },
+    "en": {
+     "listing": "Prehospital Emergency Care",
+     "title": "Prehospital Emergency Care",
+     "chairs": "Chairs: Speaker AJ, Speaker AK",
+     "description": "",
+     "talks": [
+      {
+       "title": "Airway in the field",
+       "speaker": "Speaker AL"
+      },
+      {
+       "title": "Prehospital blood products",
+       "speaker": "Speaker AM"
+      },
+      {
+       "title": "Remote medical direction",
+       "speaker": "Speaker AN"
+      }
+     ],
+     "people": [
+      {
+       "id": "p36",
+       "name": "Speaker AJ"
+      },
+      {
+       "id": "p37",
+       "name": "Speaker AK"
+      },
+      {
+       "id": "p38",
+       "name": "Speaker AL"
+      },
+      {
+       "id": "p39",
+       "name": "Speaker AM"
+      },
+      {
+       "id": "p40",
+       "name": "Speaker AN"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Prehospital Emergency Care\n8 April 2027\n08:30 - 09:40\nHall C\nChairs: Speaker AJ, Speaker AK\nAirway in the field — Speaker AL\nPrehospital blood products — Speaker AM\nRemote medical direction — Speaker AN"
+    }
+   }
+  },
+  {
+   "id": "1035",
+   "date": "2027-04-08",
+   "start": "08:30",
+   "end": "09:40",
+   "room": "Hall D",
+   "roomId": "103",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Acil Serviste Liderlik",
+     "title": "Acil Serviste Liderlik",
+     "chairs": "Oturum Başkanları: Speaker AO, Speaker AP",
+     "description": "",
+     "talks": [
+      {
+       "title": "Kalabalık yönetimi",
+       "speaker": "Speaker AQ"
+      },
+      {
+       "title": "Ekip içi geri bildirim",
+       "speaker": "Speaker AR"
+      },
+      {
+       "title": "Tükenmişlikle mücadele",
+       "speaker": "Speaker AS"
+      }
+     ],
+     "people": [
+      {
+       "id": "p41",
+       "name": "Speaker AO"
+      },
+      {
+       "id": "p42",
+       "name": "Speaker AP"
+      },
+      {
+       "id": "p43",
+       "name": "Speaker AQ"
+      },
+      {
+       "id": "p44",
+       "name": "Speaker AR"
+      },
+      {
+       "id": "p45",
+       "name": "Speaker AS"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Acil Serviste Liderlik\n8 Nisan 2027\n08:30 - 09:40\nHall D\nOturum Başkanları: Speaker AO, Speaker AP\nKalabalık yönetimi — Speaker AQ\nEkip içi geri bildirim — Speaker AR\nTükenmişlikle mücadele — Speaker AS"
+    },
+    "en": {
+     "listing": "Leadership in the Emergency Department",
+     "title": "Leadership in the Emergency Department",
+     "chairs": "Chairs: Speaker AO, Speaker AP",
+     "description": "",
+     "talks": [
+      {
+       "title": "Managing crowding",
+       "speaker": "Speaker AQ"
+      },
+      {
+       "title": "Feedback within the team",
+       "speaker": "Speaker AR"
+      },
+      {
+       "title": "Tackling burnout",
+       "speaker": "Speaker AS"
+      }
+     ],
+     "people": [
+      {
+       "id": "p41",
+       "name": "Speaker AO"
+      },
+      {
+       "id": "p42",
+       "name": "Speaker AP"
+      },
+      {
+       "id": "p43",
+       "name": "Speaker AQ"
+      },
+      {
+       "id": "p44",
+       "name": "Speaker AR"
+      },
+      {
+       "id": "p45",
+       "name": "Speaker AS"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Leadership in the Emergency Department\n8 April 2027\n08:30 - 09:40\nHall D\nChairs: Speaker AO, Speaker AP\nManaging crowding — Speaker AQ\nFeedback within the team — Speaker AR\nTackling burnout — Speaker AS"
+    }
+   }
+  },
+  {
+   "id": "1036",
+   "date": "2027-04-08",
+   "start": "09:50",
+   "end": "11:00",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Dijital Sağlık ve Teletıp",
+     "title": "Dijital Sağlık ve Teletıp",
+     "chairs": "Oturum Başkanları: Speaker AT, Speaker AU",
+     "description": "",
+     "talks": [
+      {
+       "title": "Tele-triyaj",
+       "speaker": "Speaker AV"
+      },
+      {
+       "title": "Giyilebilir sensörler",
+       "speaker": "Speaker A"
+      },
+      {
+       "title": "Veri güvenliği",
+       "speaker": "Speaker B"
+      }
+     ],
+     "people": [
+      {
+       "id": "p46",
+       "name": "Speaker AT"
+      },
+      {
+       "id": "p47",
+       "name": "Speaker AU"
+      },
+      {
+       "id": "p48",
+       "name": "Speaker AV"
+      },
+      {
+       "id": "p1",
+       "name": "Speaker A"
+      },
+      {
+       "id": "p2",
+       "name": "Speaker B"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Dijital Sağlık ve Teletıp\n8 Nisan 2027\n09:50 - 11:00\nHall A\nOturum Başkanları: Speaker AT, Speaker AU\nTele-triyaj — Speaker AV\nGiyilebilir sensörler — Speaker A\nVeri güvenliği — Speaker B"
+    },
+    "en": {
+     "listing": "Digital Health and Telemedicine",
+     "title": "Digital Health and Telemedicine",
+     "chairs": "Chairs: Speaker AT, Speaker AU",
+     "description": "",
+     "talks": [
+      {
+       "title": "Tele-triage",
+       "speaker": "Speaker AV"
+      },
+      {
+       "title": "Wearable sensors",
+       "speaker": "Speaker A"
+      },
+      {
+       "title": "Data security",
+       "speaker": "Speaker B"
+      }
+     ],
+     "people": [
+      {
+       "id": "p46",
+       "name": "Speaker AT"
+      },
+      {
+       "id": "p47",
+       "name": "Speaker AU"
+      },
+      {
+       "id": "p48",
+       "name": "Speaker AV"
+      },
+      {
+       "id": "p1",
+       "name": "Speaker A"
+      },
+      {
+       "id": "p2",
+       "name": "Speaker B"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Digital Health and Telemedicine\n8 April 2027\n09:50 - 11:00\nHall A\nChairs: Speaker AT, Speaker AU\nTele-triage — Speaker AV\nWearable sensors — Speaker A\nData security — Speaker B"
+    }
+   }
+  },
+  {
+   "id": "1037",
+   "date": "2027-04-08",
+   "start": "09:50",
+   "end": "11:00",
+   "room": "Hall B",
+   "roomId": "101",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Pulmoner Emboli: Tanıdan Tedaviye",
+     "title": "Pulmoner Emboli: Tanıdan Tedaviye",
+     "chairs": "Oturum Başkanları: Speaker C, Speaker D",
+     "description": "",
+     "talks": [
+      {
+       "title": "Klinik karar kuralları",
+       "speaker": "Speaker E"
+      },
+      {
+       "title": "Yüksek riskli emboli",
+       "speaker": "Speaker F"
+      },
+      {
+       "title": "Ayaktan tedavi seçimi",
+       "speaker": "Speaker G"
+      }
+     ],
+     "people": [
+      {
+       "id": "p3",
+       "name": "Speaker C"
+      },
+      {
+       "id": "p4",
+       "name": "Speaker D"
+      },
+      {
+       "id": "p5",
+       "name": "Speaker E"
+      },
+      {
+       "id": "p6",
+       "name": "Speaker F"
+      },
+      {
+       "id": "p7",
+       "name": "Speaker G"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Pulmoner Emboli: Tanıdan Tedaviye\n8 Nisan 2027\n09:50 - 11:00\nHall B\nOturum Başkanları: Speaker C, Speaker D\nKlinik karar kuralları — Speaker E\nYüksek riskli emboli — Speaker F\nAyaktan tedavi seçimi — Speaker G"
+    },
+    "en": {
+     "listing": "Pulmonary Embolism: From Diagnosis to Treatment",
+     "title": "Pulmonary Embolism: From Diagnosis to Treatment",
+     "chairs": "Chairs: Speaker C, Speaker D",
+     "description": "",
+     "talks": [
+      {
+       "title": "Clinical decision rules",
+       "speaker": "Speaker E"
+      },
+      {
+       "title": "High-risk embolism",
+       "speaker": "Speaker F"
+      },
+      {
+       "title": "Selecting outpatient treatment",
+       "speaker": "Speaker G"
+      }
+     ],
+     "people": [
+      {
+       "id": "p3",
+       "name": "Speaker C"
+      },
+      {
+       "id": "p4",
+       "name": "Speaker D"
+      },
+      {
+       "id": "p5",
+       "name": "Speaker E"
+      },
+      {
+       "id": "p6",
+       "name": "Speaker F"
+      },
+      {
+       "id": "p7",
+       "name": "Speaker G"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Pulmonary Embolism: From Diagnosis to Treatment\n8 April 2027\n09:50 - 11:00\nHall B\nChairs: Speaker C, Speaker D\nClinical decision rules — Speaker E\nHigh-risk embolism — Speaker F\nSelecting outpatient treatment — Speaker G"
+    }
+   }
+  },
+  {
+   "id": "1038",
+   "date": "2027-04-08",
+   "start": "09:50",
+   "end": "11:00",
+   "room": "Hall C",
+   "roomId": "102",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Gastrointestinal Kanama",
+     "title": "Gastrointestinal Kanama",
+     "chairs": "Oturum Başkanları: Speaker H, Speaker I",
+     "description": "",
+     "talks": [
+      {
+       "title": "Risk skorları",
+       "speaker": "Speaker J"
+      },
+      {
+       "title": "Antikoagülan geri döndürme",
+       "speaker": "Speaker K"
+      },
+      {
+       "title": "Endoskopi zamanlaması",
+       "speaker": "Speaker L"
+      }
+     ],
+     "people": [
+      {
+       "id": "p8",
+       "name": "Speaker H"
+      },
+      {
+       "id": "p9",
+       "name": "Speaker I"
+      },
+      {
+       "id": "p10",
+       "name": "Speaker J"
+      },
+      {
+       "id": "p11",
+       "name": "Speaker K"
+      },
+      {
+       "id": "p12",
+       "name": "Speaker L"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Gastrointestinal Kanama\n8 Nisan 2027\n09:50 - 11:00\nHall C\nOturum Başkanları: Speaker H, Speaker I\nRisk skorları — Speaker J\nAntikoagülan geri döndürme — Speaker K\nEndoskopi zamanlaması — Speaker L"
+    },
+    "en": {
+     "listing": "Gastrointestinal Bleeding",
+     "title": "Gastrointestinal Bleeding",
+     "chairs": "Chairs: Speaker H, Speaker I",
+     "description": "",
+     "talks": [
+      {
+       "title": "Risk scores",
+       "speaker": "Speaker J"
+      },
+      {
+       "title": "Anticoagulant reversal",
+       "speaker": "Speaker K"
+      },
+      {
+       "title": "Timing of endoscopy",
+       "speaker": "Speaker L"
+      }
+     ],
+     "people": [
+      {
+       "id": "p8",
+       "name": "Speaker H"
+      },
+      {
+       "id": "p9",
+       "name": "Speaker I"
+      },
+      {
+       "id": "p10",
+       "name": "Speaker J"
+      },
+      {
+       "id": "p11",
+       "name": "Speaker K"
+      },
+      {
+       "id": "p12",
+       "name": "Speaker L"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Gastrointestinal Bleeding\n8 April 2027\n09:50 - 11:00\nHall C\nChairs: Speaker H, Speaker I\nRisk scores — Speaker J\nAnticoagulant reversal — Speaker K\nTiming of endoscopy — Speaker L"
+    }
+   }
+  },
+  {
+   "id": "1039",
+   "date": "2027-04-08",
+   "start": "09:50",
+   "end": "11:00",
+   "room": "Hall D",
+   "roomId": "103",
+   "type": "abstract",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Sözlü Bildiriler: Eğitim",
+     "title": "Sözlü Bildiriler: Eğitim",
+     "chairs": "Oturum Başkanları: Speaker M, Speaker N",
+     "description": "",
+     "talks": [],
+     "people": [
+      {
+       "id": "p13",
+       "name": "Speaker M"
+      },
+      {
+       "id": "p14",
+       "name": "Speaker N"
+      },
+      {
+       "id": "p15",
+       "name": "Speaker O"
+      },
+      {
+       "id": "p16",
+       "name": "Speaker P"
+      },
+      {
+       "id": "p17",
+       "name": "Speaker Q"
+      },
+      {
+       "id": "p18",
+       "name": "Speaker R"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Sözlü Bildiriler: Eğitim\n8 Nisan 2027\n09:50 - 11:00\nHall D\nOturum Başkanları: Speaker M, Speaker N"
+    },
+    "en": {
+     "listing": "Oral Abstracts: Education",
+     "title": "Oral Abstracts: Education",
+     "chairs": "Chairs: Speaker M, Speaker N",
+     "description": "",
+     "talks": [],
+     "people": [
+      {
+       "id": "p13",
+       "name": "Speaker M"
+      },
+      {
+       "id": "p14",
+       "name": "Speaker N"
+      },
+      {
+       "id": "p15",
+       "name": "Speaker O"
+      },
+      {
+       "id": "p16",
+       "name": "Speaker P"
+      },
+      {
+       "id": "p17",
+       "name": "Speaker Q"
+      },
+      {
+       "id": "p18",
+       "name": "Speaker R"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Oral Abstracts: Education\n8 April 2027\n09:50 - 11:00\nHall D\nChairs: Speaker M, Speaker N"
+    }
+   }
+  },
+  {
+   "id": "1040",
+   "date": "2027-04-08",
+   "start": "11:30",
+   "end": "12:40",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Yanık ve Elektrik Yaralanmaları",
+     "title": "Yanık ve Elektrik Yaralanmaları",
+     "chairs": "Oturum Başkanları: Speaker S, Speaker T",
+     "description": "",
+     "talks": [
+      {
+       "title": "Sıvı formülleri",
+       "speaker": "Speaker U"
+      },
+      {
+       "title": "İnhalasyon hasarı",
+       "speaker": "Speaker V"
+      },
+      {
+       "title": "Elektrik yaralanmasında kardiyak izlem",
+       "speaker": "Speaker W"
+      }
+     ],
+     "people": [
+      {
+       "id": "p19",
+       "name": "Speaker S"
+      },
+      {
+       "id": "p20",
+       "name": "Speaker T"
+      },
+      {
+       "id": "p21",
+       "name": "Speaker U"
+      },
+      {
+       "id": "p22",
+       "name": "Speaker V"
+      },
+      {
+       "id": "p23",
+       "name": "Speaker W"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Yanık ve Elektrik Yaralanmaları\n8 Nisan 2027\n11:30 - 12:40\nHall A\nOturum Başkanları: Speaker S, Speaker T\nSıvı formülleri — Speaker U\nİnhalasyon hasarı — Speaker V\nElektrik yaralanmasında kardiyak izlem — Speaker W"
+    },
+    "en": {
+     "listing": "Burns and Electrical Injuries",
+     "title": "Burns and Electrical Injuries",
+     "chairs": "Chairs: Speaker S, Speaker T",
+     "description": "",
+     "talks": [
+      {
+       "title": "Fluid formulas",
+       "speaker": "Speaker U"
+      },
+      {
+       "title": "Inhalation injury",
+       "speaker": "Speaker V"
+      },
+      {
+       "title": "Cardiac monitoring after electrical injury",
+       "speaker": "Speaker W"
+      }
+     ],
+     "people": [
+      {
+       "id": "p19",
+       "name": "Speaker S"
+      },
+      {
+       "id": "p20",
+       "name": "Speaker T"
+      },
+      {
+       "id": "p21",
+       "name": "Speaker U"
+      },
+      {
+       "id": "p22",
+       "name": "Speaker V"
+      },
+      {
+       "id": "p23",
+       "name": "Speaker W"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Burns and Electrical Injuries\n8 April 2027\n11:30 - 12:40\nHall A\nChairs: Speaker S, Speaker T\nFluid formulas — Speaker U\nInhalation injury — Speaker V\nCardiac monitoring after electrical injury — Speaker W"
+    }
+   }
+  },
+  {
+   "id": "1041",
+   "date": "2027-04-08",
+   "start": "11:30",
+   "end": "12:40",
+   "room": "Hall B",
+   "roomId": "101",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Anafilaksi ve Anjiyoödem",
+     "title": "Anafilaksi ve Anjiyoödem",
+     "chairs": "Oturum Başkanları: Speaker X, Speaker Y",
+     "description": "",
+     "talks": [
+      {
+       "title": "Adrenalinin zamanlaması",
+       "speaker": "Speaker Z"
+      },
+      {
+       "title": "Bifazik reaksiyon",
+       "speaker": "Speaker AA"
+      },
+      {
+       "title": "Bradikinin aracılı anjiyoödem",
+       "speaker": "Speaker AB"
+      }
+     ],
+     "people": [
+      {
+       "id": "p24",
+       "name": "Speaker X"
+      },
+      {
+       "id": "p25",
+       "name": "Speaker Y"
+      },
+      {
+       "id": "p26",
+       "name": "Speaker Z"
+      },
+      {
+       "id": "p27",
+       "name": "Speaker AA"
+      },
+      {
+       "id": "p28",
+       "name": "Speaker AB"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Anafilaksi ve Anjiyoödem\n8 Nisan 2027\n11:30 - 12:40\nHall B\nOturum Başkanları: Speaker X, Speaker Y\nAdrenalinin zamanlaması — Speaker Z\nBifazik reaksiyon — Speaker AA\nBradikinin aracılı anjiyoödem — Speaker AB"
+    },
+    "en": {
+     "listing": "Anaphylaxis and Angioedema",
+     "title": "Anaphylaxis and Angioedema",
+     "chairs": "Chairs: Speaker X, Speaker Y",
+     "description": "",
+     "talks": [
+      {
+       "title": "Timing of adrenaline",
+       "speaker": "Speaker Z"
+      },
+      {
+       "title": "Biphasic reactions",
+       "speaker": "Speaker AA"
+      },
+      {
+       "title": "Bradykinin-mediated angioedema",
+       "speaker": "Speaker AB"
+      }
+     ],
+     "people": [
+      {
+       "id": "p24",
+       "name": "Speaker X"
+      },
+      {
+       "id": "p25",
+       "name": "Speaker Y"
+      },
+      {
+       "id": "p26",
+       "name": "Speaker Z"
+      },
+      {
+       "id": "p27",
+       "name": "Speaker AA"
+      },
+      {
+       "id": "p28",
+       "name": "Speaker AB"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Anaphylaxis and Angioedema\n8 April 2027\n11:30 - 12:40\nHall B\nChairs: Speaker X, Speaker Y\nTiming of adrenaline — Speaker Z\nBiphasic reactions — Speaker AA\nBradykinin-mediated angioedema — Speaker AB"
+    }
+   }
+  },
+  {
+   "id": "1042",
+   "date": "2027-04-08",
+   "start": "11:30",
+   "end": "12:40",
+   "room": "Hall C",
+   "roomId": "102",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Gebelikte Acil Durumlar",
+     "title": "Gebelikte Acil Durumlar",
+     "chairs": "Oturum Başkanları: Speaker AC, Speaker AD",
+     "description": "",
+     "talks": [
+      {
+       "title": "Ektopik gebelik",
+       "speaker": "Speaker AE"
+      },
+      {
+       "title": "Gebelikte travma",
+       "speaker": "Speaker AF"
+      },
+      {
+       "title": "Peripartum kardiyomiyopati",
+       "speaker": "Speaker AG"
+      }
+     ],
+     "people": [
+      {
+       "id": "p29",
+       "name": "Speaker AC"
+      },
+      {
+       "id": "p30",
+       "name": "Speaker AD"
+      },
+      {
+       "id": "p31",
+       "name": "Speaker AE"
+      },
+      {
+       "id": "p32",
+       "name": "Speaker AF"
+      },
+      {
+       "id": "p33",
+       "name": "Speaker AG"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Gebelikte Acil Durumlar\n8 Nisan 2027\n11:30 - 12:40\nHall C\nOturum Başkanları: Speaker AC, Speaker AD\nEktopik gebelik — Speaker AE\nGebelikte travma — Speaker AF\nPeripartum kardiyomiyopati — Speaker AG"
+    },
+    "en": {
+     "listing": "Emergencies in Pregnancy",
+     "title": "Emergencies in Pregnancy",
+     "chairs": "Chairs: Speaker AC, Speaker AD",
+     "description": "",
+     "talks": [
+      {
+       "title": "Ectopic pregnancy",
+       "speaker": "Speaker AE"
+      },
+      {
+       "title": "Trauma in pregnancy",
+       "speaker": "Speaker AF"
+      },
+      {
+       "title": "Peripartum cardiomyopathy",
+       "speaker": "Speaker AG"
+      }
+     ],
+     "people": [
+      {
+       "id": "p29",
+       "name": "Speaker AC"
+      },
+      {
+       "id": "p30",
+       "name": "Speaker AD"
+      },
+      {
+       "id": "p31",
+       "name": "Speaker AE"
+      },
+      {
+       "id": "p32",
+       "name": "Speaker AF"
+      },
+      {
+       "id": "p33",
+       "name": "Speaker AG"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Emergencies in Pregnancy\n8 April 2027\n11:30 - 12:40\nHall C\nChairs: Speaker AC, Speaker AD\nEctopic pregnancy — Speaker AE\nTrauma in pregnancy — Speaker AF\nPeripartum cardiomyopathy — Speaker AG"
+    }
+   }
+  },
+  {
+   "id": "1043",
+   "date": "2027-04-08",
+   "start": "11:30",
+   "end": "12:40",
+   "room": "Hall D",
+   "roomId": "103",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Kanıta Dayalı Tıp Kulübü",
+     "title": "Kanıta Dayalı Tıp Kulübü",
+     "chairs": "Oturum Başkanları: Speaker AH, Speaker AI",
+     "description": "",
+     "talks": [
+      {
+       "title": "Yılın en önemli çalışmaları",
+       "speaker": "Speaker AJ"
+      },
+      {
+       "title": "Negatif çalışmalardan ders",
+       "speaker": "Speaker AK"
+      },
+      {
+       "title": "Kılavuzlar arasında çelişki",
+       "speaker": "Speaker AL"
+      }
+     ],
+     "people": [
+      {
+       "id": "p34",
+       "name": "Speaker AH"
+      },
+      {
+       "id": "p35",
+       "name": "Speaker AI"
+      },
+      {
+       "id": "p36",
+       "name": "Speaker AJ"
+      },
+      {
+       "id": "p37",
+       "name": "Speaker AK"
+      },
+      {
+       "id": "p38",
+       "name": "Speaker AL"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Kanıta Dayalı Tıp Kulübü\n8 Nisan 2027\n11:30 - 12:40\nHall D\nOturum Başkanları: Speaker AH, Speaker AI\nYılın en önemli çalışmaları — Speaker AJ\nNegatif çalışmalardan ders — Speaker AK\nKılavuzlar arasında çelişki — Speaker AL"
+    },
+    "en": {
+     "listing": "Evidence-Based Medicine Journal Club",
+     "title": "Evidence-Based Medicine Journal Club",
+     "chairs": "Chairs: Speaker AH, Speaker AI",
+     "description": "",
+     "talks": [
+      {
+       "title": "Top papers of the year",
+       "speaker": "Speaker AJ"
+      },
+      {
+       "title": "Lessons from negative trials",
+       "speaker": "Speaker AK"
+      },
+      {
+       "title": "When guidelines disagree",
+       "speaker": "Speaker AL"
+      }
+     ],
+     "people": [
+      {
+       "id": "p34",
+       "name": "Speaker AH"
+      },
+      {
+       "id": "p35",
+       "name": "Speaker AI"
+      },
+      {
+       "id": "p36",
+       "name": "Speaker AJ"
+      },
+      {
+       "id": "p37",
+       "name": "Speaker AK"
+      },
+      {
+       "id": "p38",
+       "name": "Speaker AL"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Evidence-Based Medicine Journal Club\n8 April 2027\n11:30 - 12:40\nHall D\nChairs: Speaker AH, Speaker AI\nTop papers of the year — Speaker AJ\nLessons from negative trials — Speaker AK\nWhen guidelines disagree — Speaker AL"
+    }
+   }
+  },
+  {
+   "id": "1044",
+   "date": "2027-04-08",
+   "start": "14:00",
+   "end": "15:10",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Acil Tıpta Etik İkilemler",
+     "title": "Acil Tıpta Etik İkilemler",
+     "chairs": "Oturum Başkanları: Speaker AM, Speaker AN",
+     "description": "",
+     "talks": [
+      {
+       "title": "Karar verme kapasitesi",
+       "speaker": "Speaker AO"
+      },
+      {
+       "title": "Resüsitasyon kararları",
+       "speaker": "Speaker AP"
+      },
+      {
+       "title": "Kaynak kısıtlılığında adalet",
+       "speaker": "Speaker AQ"
+      }
+     ],
+     "people": [
+      {
+       "id": "p39",
+       "name": "Speaker AM"
+      },
+      {
+       "id": "p40",
+       "name": "Speaker AN"
+      },
+      {
+       "id": "p41",
+       "name": "Speaker AO"
+      },
+      {
+       "id": "p42",
+       "name": "Speaker AP"
+      },
+      {
+       "id": "p43",
+       "name": "Speaker AQ"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Acil Tıpta Etik İkilemler\n8 Nisan 2027\n14:00 - 15:10\nHall A\nOturum Başkanları: Speaker AM, Speaker AN\nKarar verme kapasitesi — Speaker AO\nResüsitasyon kararları — Speaker AP\nKaynak kısıtlılığında adalet — Speaker AQ"
+    },
+    "en": {
+     "listing": "Ethical Dilemmas in Emergency Medicine",
+     "title": "Ethical Dilemmas in Emergency Medicine",
+     "chairs": "Chairs: Speaker AM, Speaker AN",
+     "description": "",
+     "talks": [
+      {
+       "title": "Decision-making capacity",
+       "speaker": "Speaker AO"
+      },
+      {
+       "title": "Resuscitation decisions",
+       "speaker": "Speaker AP"
+      },
+      {
+       "title": "Fairness under resource constraints",
+       "speaker": "Speaker AQ"
+      }
+     ],
+     "people": [
+      {
+       "id": "p39",
+       "name": "Speaker AM"
+      },
+      {
+       "id": "p40",
+       "name": "Speaker AN"
+      },
+      {
+       "id": "p41",
+       "name": "Speaker AO"
+      },
+      {
+       "id": "p42",
+       "name": "Speaker AP"
+      },
+      {
+       "id": "p43",
+       "name": "Speaker AQ"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Ethical Dilemmas in Emergency Medicine\n8 April 2027\n14:00 - 15:10\nHall A\nChairs: Speaker AM, Speaker AN\nDecision-making capacity — Speaker AO\nResuscitation decisions — Speaker AP\nFairness under resource constraints — Speaker AQ"
+    }
+   }
+  },
+  {
+   "id": "1045",
+   "date": "2027-04-08",
+   "start": "14:00",
+   "end": "15:10",
+   "room": "Hall B",
+   "roomId": "101",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Acil Serviste Ağrı Yönetimi",
+     "title": "Acil Serviste Ağrı Yönetimi",
+     "chairs": "Oturum Başkanları: Speaker AR, Speaker AS",
+     "description": "",
+     "talks": [
+      {
+       "title": "Ketamin ile analjezi",
+       "speaker": "Speaker AT"
+      },
+      {
+       "title": "Bölgesel bloklar",
+       "speaker": "Speaker AU"
+      },
+      {
+       "title": "Opioid koruyucu yaklaşım",
+       "speaker": "Speaker AV"
+      }
+     ],
+     "people": [
+      {
+       "id": "p44",
+       "name": "Speaker AR"
+      },
+      {
+       "id": "p45",
+       "name": "Speaker AS"
+      },
+      {
+       "id": "p46",
+       "name": "Speaker AT"
+      },
+      {
+       "id": "p47",
+       "name": "Speaker AU"
+      },
+      {
+       "id": "p48",
+       "name": "Speaker AV"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Acil Serviste Ağrı Yönetimi\n8 Nisan 2027\n14:00 - 15:10\nHall B\nOturum Başkanları: Speaker AR, Speaker AS\nKetamin ile analjezi — Speaker AT\nBölgesel bloklar — Speaker AU\nOpioid koruyucu yaklaşım — Speaker AV"
+    },
+    "en": {
+     "listing": "Pain Management in the Emergency Department",
+     "title": "Pain Management in the Emergency Department",
+     "chairs": "Chairs: Speaker AR, Speaker AS",
+     "description": "",
+     "talks": [
+      {
+       "title": "Analgesia with ketamine",
+       "speaker": "Speaker AT"
+      },
+      {
+       "title": "Regional nerve blocks",
+       "speaker": "Speaker AU"
+      },
+      {
+       "title": "Opioid-sparing strategies",
+       "speaker": "Speaker AV"
+      }
+     ],
+     "people": [
+      {
+       "id": "p44",
+       "name": "Speaker AR"
+      },
+      {
+       "id": "p45",
+       "name": "Speaker AS"
+      },
+      {
+       "id": "p46",
+       "name": "Speaker AT"
+      },
+      {
+       "id": "p47",
+       "name": "Speaker AU"
+      },
+      {
+       "id": "p48",
+       "name": "Speaker AV"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Pain Management in the Emergency Department\n8 April 2027\n14:00 - 15:10\nHall B\nChairs: Speaker AR, Speaker AS\nAnalgesia with ketamine — Speaker AT\nRegional nerve blocks — Speaker AU\nOpioid-sparing strategies — Speaker AV"
+    }
+   }
+  },
+  {
+   "id": "1046",
+   "date": "2027-04-08",
+   "start": "14:00",
+   "end": "15:10",
+   "room": "Hall C",
+   "roomId": "102",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Çevresel Aciller",
+     "title": "Çevresel Aciller",
+     "chairs": "Oturum Başkanları: Speaker A, Speaker B",
+     "description": "",
+     "talks": [
+      {
+       "title": "Hipotermi",
+       "speaker": "Speaker C"
+      },
+      {
+       "title": "Sıcak çarpması",
+       "speaker": "Speaker D"
+      },
+      {
+       "title": "Boğulmaya yakın durumlar",
+       "speaker": "Speaker E"
+      }
+     ],
+     "people": [
+      {
+       "id": "p1",
+       "name": "Speaker A"
+      },
+      {
+       "id": "p2",
+       "name": "Speaker B"
+      },
+      {
+       "id": "p3",
+       "name": "Speaker C"
+      },
+      {
+       "id": "p4",
+       "name": "Speaker D"
+      },
+      {
+       "id": "p5",
+       "name": "Speaker E"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Çevresel Aciller\n8 Nisan 2027\n14:00 - 15:10\nHall C\nOturum Başkanları: Speaker A, Speaker B\nHipotermi — Speaker C\nSıcak çarpması — Speaker D\nBoğulmaya yakın durumlar — Speaker E"
+    },
+    "en": {
+     "listing": "Environmental Emergencies",
+     "title": "Environmental Emergencies",
+     "chairs": "Chairs: Speaker A, Speaker B",
+     "description": "",
+     "talks": [
+      {
+       "title": "Hypothermia",
+       "speaker": "Speaker C"
+      },
+      {
+       "title": "Heat stroke",
+       "speaker": "Speaker D"
+      },
+      {
+       "title": "Drowning",
+       "speaker": "Speaker E"
+      }
+     ],
+     "people": [
+      {
+       "id": "p1",
+       "name": "Speaker A"
+      },
+      {
+       "id": "p2",
+       "name": "Speaker B"
+      },
+      {
+       "id": "p3",
+       "name": "Speaker C"
+      },
+      {
+       "id": "p4",
+       "name": "Speaker D"
+      },
+      {
+       "id": "p5",
+       "name": "Speaker E"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Environmental Emergencies\n8 April 2027\n14:00 - 15:10\nHall C\nChairs: Speaker A, Speaker B\nHypothermia — Speaker C\nHeat stroke — Speaker D\nDrowning — Speaker E"
+    }
+   }
+  },
+  {
+   "id": "1047",
+   "date": "2027-04-08",
+   "start": "14:00",
+   "end": "15:10",
+   "room": "Hall D",
+   "roomId": "103",
+   "type": "abstract",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Sözlü Bildiriler: Toksikoloji",
+     "title": "Sözlü Bildiriler: Toksikoloji",
+     "chairs": "Oturum Başkanları: Speaker F, Speaker G",
+     "description": "",
+     "talks": [],
+     "people": [
+      {
+       "id": "p6",
+       "name": "Speaker F"
+      },
+      {
+       "id": "p7",
+       "name": "Speaker G"
+      },
+      {
+       "id": "p8",
+       "name": "Speaker H"
+      },
+      {
+       "id": "p9",
+       "name": "Speaker I"
+      },
+      {
+       "id": "p10",
+       "name": "Speaker J"
+      },
+      {
+       "id": "p11",
+       "name": "Speaker K"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Sözlü Bildiriler: Toksikoloji\n8 Nisan 2027\n14:00 - 15:10\nHall D\nOturum Başkanları: Speaker F, Speaker G"
+    },
+    "en": {
+     "listing": "Oral Abstracts: Toxicology",
+     "title": "Oral Abstracts: Toxicology",
+     "chairs": "Chairs: Speaker F, Speaker G",
+     "description": "",
+     "talks": [],
+     "people": [
+      {
+       "id": "p6",
+       "name": "Speaker F"
+      },
+      {
+       "id": "p7",
+       "name": "Speaker G"
+      },
+      {
+       "id": "p8",
+       "name": "Speaker H"
+      },
+      {
+       "id": "p9",
+       "name": "Speaker I"
+      },
+      {
+       "id": "p10",
+       "name": "Speaker J"
+      },
+      {
+       "id": "p11",
+       "name": "Speaker K"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Oral Abstracts: Toxicology\n8 April 2027\n14:00 - 15:10\nHall D\nChairs: Speaker F, Speaker G"
+    }
+   }
+  },
+  {
+   "id": "1048",
+   "date": "2027-04-08",
+   "start": "15:30",
+   "end": "16:40",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Kritik Hastanın Transferi",
+     "title": "Kritik Hastanın Transferi",
+     "chairs": "Oturum Başkanları: Speaker L, Speaker M",
+     "description": "",
+     "talks": [
+      {
+       "title": "Transfer öncesi kontrol listesi",
+       "speaker": "Speaker N"
+      },
+      {
+       "title": "Yoğun bakım yatağı beklerken",
+       "speaker": "Speaker O"
+      },
+      {
+       "title": "Transfer sırasında monitörizasyon",
+       "speaker": "Speaker P"
+      }
+     ],
+     "people": [
+      {
+       "id": "p12",
+       "name": "Speaker L"
+      },
+      {
+       "id": "p13",
+       "name": "Speaker M"
+      },
+      {
+       "id": "p14",
+       "name": "Speaker N"
+      },
+      {
+       "id": "p15",
+       "name": "Speaker O"
+      },
+      {
+       "id": "p16",
+       "name": "Speaker P"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Kritik Hastanın Transferi\n8 Nisan 2027\n15:30 - 16:40\nHall A\nOturum Başkanları: Speaker L, Speaker M\nTransfer öncesi kontrol listesi — Speaker N\nYoğun bakım yatağı beklerken — Speaker O\nTransfer sırasında monitörizasyon — Speaker P"
+    },
+    "en": {
+     "listing": "Transferring the Critically Ill Patient",
+     "title": "Transferring the Critically Ill Patient",
+     "chairs": "Chairs: Speaker L, Speaker M",
+     "description": "",
+     "talks": [
+      {
+       "title": "Pre-transfer checklist",
+       "speaker": "Speaker N"
+      },
+      {
+       "title": "While waiting for an ICU bed",
+       "speaker": "Speaker O"
+      },
+      {
+       "title": "Monitoring during transfer",
+       "speaker": "Speaker P"
+      }
+     ],
+     "people": [
+      {
+       "id": "p12",
+       "name": "Speaker L"
+      },
+      {
+       "id": "p13",
+       "name": "Speaker M"
+      },
+      {
+       "id": "p14",
+       "name": "Speaker N"
+      },
+      {
+       "id": "p15",
+       "name": "Speaker O"
+      },
+      {
+       "id": "p16",
+       "name": "Speaker P"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Transferring the Critically Ill Patient\n8 April 2027\n15:30 - 16:40\nHall A\nChairs: Speaker L, Speaker M\nPre-transfer checklist — Speaker N\nWhile waiting for an ICU bed — Speaker O\nMonitoring during transfer — Speaker P"
+    }
+   }
+  },
+  {
+   "id": "1049",
+   "date": "2027-04-08",
+   "start": "15:30",
+   "end": "16:40",
+   "room": "Hall B",
+   "roomId": "101",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Acil Tıpta Veri Bilimi",
+     "title": "Acil Tıpta Veri Bilimi",
+     "chairs": "Oturum Başkanları: Speaker Q, Speaker R",
+     "description": "",
+     "talks": [
+      {
+       "title": "Açık veri setleri",
+       "speaker": "Speaker S"
+      },
+      {
+       "title": "Tekrarlanabilir analiz",
+       "speaker": "Speaker T"
+      },
+      {
+       "title": "Sentetik veri ile eğitim",
+       "speaker": "Speaker U"
+      }
+     ],
+     "people": [
+      {
+       "id": "p17",
+       "name": "Speaker Q"
+      },
+      {
+       "id": "p18",
+       "name": "Speaker R"
+      },
+      {
+       "id": "p19",
+       "name": "Speaker S"
+      },
+      {
+       "id": "p20",
+       "name": "Speaker T"
+      },
+      {
+       "id": "p21",
+       "name": "Speaker U"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Acil Tıpta Veri Bilimi\n8 Nisan 2027\n15:30 - 16:40\nHall B\nOturum Başkanları: Speaker Q, Speaker R\nAçık veri setleri — Speaker S\nTekrarlanabilir analiz — Speaker T\nSentetik veri ile eğitim — Speaker U"
+    },
+    "en": {
+     "listing": "Data Science in Emergency Medicine",
+     "title": "Data Science in Emergency Medicine",
+     "chairs": "Chairs: Speaker Q, Speaker R",
+     "description": "",
+     "talks": [
+      {
+       "title": "Open datasets",
+       "speaker": "Speaker S"
+      },
+      {
+       "title": "Reproducible analysis",
+       "speaker": "Speaker T"
+      },
+      {
+       "title": "Teaching with synthetic data",
+       "speaker": "Speaker U"
+      }
+     ],
+     "people": [
+      {
+       "id": "p17",
+       "name": "Speaker Q"
+      },
+      {
+       "id": "p18",
+       "name": "Speaker R"
+      },
+      {
+       "id": "p19",
+       "name": "Speaker S"
+      },
+      {
+       "id": "p20",
+       "name": "Speaker T"
+      },
+      {
+       "id": "p21",
+       "name": "Speaker U"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Data Science in Emergency Medicine\n8 April 2027\n15:30 - 16:40\nHall B\nChairs: Speaker Q, Speaker R\nOpen datasets — Speaker S\nReproducible analysis — Speaker T\nTeaching with synthetic data — Speaker U"
+    }
+   }
+  },
+  {
+   "id": "1050",
+   "date": "2027-04-08",
+   "start": "15:30",
+   "end": "16:40",
+   "room": "Hall C",
+   "roomId": "102",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Aritmilere Pratik Yaklaşım",
+     "title": "Aritmilere Pratik Yaklaşım",
+     "chairs": "Oturum Başkanları: Speaker V, Speaker W",
+     "description": "",
+     "talks": [
+      {
+       "title": "Geniş QRS taşikardi",
+       "speaker": "Speaker X"
+      },
+      {
+       "title": "Atriyal fibrilasyonda hız mı ritim mi?",
+       "speaker": "Speaker Y"
+      },
+      {
+       "title": "Bradikardide pacing",
+       "speaker": "Speaker Z"
+      }
+     ],
+     "people": [
+      {
+       "id": "p22",
+       "name": "Speaker V"
+      },
+      {
+       "id": "p23",
+       "name": "Speaker W"
+      },
+      {
+       "id": "p24",
+       "name": "Speaker X"
+      },
+      {
+       "id": "p25",
+       "name": "Speaker Y"
+      },
+      {
+       "id": "p26",
+       "name": "Speaker Z"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Aritmilere Pratik Yaklaşım\n8 Nisan 2027\n15:30 - 16:40\nHall C\nOturum Başkanları: Speaker V, Speaker W\nGeniş QRS taşikardi — Speaker X\nAtriyal fibrilasyonda hız mı ritim mi? — Speaker Y\nBradikardide pacing — Speaker Z"
+    },
+    "en": {
+     "listing": "A Practical Approach to Arrhythmias",
+     "title": "A Practical Approach to Arrhythmias",
+     "chairs": "Chairs: Speaker V, Speaker W",
+     "description": "",
+     "talks": [
+      {
+       "title": "Wide-complex tachycardia",
+       "speaker": "Speaker X"
+      },
+      {
+       "title": "Rate or rhythm in atrial fibrillation",
+       "speaker": "Speaker Y"
+      },
+      {
+       "title": "Pacing for bradycardia",
+       "speaker": "Speaker Z"
+      }
+     ],
+     "people": [
+      {
+       "id": "p22",
+       "name": "Speaker V"
+      },
+      {
+       "id": "p23",
+       "name": "Speaker W"
+      },
+      {
+       "id": "p24",
+       "name": "Speaker X"
+      },
+      {
+       "id": "p25",
+       "name": "Speaker Y"
+      },
+      {
+       "id": "p26",
+       "name": "Speaker Z"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "A Practical Approach to Arrhythmias\n8 April 2027\n15:30 - 16:40\nHall C\nChairs: Speaker V, Speaker W\nWide-complex tachycardia — Speaker X\nRate or rhythm in atrial fibrillation — Speaker Y\nPacing for bradycardia — Speaker Z"
+    }
+   }
+  },
+  {
+   "id": "1051",
+   "date": "2027-04-08",
+   "start": "15:30",
+   "end": "16:40",
+   "room": "Hall D",
+   "roomId": "103",
+   "type": "abstract",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Sözlü Bildiriler: Pediatri",
+     "title": "Sözlü Bildiriler: Pediatri",
+     "chairs": "Oturum Başkanları: Speaker AA, Speaker AB",
+     "description": "",
+     "talks": [],
+     "people": [
+      {
+       "id": "p27",
+       "name": "Speaker AA"
+      },
+      {
+       "id": "p28",
+       "name": "Speaker AB"
+      },
+      {
+       "id": "p29",
+       "name": "Speaker AC"
+      },
+      {
+       "id": "p30",
+       "name": "Speaker AD"
+      },
+      {
+       "id": "p31",
+       "name": "Speaker AE"
+      },
+      {
+       "id": "p32",
+       "name": "Speaker AF"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Sözlü Bildiriler: Pediatri\n8 Nisan 2027\n15:30 - 16:40\nHall D\nOturum Başkanları: Speaker AA, Speaker AB"
+    },
+    "en": {
+     "listing": "Oral Abstracts: Paediatrics",
+     "title": "Oral Abstracts: Paediatrics",
+     "chairs": "Chairs: Speaker AA, Speaker AB",
+     "description": "",
+     "talks": [],
+     "people": [
+      {
+       "id": "p27",
+       "name": "Speaker AA"
+      },
+      {
+       "id": "p28",
+       "name": "Speaker AB"
+      },
+      {
+       "id": "p29",
+       "name": "Speaker AC"
+      },
+      {
+       "id": "p30",
+       "name": "Speaker AD"
+      },
+      {
+       "id": "p31",
+       "name": "Speaker AE"
+      },
+      {
+       "id": "p32",
+       "name": "Speaker AF"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Oral Abstracts: Paediatrics\n8 April 2027\n15:30 - 16:40\nHall D\nChairs: Speaker AA, Speaker AB"
+    }
+   }
+  },
+  {
+   "id": "1052",
+   "date": "2027-04-08",
+   "start": "11:00",
+   "end": "11:30",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "break",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Kahve Arası",
+     "title": "Kahve Arası",
+     "chairs": "",
+     "description": "",
+     "talks": [],
+     "people": [],
+     "sourceUrl": null,
+     "detailText": "Kahve Arası\n8 Nisan 2027\n11:00 - 11:30\nHall A"
+    },
+    "en": {
+     "listing": "Coffee Break",
+     "title": "Coffee Break",
+     "chairs": "",
+     "description": "",
+     "talks": [],
+     "people": [],
+     "sourceUrl": null,
+     "detailText": "Coffee Break\n8 April 2027\n11:00 - 11:30\nHall A"
+    }
+   }
+  },
+  {
+   "id": "1053",
+   "date": "2027-04-08",
+   "start": "12:40",
+   "end": "14:00",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "break",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Öğle Arası",
+     "title": "Öğle Arası",
+     "chairs": "",
+     "description": "",
+     "talks": [],
+     "people": [],
+     "sourceUrl": null,
+     "detailText": "Öğle Arası\n8 Nisan 2027\n12:40 - 14:00\nHall A"
+    },
+    "en": {
+     "listing": "Lunch Break",
+     "title": "Lunch Break",
+     "chairs": "",
+     "description": "",
+     "talks": [],
+     "people": [],
+     "sourceUrl": null,
+     "detailText": "Lunch Break\n8 April 2027\n12:40 - 14:00\nHall A"
+    }
+   }
+  },
+  {
+   "id": "1054",
+   "date": "2027-04-08",
+   "start": "12:50",
+   "end": "13:50",
+   "room": "Hall E",
+   "roomId": "104",
+   "type": "satellite",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Uydu Sempozyumu: Sepsiste Biyobelirteçler",
+     "title": "Uydu Sempozyumu: Sepsiste Biyobelirteçler",
+     "chairs": "",
+     "description": "",
+     "talks": [
+      {
+       "title": "Sunum",
+       "speaker": "Speaker AG"
+      }
+     ],
+     "people": [
+      {
+       "id": "p33",
+       "name": "Speaker AG"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Uydu Sempozyumu: Sepsiste Biyobelirteçler\n8 Nisan 2027\n12:50 - 13:50\nHall E\nSunum — Speaker AG"
+    },
+    "en": {
+     "listing": "Satellite Symposium: Biomarkers in Sepsis",
+     "title": "Satellite Symposium: Biomarkers in Sepsis",
+     "chairs": "",
+     "description": "",
+     "talks": [
+      {
+       "title": "Presentation",
+       "speaker": "Speaker AG"
+      }
+     ],
+     "people": [
+      {
+       "id": "p33",
+       "name": "Speaker AG"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Satellite Symposium: Biomarkers in Sepsis\n8 April 2027\n12:50 - 13:50\nHall E\nPresentation — Speaker AG"
+    }
+   }
+  },
+  {
+   "id": "1055",
+   "date": "2027-04-08",
+   "start": "12:50",
+   "end": "13:50",
+   "room": "Hall F",
+   "roomId": "105",
+   "type": "satellite",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Uydu Sempozyumu: Taşınabilir Görüntüleme",
+     "title": "Uydu Sempozyumu: Taşınabilir Görüntüleme",
+     "chairs": "",
+     "description": "",
+     "talks": [
+      {
+       "title": "Sunum",
+       "speaker": "Speaker AH"
+      }
+     ],
+     "people": [
+      {
+       "id": "p34",
+       "name": "Speaker AH"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Uydu Sempozyumu: Taşınabilir Görüntüleme\n8 Nisan 2027\n12:50 - 13:50\nHall F\nSunum — Speaker AH"
+    },
+    "en": {
+     "listing": "Satellite Symposium: Portable Imaging",
+     "title": "Satellite Symposium: Portable Imaging",
+     "chairs": "",
+     "description": "",
+     "talks": [
+      {
+       "title": "Presentation",
+       "speaker": "Speaker AH"
+      }
+     ],
+     "people": [
+      {
+       "id": "p34",
+       "name": "Speaker AH"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Satellite Symposium: Portable Imaging\n8 April 2027\n12:50 - 13:50\nHall F\nPresentation — Speaker AH"
+    }
+   }
+  },
+  {
+   "id": "1056",
+   "date": "2027-04-09",
+   "start": "09:00",
+   "end": "10:10",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Nöbet ve Status Epileptikus",
+     "title": "Nöbet ve Status Epileptikus",
+     "chairs": "Oturum Başkanları: Speaker AI, Speaker AJ",
+     "description": "",
+     "talks": [
+      {
+       "title": "İkinci basamak antiepileptikler",
+       "speaker": "Speaker AK"
+      },
+      {
+       "title": "Konvülzif olmayan status",
+       "speaker": "Speaker AL"
+      },
+      {
+       "title": "Çocukta status epileptikus",
+       "speaker": "Speaker AM"
+      }
+     ],
+     "people": [
+      {
+       "id": "p35",
+       "name": "Speaker AI"
+      },
+      {
+       "id": "p36",
+       "name": "Speaker AJ"
+      },
+      {
+       "id": "p37",
+       "name": "Speaker AK"
+      },
+      {
+       "id": "p38",
+       "name": "Speaker AL"
+      },
+      {
+       "id": "p39",
+       "name": "Speaker AM"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Nöbet ve Status Epileptikus\n9 Nisan 2027\n09:00 - 10:10\nHall A\nOturum Başkanları: Speaker AI, Speaker AJ\nİkinci basamak antiepileptikler — Speaker AK\nKonvülzif olmayan status — Speaker AL\nÇocukta status epileptikus — Speaker AM"
+    },
+    "en": {
+     "listing": "Seizures and Status Epilepticus",
+     "title": "Seizures and Status Epilepticus",
+     "chairs": "Chairs: Speaker AI, Speaker AJ",
+     "description": "",
+     "talks": [
+      {
+       "title": "Second-line antiseizure drugs",
+       "speaker": "Speaker AK"
+      },
+      {
+       "title": "Non-convulsive status",
+       "speaker": "Speaker AL"
+      },
+      {
+       "title": "Status epilepticus in children",
+       "speaker": "Speaker AM"
+      }
+     ],
+     "people": [
+      {
+       "id": "p35",
+       "name": "Speaker AI"
+      },
+      {
+       "id": "p36",
+       "name": "Speaker AJ"
+      },
+      {
+       "id": "p37",
+       "name": "Speaker AK"
+      },
+      {
+       "id": "p38",
+       "name": "Speaker AL"
+      },
+      {
+       "id": "p39",
+       "name": "Speaker AM"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Seizures and Status Epilepticus\n9 April 2027\n09:00 - 10:10\nHall A\nChairs: Speaker AI, Speaker AJ\nSecond-line antiseizure drugs — Speaker AK\nNon-convulsive status — Speaker AL\nStatus epilepticus in children — Speaker AM"
+    }
+   }
+  },
+  {
+   "id": "1057",
+   "date": "2027-04-09",
+   "start": "09:00",
+   "end": "10:10",
+   "room": "Hall B",
+   "roomId": "101",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Göğüs Travması",
+     "title": "Göğüs Travması",
+     "chairs": "Oturum Başkanları: Speaker AN, Speaker AO",
+     "description": "",
+     "talks": [
+      {
+       "title": "Tansiyon pnömotoraks",
+       "speaker": "Speaker AP"
+      },
+      {
+       "title": "Kaburga kırıklarında analjezi",
+       "speaker": "Speaker AQ"
+      },
+      {
+       "title": "Resüsitatif torakotomi",
+       "speaker": "Speaker AR"
+      }
+     ],
+     "people": [
+      {
+       "id": "p40",
+       "name": "Speaker AN"
+      },
+      {
+       "id": "p41",
+       "name": "Speaker AO"
+      },
+      {
+       "id": "p42",
+       "name": "Speaker AP"
+      },
+      {
+       "id": "p43",
+       "name": "Speaker AQ"
+      },
+      {
+       "id": "p44",
+       "name": "Speaker AR"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Göğüs Travması\n9 Nisan 2027\n09:00 - 10:10\nHall B\nOturum Başkanları: Speaker AN, Speaker AO\nTansiyon pnömotoraks — Speaker AP\nKaburga kırıklarında analjezi — Speaker AQ\nResüsitatif torakotomi — Speaker AR"
+    },
+    "en": {
+     "listing": "Chest Trauma",
+     "title": "Chest Trauma",
+     "chairs": "Chairs: Speaker AN, Speaker AO",
+     "description": "",
+     "talks": [
+      {
+       "title": "Tension pneumothorax",
+       "speaker": "Speaker AP"
+      },
+      {
+       "title": "Analgesia for rib fractures",
+       "speaker": "Speaker AQ"
+      },
+      {
+       "title": "Resuscitative thoracotomy",
+       "speaker": "Speaker AR"
+      }
+     ],
+     "people": [
+      {
+       "id": "p40",
+       "name": "Speaker AN"
+      },
+      {
+       "id": "p41",
+       "name": "Speaker AO"
+      },
+      {
+       "id": "p42",
+       "name": "Speaker AP"
+      },
+      {
+       "id": "p43",
+       "name": "Speaker AQ"
+      },
+      {
+       "id": "p44",
+       "name": "Speaker AR"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Chest Trauma\n9 April 2027\n09:00 - 10:10\nHall B\nChairs: Speaker AN, Speaker AO\nTension pneumothorax — Speaker AP\nAnalgesia for rib fractures — Speaker AQ\nResuscitative thoracotomy — Speaker AR"
+    }
+   }
+  },
+  {
+   "id": "1058",
+   "date": "2027-04-09",
+   "start": "09:00",
+   "end": "10:10",
+   "room": "Hall C",
+   "roomId": "102",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Acil Tıpta Yazmak ve Yayımlamak",
+     "title": "Acil Tıpta Yazmak ve Yayımlamak",
+     "chairs": "Oturum Başkanları: Speaker AS, Speaker AT",
+     "description": "",
+     "talks": [
+      {
+       "title": "Hakem gözünden makale",
+       "speaker": "Speaker AU"
+      },
+      {
+       "title": "Dergi seçimi",
+       "speaker": "Speaker AV"
+      },
+      {
+       "title": "Yapay zekâ ve akademik yazım",
+       "speaker": "Speaker A"
+      }
+     ],
+     "people": [
+      {
+       "id": "p45",
+       "name": "Speaker AS"
+      },
+      {
+       "id": "p46",
+       "name": "Speaker AT"
+      },
+      {
+       "id": "p47",
+       "name": "Speaker AU"
+      },
+      {
+       "id": "p48",
+       "name": "Speaker AV"
+      },
+      {
+       "id": "p1",
+       "name": "Speaker A"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Acil Tıpta Yazmak ve Yayımlamak\n9 Nisan 2027\n09:00 - 10:10\nHall C\nOturum Başkanları: Speaker AS, Speaker AT\nHakem gözünden makale — Speaker AU\nDergi seçimi — Speaker AV\nYapay zekâ ve akademik yazım — Speaker A"
+    },
+    "en": {
+     "listing": "Writing and Publishing in Emergency Medicine",
+     "title": "Writing and Publishing in Emergency Medicine",
+     "chairs": "Chairs: Speaker AS, Speaker AT",
+     "description": "",
+     "talks": [
+      {
+       "title": "A manuscript through a reviewer's eyes",
+       "speaker": "Speaker AU"
+      },
+      {
+       "title": "Choosing a journal",
+       "speaker": "Speaker AV"
+      },
+      {
+       "title": "AI and academic writing",
+       "speaker": "Speaker A"
+      }
+     ],
+     "people": [
+      {
+       "id": "p45",
+       "name": "Speaker AS"
+      },
+      {
+       "id": "p46",
+       "name": "Speaker AT"
+      },
+      {
+       "id": "p47",
+       "name": "Speaker AU"
+      },
+      {
+       "id": "p48",
+       "name": "Speaker AV"
+      },
+      {
+       "id": "p1",
+       "name": "Speaker A"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Writing and Publishing in Emergency Medicine\n9 April 2027\n09:00 - 10:10\nHall C\nChairs: Speaker AS, Speaker AT\nA manuscript through a reviewer's eyes — Speaker AU\nChoosing a journal — Speaker AV\nAI and academic writing — Speaker A"
+    }
+   }
+  },
+  {
+   "id": "1059",
+   "date": "2027-04-09",
+   "start": "10:40",
+   "end": "11:50",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Sosyal Belirleyiciler ve Kırılgan Gruplar",
+     "title": "Sosyal Belirleyiciler ve Kırılgan Gruplar",
+     "chairs": "Oturum Başkanları: Speaker B, Speaker C",
+     "description": "",
+     "talks": [
+      {
+       "title": "Evsiz hastalar",
+       "speaker": "Speaker D"
+      },
+      {
+       "title": "Dil engeli",
+       "speaker": "Speaker E"
+      },
+      {
+       "title": "Sık başvuran hasta",
+       "speaker": "Speaker F"
+      }
+     ],
+     "people": [
+      {
+       "id": "p2",
+       "name": "Speaker B"
+      },
+      {
+       "id": "p3",
+       "name": "Speaker C"
+      },
+      {
+       "id": "p4",
+       "name": "Speaker D"
+      },
+      {
+       "id": "p5",
+       "name": "Speaker E"
+      },
+      {
+       "id": "p6",
+       "name": "Speaker F"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Sosyal Belirleyiciler ve Kırılgan Gruplar\n9 Nisan 2027\n10:40 - 11:50\nHall A\nOturum Başkanları: Speaker B, Speaker C\nEvsiz hastalar — Speaker D\nDil engeli — Speaker E\nSık başvuran hasta — Speaker F"
+    },
+    "en": {
+     "listing": "Social Determinants and Vulnerable Groups",
+     "title": "Social Determinants and Vulnerable Groups",
+     "chairs": "Chairs: Speaker B, Speaker C",
+     "description": "",
+     "talks": [
+      {
+       "title": "Patients experiencing homelessness",
+       "speaker": "Speaker D"
+      },
+      {
+       "title": "Language barriers",
+       "speaker": "Speaker E"
+      },
+      {
+       "title": "Frequent attenders",
+       "speaker": "Speaker F"
+      }
+     ],
+     "people": [
+      {
+       "id": "p2",
+       "name": "Speaker B"
+      },
+      {
+       "id": "p3",
+       "name": "Speaker C"
+      },
+      {
+       "id": "p4",
+       "name": "Speaker D"
+      },
+      {
+       "id": "p5",
+       "name": "Speaker E"
+      },
+      {
+       "id": "p6",
+       "name": "Speaker F"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Social Determinants and Vulnerable Groups\n9 April 2027\n10:40 - 11:50\nHall A\nChairs: Speaker B, Speaker C\nPatients experiencing homelessness — Speaker D\nLanguage barriers — Speaker E\nFrequent attenders — Speaker F"
+    }
+   }
+  },
+  {
+   "id": "1060",
+   "date": "2027-04-09",
+   "start": "10:40",
+   "end": "11:50",
+   "room": "Hall B",
+   "roomId": "101",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Acil Serviste Ultrason Rehberli İşlemler",
+     "title": "Acil Serviste Ultrason Rehberli İşlemler",
+     "chairs": "Oturum Başkanları: Speaker G, Speaker H",
+     "description": "",
+     "talks": [
+      {
+       "title": "Periferik damar yolu",
+       "speaker": "Speaker I"
+      },
+      {
+       "title": "Santral venöz kateter",
+       "speaker": "Speaker J"
+      },
+      {
+       "title": "Parasentez ve torasentez",
+       "speaker": "Speaker K"
+      }
+     ],
+     "people": [
+      {
+       "id": "p7",
+       "name": "Speaker G"
+      },
+      {
+       "id": "p8",
+       "name": "Speaker H"
+      },
+      {
+       "id": "p9",
+       "name": "Speaker I"
+      },
+      {
+       "id": "p10",
+       "name": "Speaker J"
+      },
+      {
+       "id": "p11",
+       "name": "Speaker K"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Acil Serviste Ultrason Rehberli İşlemler\n9 Nisan 2027\n10:40 - 11:50\nHall B\nOturum Başkanları: Speaker G, Speaker H\nPeriferik damar yolu — Speaker I\nSantral venöz kateter — Speaker J\nParasentez ve torasentez — Speaker K"
+    },
+    "en": {
+     "listing": "Ultrasound-Guided Procedures in the ED",
+     "title": "Ultrasound-Guided Procedures in the ED",
+     "chairs": "Chairs: Speaker G, Speaker H",
+     "description": "",
+     "talks": [
+      {
+       "title": "Peripheral vascular access",
+       "speaker": "Speaker I"
+      },
+      {
+       "title": "Central venous catheters",
+       "speaker": "Speaker J"
+      },
+      {
+       "title": "Paracentesis and thoracentesis",
+       "speaker": "Speaker K"
+      }
+     ],
+     "people": [
+      {
+       "id": "p7",
+       "name": "Speaker G"
+      },
+      {
+       "id": "p8",
+       "name": "Speaker H"
+      },
+      {
+       "id": "p9",
+       "name": "Speaker I"
+      },
+      {
+       "id": "p10",
+       "name": "Speaker J"
+      },
+      {
+       "id": "p11",
+       "name": "Speaker K"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Ultrasound-Guided Procedures in the ED\n9 April 2027\n10:40 - 11:50\nHall B\nChairs: Speaker G, Speaker H\nPeripheral vascular access — Speaker I\nCentral venous catheters — Speaker J\nParacentesis and thoracentesis — Speaker K"
+    }
+   }
+  },
+  {
+   "id": "1061",
+   "date": "2027-04-09",
+   "start": "10:40",
+   "end": "11:50",
+   "room": "Hall C",
+   "roomId": "102",
+   "type": "session",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Karın Ağrısında Tuzaklar",
+     "title": "Karın Ağrısında Tuzaklar",
+     "chairs": "Oturum Başkanları: Speaker L, Speaker M",
+     "description": "",
+     "talks": [
+      {
+       "title": "Mezenter iskemi",
+       "speaker": "Speaker N"
+      },
+      {
+       "title": "Yaşlıda apandisit",
+       "speaker": "Speaker O"
+      },
+      {
+       "title": "Görüntüleme seçimi",
+       "speaker": "Speaker P"
+      }
+     ],
+     "people": [
+      {
+       "id": "p12",
+       "name": "Speaker L"
+      },
+      {
+       "id": "p13",
+       "name": "Speaker M"
+      },
+      {
+       "id": "p14",
+       "name": "Speaker N"
+      },
+      {
+       "id": "p15",
+       "name": "Speaker O"
+      },
+      {
+       "id": "p16",
+       "name": "Speaker P"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Karın Ağrısında Tuzaklar\n9 Nisan 2027\n10:40 - 11:50\nHall C\nOturum Başkanları: Speaker L, Speaker M\nMezenter iskemi — Speaker N\nYaşlıda apandisit — Speaker O\nGörüntüleme seçimi — Speaker P"
+    },
+    "en": {
+     "listing": "Pitfalls in Abdominal Pain",
+     "title": "Pitfalls in Abdominal Pain",
+     "chairs": "Chairs: Speaker L, Speaker M",
+     "description": "",
+     "talks": [
+      {
+       "title": "Mesenteric ischaemia",
+       "speaker": "Speaker N"
+      },
+      {
+       "title": "Appendicitis in older adults",
+       "speaker": "Speaker O"
+      },
+      {
+       "title": "Choosing imaging",
+       "speaker": "Speaker P"
+      }
+     ],
+     "people": [
+      {
+       "id": "p12",
+       "name": "Speaker L"
+      },
+      {
+       "id": "p13",
+       "name": "Speaker M"
+      },
+      {
+       "id": "p14",
+       "name": "Speaker N"
+      },
+      {
+       "id": "p15",
+       "name": "Speaker O"
+      },
+      {
+       "id": "p16",
+       "name": "Speaker P"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Pitfalls in Abdominal Pain\n9 April 2027\n10:40 - 11:50\nHall C\nChairs: Speaker L, Speaker M\nMesenteric ischaemia — Speaker N\nAppendicitis in older adults — Speaker O\nChoosing imaging — Speaker P"
+    }
+   }
+  },
+  {
+   "id": "1062",
+   "date": "2027-04-09",
+   "start": "10:10",
+   "end": "10:40",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "break",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Kahve Arası",
+     "title": "Kahve Arası",
+     "chairs": "",
+     "description": "",
+     "talks": [],
+     "people": [],
+     "sourceUrl": null,
+     "detailText": "Kahve Arası\n9 Nisan 2027\n10:10 - 10:40\nHall A"
+    },
+    "en": {
+     "listing": "Coffee Break",
+     "title": "Coffee Break",
+     "chairs": "",
+     "description": "",
+     "talks": [],
+     "people": [],
+     "sourceUrl": null,
+     "detailText": "Coffee Break\n9 April 2027\n10:10 - 10:40\nHall A"
+    }
+   }
+  },
+  {
+   "id": "1063",
+   "date": "2027-04-09",
+   "start": "12:00",
+   "end": "12:45",
+   "room": "Hall A",
+   "roomId": "100",
+   "type": "ceremony",
+   "valid": true,
+   "translations": {
+    "tr": {
+     "listing": "Ödüller ve Kapanış",
+     "title": "Ödüller ve Kapanış",
+     "chairs": "Oturum Başkanları: Speaker Q, Speaker R",
+     "description": "",
+     "talks": [],
+     "people": [
+      {
+       "id": "p17",
+       "name": "Speaker Q"
+      },
+      {
+       "id": "p18",
+       "name": "Speaker R"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Ödüller ve Kapanış\n9 Nisan 2027\n12:00 - 12:45\nHall A\nOturum Başkanları: Speaker Q, Speaker R"
+    },
+    "en": {
+     "listing": "Awards and Closing",
+     "title": "Awards and Closing",
+     "chairs": "Chairs: Speaker Q, Speaker R",
+     "description": "",
+     "talks": [],
+     "people": [
+      {
+       "id": "p17",
+       "name": "Speaker Q"
+      },
+      {
+       "id": "p18",
+       "name": "Speaker R"
+      }
+     ],
+     "sourceUrl": null,
+     "detailText": "Awards and Closing\n9 April 2027\n12:00 - 12:45\nHall A\nChairs: Speaker Q, Speaker R"
+    }
+   }
+  }
+ ],
+ "speakers": [
+  {
+   "id": "p1",
+   "name": "Speaker A",
+   "sessionIds": [
+    "1001",
+    "1014",
+    "1023",
+    "1036",
+    "1046",
+    "1058"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker A\nKonuşmalar\n6 Nisan 2027\nHall C\n09:00 - 16:30\nYatak Başı Ultrasonografi Kursu\n7 Nisan 2027\nHall C\n09:50 - 11:00\nAkut İnmede Zaman Kazanmak\n7 Nisan 2027\nHall D\n14:00 - 15:10\nSözlü Bildiriler: Travma\n8 Nisan 2027\nHall A\n09:50 - 11:00\nDijital Sağlık ve Teletıp\n8 Nisan 2027\nHall C\n14:00 - 15:10\nÇevresel Aciller\n9 Nisan 2027\nHall C\n09:00 - 10:10\nAcil Tıpta Yazmak ve Yayımlamak",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker A\nTalks\n6 April 2027\nHall C\n09:00 - 16:30\nPoint-of-Care Ultrasound Course\n7 April 2027\nHall C\n09:50 - 11:00\nSaving Time in Acute Stroke\n7 April 2027\nHall D\n14:00 - 15:10\nOral Abstracts: Trauma\n8 April 2027\nHall A\n09:50 - 11:00\nDigital Health and Telemedicine\n8 April 2027\nHall C\n14:00 - 15:10\nEnvironmental Emergencies\n9 April 2027\nHall C\n09:00 - 10:10\nWriting and Publishing in Emergency Medicine",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p2",
+   "name": "Speaker B",
+   "sessionIds": [
+    "1001",
+    "1014",
+    "1023",
+    "1036",
+    "1046",
+    "1059"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker B\nKonuşmalar\n6 Nisan 2027\nHall C\n09:00 - 16:30\nYatak Başı Ultrasonografi Kursu\n7 Nisan 2027\nHall C\n09:50 - 11:00\nAkut İnmede Zaman Kazanmak\n7 Nisan 2027\nHall D\n14:00 - 15:10\nSözlü Bildiriler: Travma\n8 Nisan 2027\nHall A\n09:50 - 11:00\nDijital Sağlık ve Teletıp\n8 Nisan 2027\nHall C\n14:00 - 15:10\nÇevresel Aciller\n9 Nisan 2027\nHall A\n10:40 - 11:50\nSosyal Belirleyiciler ve Kırılgan Gruplar",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker B\nTalks\n6 April 2027\nHall C\n09:00 - 16:30\nPoint-of-Care Ultrasound Course\n7 April 2027\nHall C\n09:50 - 11:00\nSaving Time in Acute Stroke\n7 April 2027\nHall D\n14:00 - 15:10\nOral Abstracts: Trauma\n8 April 2027\nHall A\n09:50 - 11:00\nDigital Health and Telemedicine\n8 April 2027\nHall C\n14:00 - 15:10\nEnvironmental Emergencies\n9 April 2027\nHall A\n10:40 - 11:50\nSocial Determinants and Vulnerable Groups",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p3",
+   "name": "Speaker C",
+   "sessionIds": [
+    "1001",
+    "1014",
+    "1024",
+    "1037",
+    "1046",
+    "1059"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker C\nKonuşmalar\n6 Nisan 2027\nHall C\n09:00 - 16:30\nYatak Başı Ultrasonografi Kursu\n7 Nisan 2027\nHall C\n09:50 - 11:00\nAkut İnmede Zaman Kazanmak\n7 Nisan 2027\nHall A\n15:30 - 16:40\nElektrolit Acilleri\n8 Nisan 2027\nHall B\n09:50 - 11:00\nPulmoner Emboli: Tanıdan Tedaviye\n8 Nisan 2027\nHall C\n14:00 - 15:10\nÇevresel Aciller\n9 Nisan 2027\nHall A\n10:40 - 11:50\nSosyal Belirleyiciler ve Kırılgan Gruplar",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker C\nTalks\n6 April 2027\nHall C\n09:00 - 16:30\nPoint-of-Care Ultrasound Course\n7 April 2027\nHall C\n09:50 - 11:00\nSaving Time in Acute Stroke\n7 April 2027\nHall A\n15:30 - 16:40\nElectrolyte Emergencies\n8 April 2027\nHall B\n09:50 - 11:00\nPulmonary Embolism: From Diagnosis to Treatment\n8 April 2027\nHall C\n14:00 - 15:10\nEnvironmental Emergencies\n9 April 2027\nHall A\n10:40 - 11:50\nSocial Determinants and Vulnerable Groups",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p4",
+   "name": "Speaker D",
+   "sessionIds": [
+    "1002",
+    "1015",
+    "1024",
+    "1037",
+    "1046",
+    "1059"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker D\nKonuşmalar\n6 Nisan 2027\nHall D\n09:00 - 16:30\nİleri Havayolu Becerileri Kursu\n7 Nisan 2027\nHall D\n09:50 - 11:00\nSözlü Bildiriler: Resüsitasyon\n7 Nisan 2027\nHall A\n15:30 - 16:40\nElektrolit Acilleri\n8 Nisan 2027\nHall B\n09:50 - 11:00\nPulmoner Emboli: Tanıdan Tedaviye\n8 Nisan 2027\nHall C\n14:00 - 15:10\nÇevresel Aciller\n9 Nisan 2027\nHall A\n10:40 - 11:50\nSosyal Belirleyiciler ve Kırılgan Gruplar",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker D\nTalks\n6 April 2027\nHall D\n09:00 - 16:30\nAdvanced Airway Skills Course\n7 April 2027\nHall D\n09:50 - 11:00\nOral Abstracts: Resuscitation\n7 April 2027\nHall A\n15:30 - 16:40\nElectrolyte Emergencies\n8 April 2027\nHall B\n09:50 - 11:00\nPulmonary Embolism: From Diagnosis to Treatment\n8 April 2027\nHall C\n14:00 - 15:10\nEnvironmental Emergencies\n9 April 2027\nHall A\n10:40 - 11:50\nSocial Determinants and Vulnerable Groups",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p5",
+   "name": "Speaker E",
+   "sessionIds": [
+    "1002",
+    "1015",
+    "1024",
+    "1037",
+    "1046",
+    "1059"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker E\nKonuşmalar\n6 Nisan 2027\nHall D\n09:00 - 16:30\nİleri Havayolu Becerileri Kursu\n7 Nisan 2027\nHall D\n09:50 - 11:00\nSözlü Bildiriler: Resüsitasyon\n7 Nisan 2027\nHall A\n15:30 - 16:40\nElektrolit Acilleri\n8 Nisan 2027\nHall B\n09:50 - 11:00\nPulmoner Emboli: Tanıdan Tedaviye\n8 Nisan 2027\nHall C\n14:00 - 15:10\nÇevresel Aciller\n9 Nisan 2027\nHall A\n10:40 - 11:50\nSosyal Belirleyiciler ve Kırılgan Gruplar",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker E\nTalks\n6 April 2027\nHall D\n09:00 - 16:30\nAdvanced Airway Skills Course\n7 April 2027\nHall D\n09:50 - 11:00\nOral Abstracts: Resuscitation\n7 April 2027\nHall A\n15:30 - 16:40\nElectrolyte Emergencies\n8 April 2027\nHall B\n09:50 - 11:00\nPulmonary Embolism: From Diagnosis to Treatment\n8 April 2027\nHall C\n14:00 - 15:10\nEnvironmental Emergencies\n9 April 2027\nHall A\n10:40 - 11:50\nSocial Determinants and Vulnerable Groups",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p6",
+   "name": "Speaker F",
+   "sessionIds": [
+    "1002",
+    "1015",
+    "1024",
+    "1037",
+    "1047",
+    "1059"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker F\nKonuşmalar\n6 Nisan 2027\nHall D\n09:00 - 16:30\nİleri Havayolu Becerileri Kursu\n7 Nisan 2027\nHall D\n09:50 - 11:00\nSözlü Bildiriler: Resüsitasyon\n7 Nisan 2027\nHall A\n15:30 - 16:40\nElektrolit Acilleri\n8 Nisan 2027\nHall B\n09:50 - 11:00\nPulmoner Emboli: Tanıdan Tedaviye\n8 Nisan 2027\nHall D\n14:00 - 15:10\nSözlü Bildiriler: Toksikoloji\n9 Nisan 2027\nHall A\n10:40 - 11:50\nSosyal Belirleyiciler ve Kırılgan Gruplar",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker F\nTalks\n6 April 2027\nHall D\n09:00 - 16:30\nAdvanced Airway Skills Course\n7 April 2027\nHall D\n09:50 - 11:00\nOral Abstracts: Resuscitation\n7 April 2027\nHall A\n15:30 - 16:40\nElectrolyte Emergencies\n8 April 2027\nHall B\n09:50 - 11:00\nPulmonary Embolism: From Diagnosis to Treatment\n8 April 2027\nHall D\n14:00 - 15:10\nOral Abstracts: Toxicology\n9 April 2027\nHall A\n10:40 - 11:50\nSocial Determinants and Vulnerable Groups",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p7",
+   "name": "Speaker G",
+   "sessionIds": [
+    "1003",
+    "1015",
+    "1024",
+    "1037",
+    "1047",
+    "1060"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker G\nKonuşmalar\n6 Nisan 2027\nHall E\n09:00 - 16:30\nMekanik Ventilatör Kursu\n7 Nisan 2027\nHall D\n09:50 - 11:00\nSözlü Bildiriler: Resüsitasyon\n7 Nisan 2027\nHall A\n15:30 - 16:40\nElektrolit Acilleri\n8 Nisan 2027\nHall B\n09:50 - 11:00\nPulmoner Emboli: Tanıdan Tedaviye\n8 Nisan 2027\nHall D\n14:00 - 15:10\nSözlü Bildiriler: Toksikoloji\n9 Nisan 2027\nHall B\n10:40 - 11:50\nAcil Serviste Ultrason Rehberli İşlemler",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker G\nTalks\n6 April 2027\nHall E\n09:00 - 16:30\nMechanical Ventilation Course\n7 April 2027\nHall D\n09:50 - 11:00\nOral Abstracts: Resuscitation\n7 April 2027\nHall A\n15:30 - 16:40\nElectrolyte Emergencies\n8 April 2027\nHall B\n09:50 - 11:00\nPulmonary Embolism: From Diagnosis to Treatment\n8 April 2027\nHall D\n14:00 - 15:10\nOral Abstracts: Toxicology\n9 April 2027\nHall B\n10:40 - 11:50\nUltrasound-Guided Procedures in the ED",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p8",
+   "name": "Speaker H",
+   "sessionIds": [
+    "1003",
+    "1015",
+    "1025",
+    "1038",
+    "1047",
+    "1060"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker H\nKonuşmalar\n6 Nisan 2027\nHall E\n09:00 - 16:30\nMekanik Ventilatör Kursu\n7 Nisan 2027\nHall D\n09:50 - 11:00\nSözlü Bildiriler: Resüsitasyon\n7 Nisan 2027\nHall B\n15:30 - 16:40\nMekanik Ventilasyonun Temelleri\n8 Nisan 2027\nHall C\n09:50 - 11:00\nGastrointestinal Kanama\n8 Nisan 2027\nHall D\n14:00 - 15:10\nSözlü Bildiriler: Toksikoloji\n9 Nisan 2027\nHall B\n10:40 - 11:50\nAcil Serviste Ultrason Rehberli İşlemler",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker H\nTalks\n6 April 2027\nHall E\n09:00 - 16:30\nMechanical Ventilation Course\n7 April 2027\nHall D\n09:50 - 11:00\nOral Abstracts: Resuscitation\n7 April 2027\nHall B\n15:30 - 16:40\nMechanical Ventilation Essentials\n8 April 2027\nHall C\n09:50 - 11:00\nGastrointestinal Bleeding\n8 April 2027\nHall D\n14:00 - 15:10\nOral Abstracts: Toxicology\n9 April 2027\nHall B\n10:40 - 11:50\nUltrasound-Guided Procedures in the ED",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p9",
+   "name": "Speaker I",
+   "sessionIds": [
+    "1003",
+    "1015",
+    "1025",
+    "1038",
+    "1047",
+    "1060"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker I\nKonuşmalar\n6 Nisan 2027\nHall E\n09:00 - 16:30\nMekanik Ventilatör Kursu\n7 Nisan 2027\nHall D\n09:50 - 11:00\nSözlü Bildiriler: Resüsitasyon\n7 Nisan 2027\nHall B\n15:30 - 16:40\nMekanik Ventilasyonun Temelleri\n8 Nisan 2027\nHall C\n09:50 - 11:00\nGastrointestinal Kanama\n8 Nisan 2027\nHall D\n14:00 - 15:10\nSözlü Bildiriler: Toksikoloji\n9 Nisan 2027\nHall B\n10:40 - 11:50\nAcil Serviste Ultrason Rehberli İşlemler",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker I\nTalks\n6 April 2027\nHall E\n09:00 - 16:30\nMechanical Ventilation Course\n7 April 2027\nHall D\n09:50 - 11:00\nOral Abstracts: Resuscitation\n7 April 2027\nHall B\n15:30 - 16:40\nMechanical Ventilation Essentials\n8 April 2027\nHall C\n09:50 - 11:00\nGastrointestinal Bleeding\n8 April 2027\nHall D\n14:00 - 15:10\nOral Abstracts: Toxicology\n9 April 2027\nHall B\n10:40 - 11:50\nUltrasound-Guided Procedures in the ED",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p10",
+   "name": "Speaker J",
+   "sessionIds": [
+    "1004",
+    "1016",
+    "1025",
+    "1038",
+    "1047",
+    "1060"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker J\nKonuşmalar\n6 Nisan 2027\nHall F\n09:00 - 16:30\nTravma Resüsitasyonu Beceri Kursu\n7 Nisan 2027\nHall A\n11:30 - 12:40\nToksikolojide Zor Vakalar\n7 Nisan 2027\nHall B\n15:30 - 16:40\nMekanik Ventilasyonun Temelleri\n8 Nisan 2027\nHall C\n09:50 - 11:00\nGastrointestinal Kanama\n8 Nisan 2027\nHall D\n14:00 - 15:10\nSözlü Bildiriler: Toksikoloji\n9 Nisan 2027\nHall B\n10:40 - 11:50\nAcil Serviste Ultrason Rehberli İşlemler",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker J\nTalks\n6 April 2027\nHall F\n09:00 - 16:30\nTrauma Resuscitation Skills Course\n7 April 2027\nHall A\n11:30 - 12:40\nChallenging Cases in Toxicology\n7 April 2027\nHall B\n15:30 - 16:40\nMechanical Ventilation Essentials\n8 April 2027\nHall C\n09:50 - 11:00\nGastrointestinal Bleeding\n8 April 2027\nHall D\n14:00 - 15:10\nOral Abstracts: Toxicology\n9 April 2027\nHall B\n10:40 - 11:50\nUltrasound-Guided Procedures in the ED",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p11",
+   "name": "Speaker K",
+   "sessionIds": [
+    "1004",
+    "1016",
+    "1025",
+    "1038",
+    "1047",
+    "1060"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker K\nKonuşmalar\n6 Nisan 2027\nHall F\n09:00 - 16:30\nTravma Resüsitasyonu Beceri Kursu\n7 Nisan 2027\nHall A\n11:30 - 12:40\nToksikolojide Zor Vakalar\n7 Nisan 2027\nHall B\n15:30 - 16:40\nMekanik Ventilasyonun Temelleri\n8 Nisan 2027\nHall C\n09:50 - 11:00\nGastrointestinal Kanama\n8 Nisan 2027\nHall D\n14:00 - 15:10\nSözlü Bildiriler: Toksikoloji\n9 Nisan 2027\nHall B\n10:40 - 11:50\nAcil Serviste Ultrason Rehberli İşlemler",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker K\nTalks\n6 April 2027\nHall F\n09:00 - 16:30\nTrauma Resuscitation Skills Course\n7 April 2027\nHall A\n11:30 - 12:40\nChallenging Cases in Toxicology\n7 April 2027\nHall B\n15:30 - 16:40\nMechanical Ventilation Essentials\n8 April 2027\nHall C\n09:50 - 11:00\nGastrointestinal Bleeding\n8 April 2027\nHall D\n14:00 - 15:10\nOral Abstracts: Toxicology\n9 April 2027\nHall B\n10:40 - 11:50\nUltrasound-Guided Procedures in the ED",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p12",
+   "name": "Speaker L",
+   "sessionIds": [
+    "1004",
+    "1016",
+    "1025",
+    "1038",
+    "1048",
+    "1061"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker L\nKonuşmalar\n6 Nisan 2027\nHall F\n09:00 - 16:30\nTravma Resüsitasyonu Beceri Kursu\n7 Nisan 2027\nHall A\n11:30 - 12:40\nToksikolojide Zor Vakalar\n7 Nisan 2027\nHall B\n15:30 - 16:40\nMekanik Ventilasyonun Temelleri\n8 Nisan 2027\nHall C\n09:50 - 11:00\nGastrointestinal Kanama\n8 Nisan 2027\nHall A\n15:30 - 16:40\nKritik Hastanın Transferi\n9 Nisan 2027\nHall C\n10:40 - 11:50\nKarın Ağrısında Tuzaklar",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker L\nTalks\n6 April 2027\nHall F\n09:00 - 16:30\nTrauma Resuscitation Skills Course\n7 April 2027\nHall A\n11:30 - 12:40\nChallenging Cases in Toxicology\n7 April 2027\nHall B\n15:30 - 16:40\nMechanical Ventilation Essentials\n8 April 2027\nHall C\n09:50 - 11:00\nGastrointestinal Bleeding\n8 April 2027\nHall A\n15:30 - 16:40\nTransferring the Critically Ill Patient\n9 April 2027\nHall C\n10:40 - 11:50\nPitfalls in Abdominal Pain",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p13",
+   "name": "Speaker M",
+   "sessionIds": [
+    "1006",
+    "1016",
+    "1026",
+    "1039",
+    "1048",
+    "1061"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker M\nKonuşmalar\n6 Nisan 2027\nHall A\n17:00 - 18:00\nAçılış Töreni ve Açılış Konferansı\n7 Nisan 2027\nHall A\n11:30 - 12:40\nToksikolojide Zor Vakalar\n7 Nisan 2027\nHall C\n15:30 - 16:40\nKlinik Yapay Zekâyı Değerlendirmek\n8 Nisan 2027\nHall D\n09:50 - 11:00\nSözlü Bildiriler: Eğitim\n8 Nisan 2027\nHall A\n15:30 - 16:40\nKritik Hastanın Transferi\n9 Nisan 2027\nHall C\n10:40 - 11:50\nKarın Ağrısında Tuzaklar",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker M\nTalks\n6 April 2027\nHall A\n17:00 - 18:00\nOpening Ceremony and Keynote\n7 April 2027\nHall A\n11:30 - 12:40\nChallenging Cases in Toxicology\n7 April 2027\nHall C\n15:30 - 16:40\nEvaluating Clinical AI Tools\n8 April 2027\nHall D\n09:50 - 11:00\nOral Abstracts: Education\n8 April 2027\nHall A\n15:30 - 16:40\nTransferring the Critically Ill Patient\n9 April 2027\nHall C\n10:40 - 11:50\nPitfalls in Abdominal Pain",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p14",
+   "name": "Speaker N",
+   "sessionIds": [
+    "1006",
+    "1016",
+    "1026",
+    "1039",
+    "1048",
+    "1061"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker N\nKonuşmalar\n6 Nisan 2027\nHall A\n17:00 - 18:00\nAçılış Töreni ve Açılış Konferansı\n7 Nisan 2027\nHall A\n11:30 - 12:40\nToksikolojide Zor Vakalar\n7 Nisan 2027\nHall C\n15:30 - 16:40\nKlinik Yapay Zekâyı Değerlendirmek\n8 Nisan 2027\nHall D\n09:50 - 11:00\nSözlü Bildiriler: Eğitim\n8 Nisan 2027\nHall A\n15:30 - 16:40\nKritik Hastanın Transferi\n9 Nisan 2027\nHall C\n10:40 - 11:50\nKarın Ağrısında Tuzaklar",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker N\nTalks\n6 April 2027\nHall A\n17:00 - 18:00\nOpening Ceremony and Keynote\n7 April 2027\nHall A\n11:30 - 12:40\nChallenging Cases in Toxicology\n7 April 2027\nHall C\n15:30 - 16:40\nEvaluating Clinical AI Tools\n8 April 2027\nHall D\n09:50 - 11:00\nOral Abstracts: Education\n8 April 2027\nHall A\n15:30 - 16:40\nTransferring the Critically Ill Patient\n9 April 2027\nHall C\n10:40 - 11:50\nPitfalls in Abdominal Pain",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p15",
+   "name": "Speaker O",
+   "sessionIds": [
+    "1006",
+    "1017",
+    "1026",
+    "1039",
+    "1048",
+    "1061"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker O\nKonuşmalar\n6 Nisan 2027\nHall A\n17:00 - 18:00\nAçılış Töreni ve Açılış Konferansı\n7 Nisan 2027\nHall B\n11:30 - 12:40\nÇocuk Acilde Kırmızı Bayraklar\n7 Nisan 2027\nHall C\n15:30 - 16:40\nKlinik Yapay Zekâyı Değerlendirmek\n8 Nisan 2027\nHall D\n09:50 - 11:00\nSözlü Bildiriler: Eğitim\n8 Nisan 2027\nHall A\n15:30 - 16:40\nKritik Hastanın Transferi\n9 Nisan 2027\nHall C\n10:40 - 11:50\nKarın Ağrısında Tuzaklar",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker O\nTalks\n6 April 2027\nHall A\n17:00 - 18:00\nOpening Ceremony and Keynote\n7 April 2027\nHall B\n11:30 - 12:40\nRed Flags in Paediatric Emergencies\n7 April 2027\nHall C\n15:30 - 16:40\nEvaluating Clinical AI Tools\n8 April 2027\nHall D\n09:50 - 11:00\nOral Abstracts: Education\n8 April 2027\nHall A\n15:30 - 16:40\nTransferring the Critically Ill Patient\n9 April 2027\nHall C\n10:40 - 11:50\nPitfalls in Abdominal Pain",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p16",
+   "name": "Speaker P",
+   "sessionIds": [
+    "1007",
+    "1017",
+    "1026",
+    "1039",
+    "1048",
+    "1061"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker P\nKonuşmalar\n6 Nisan 2027\nHall B\n18:15 - 19:15\nUydu Sempozyumu: Antikoagülasyonda Güncel Yaklaşımlar\n7 Nisan 2027\nHall B\n11:30 - 12:40\nÇocuk Acilde Kırmızı Bayraklar\n7 Nisan 2027\nHall C\n15:30 - 16:40\nKlinik Yapay Zekâyı Değerlendirmek\n8 Nisan 2027\nHall D\n09:50 - 11:00\nSözlü Bildiriler: Eğitim\n8 Nisan 2027\nHall A\n15:30 - 16:40\nKritik Hastanın Transferi\n9 Nisan 2027\nHall C\n10:40 - 11:50\nKarın Ağrısında Tuzaklar",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker P\nTalks\n6 April 2027\nHall B\n18:15 - 19:15\nSatellite Symposium: Current Approaches to Anticoagulation\n7 April 2027\nHall B\n11:30 - 12:40\nRed Flags in Paediatric Emergencies\n7 April 2027\nHall C\n15:30 - 16:40\nEvaluating Clinical AI Tools\n8 April 2027\nHall D\n09:50 - 11:00\nOral Abstracts: Education\n8 April 2027\nHall A\n15:30 - 16:40\nTransferring the Critically Ill Patient\n9 April 2027\nHall C\n10:40 - 11:50\nPitfalls in Abdominal Pain",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p17",
+   "name": "Speaker Q",
+   "sessionIds": [
+    "1008",
+    "1017",
+    "1026",
+    "1039",
+    "1049",
+    "1063"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker Q\nKonuşmalar\n7 Nisan 2027\nHall A\n08:30 - 09:40\nAcil Serviste Yapay Zekâ: Abartı mı Gerçek mi?\n7 Nisan 2027\nHall B\n11:30 - 12:40\nÇocuk Acilde Kırmızı Bayraklar\n7 Nisan 2027\nHall C\n15:30 - 16:40\nKlinik Yapay Zekâyı Değerlendirmek\n8 Nisan 2027\nHall D\n09:50 - 11:00\nSözlü Bildiriler: Eğitim\n8 Nisan 2027\nHall B\n15:30 - 16:40\nAcil Tıpta Veri Bilimi\n9 Nisan 2027\nHall A\n12:00 - 12:45\nÖdüller ve Kapanış",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker Q\nTalks\n7 April 2027\nHall A\n08:30 - 09:40\nAI in the Emergency Department: Hype or Reality?\n7 April 2027\nHall B\n11:30 - 12:40\nRed Flags in Paediatric Emergencies\n7 April 2027\nHall C\n15:30 - 16:40\nEvaluating Clinical AI Tools\n8 April 2027\nHall D\n09:50 - 11:00\nOral Abstracts: Education\n8 April 2027\nHall B\n15:30 - 16:40\nData Science in Emergency Medicine\n9 April 2027\nHall A\n12:00 - 12:45\nAwards and Closing",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p18",
+   "name": "Speaker R",
+   "sessionIds": [
+    "1008",
+    "1017",
+    "1027",
+    "1039",
+    "1049",
+    "1063"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker R\nKonuşmalar\n7 Nisan 2027\nHall A\n08:30 - 09:40\nAcil Serviste Yapay Zekâ: Abartı mı Gerçek mi?\n7 Nisan 2027\nHall B\n11:30 - 12:40\nÇocuk Acilde Kırmızı Bayraklar\n7 Nisan 2027\nHall D\n15:30 - 16:40\nSözlü Bildiriler: Yapay Zekâ ve Dijital Sağlık\n8 Nisan 2027\nHall D\n09:50 - 11:00\nSözlü Bildiriler: Eğitim\n8 Nisan 2027\nHall B\n15:30 - 16:40\nAcil Tıpta Veri Bilimi\n9 Nisan 2027\nHall A\n12:00 - 12:45\nÖdüller ve Kapanış",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker R\nTalks\n7 April 2027\nHall A\n08:30 - 09:40\nAI in the Emergency Department: Hype or Reality?\n7 April 2027\nHall B\n11:30 - 12:40\nRed Flags in Paediatric Emergencies\n7 April 2027\nHall D\n15:30 - 16:40\nOral Abstracts: AI and Digital Health\n8 April 2027\nHall D\n09:50 - 11:00\nOral Abstracts: Education\n8 April 2027\nHall B\n15:30 - 16:40\nData Science in Emergency Medicine\n9 April 2027\nHall A\n12:00 - 12:45\nAwards and Closing",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p19",
+   "name": "Speaker S",
+   "sessionIds": [
+    "1008",
+    "1017",
+    "1027",
+    "1040",
+    "1049"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker S\nKonuşmalar\n7 Nisan 2027\nHall A\n08:30 - 09:40\nAcil Serviste Yapay Zekâ: Abartı mı Gerçek mi?\n7 Nisan 2027\nHall B\n11:30 - 12:40\nÇocuk Acilde Kırmızı Bayraklar\n7 Nisan 2027\nHall D\n15:30 - 16:40\nSözlü Bildiriler: Yapay Zekâ ve Dijital Sağlık\n8 Nisan 2027\nHall A\n11:30 - 12:40\nYanık ve Elektrik Yaralanmaları\n8 Nisan 2027\nHall B\n15:30 - 16:40\nAcil Tıpta Veri Bilimi",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker S\nTalks\n7 April 2027\nHall A\n08:30 - 09:40\nAI in the Emergency Department: Hype or Reality?\n7 April 2027\nHall B\n11:30 - 12:40\nRed Flags in Paediatric Emergencies\n7 April 2027\nHall D\n15:30 - 16:40\nOral Abstracts: AI and Digital Health\n8 April 2027\nHall A\n11:30 - 12:40\nBurns and Electrical Injuries\n8 April 2027\nHall B\n15:30 - 16:40\nData Science in Emergency Medicine",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p20",
+   "name": "Speaker T",
+   "sessionIds": [
+    "1008",
+    "1018",
+    "1027",
+    "1040",
+    "1049"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker T\nKonuşmalar\n7 Nisan 2027\nHall A\n08:30 - 09:40\nAcil Serviste Yapay Zekâ: Abartı mı Gerçek mi?\n7 Nisan 2027\nHall C\n11:30 - 12:40\nAfet Tıbbında Hazırlık\n7 Nisan 2027\nHall D\n15:30 - 16:40\nSözlü Bildiriler: Yapay Zekâ ve Dijital Sağlık\n8 Nisan 2027\nHall A\n11:30 - 12:40\nYanık ve Elektrik Yaralanmaları\n8 Nisan 2027\nHall B\n15:30 - 16:40\nAcil Tıpta Veri Bilimi",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker T\nTalks\n7 April 2027\nHall A\n08:30 - 09:40\nAI in the Emergency Department: Hype or Reality?\n7 April 2027\nHall C\n11:30 - 12:40\nPreparedness in Disaster Medicine\n7 April 2027\nHall D\n15:30 - 16:40\nOral Abstracts: AI and Digital Health\n8 April 2027\nHall A\n11:30 - 12:40\nBurns and Electrical Injuries\n8 April 2027\nHall B\n15:30 - 16:40\nData Science in Emergency Medicine",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p21",
+   "name": "Speaker U",
+   "sessionIds": [
+    "1008",
+    "1018",
+    "1027",
+    "1040",
+    "1049"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker U\nKonuşmalar\n7 Nisan 2027\nHall A\n08:30 - 09:40\nAcil Serviste Yapay Zekâ: Abartı mı Gerçek mi?\n7 Nisan 2027\nHall C\n11:30 - 12:40\nAfet Tıbbında Hazırlık\n7 Nisan 2027\nHall D\n15:30 - 16:40\nSözlü Bildiriler: Yapay Zekâ ve Dijital Sağlık\n8 Nisan 2027\nHall A\n11:30 - 12:40\nYanık ve Elektrik Yaralanmaları\n8 Nisan 2027\nHall B\n15:30 - 16:40\nAcil Tıpta Veri Bilimi",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker U\nTalks\n7 April 2027\nHall A\n08:30 - 09:40\nAI in the Emergency Department: Hype or Reality?\n7 April 2027\nHall C\n11:30 - 12:40\nPreparedness in Disaster Medicine\n7 April 2027\nHall D\n15:30 - 16:40\nOral Abstracts: AI and Digital Health\n8 April 2027\nHall A\n11:30 - 12:40\nBurns and Electrical Injuries\n8 April 2027\nHall B\n15:30 - 16:40\nData Science in Emergency Medicine",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p22",
+   "name": "Speaker V",
+   "sessionIds": [
+    "1009",
+    "1018",
+    "1027",
+    "1040",
+    "1050"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker V\nKonuşmalar\n7 Nisan 2027\nHall B\n08:30 - 09:40\nSepsiste İlk Saat\n7 Nisan 2027\nHall C\n11:30 - 12:40\nAfet Tıbbında Hazırlık\n7 Nisan 2027\nHall D\n15:30 - 16:40\nSözlü Bildiriler: Yapay Zekâ ve Dijital Sağlık\n8 Nisan 2027\nHall A\n11:30 - 12:40\nYanık ve Elektrik Yaralanmaları\n8 Nisan 2027\nHall C\n15:30 - 16:40\nAritmilere Pratik Yaklaşım",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker V\nTalks\n7 April 2027\nHall B\n08:30 - 09:40\nThe First Hour in Sepsis\n7 April 2027\nHall C\n11:30 - 12:40\nPreparedness in Disaster Medicine\n7 April 2027\nHall D\n15:30 - 16:40\nOral Abstracts: AI and Digital Health\n8 April 2027\nHall A\n11:30 - 12:40\nBurns and Electrical Injuries\n8 April 2027\nHall C\n15:30 - 16:40\nA Practical Approach to Arrhythmias",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p23",
+   "name": "Speaker W",
+   "sessionIds": [
+    "1009",
+    "1018",
+    "1027",
+    "1040",
+    "1050"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker W\nKonuşmalar\n7 Nisan 2027\nHall B\n08:30 - 09:40\nSepsiste İlk Saat\n7 Nisan 2027\nHall C\n11:30 - 12:40\nAfet Tıbbında Hazırlık\n7 Nisan 2027\nHall D\n15:30 - 16:40\nSözlü Bildiriler: Yapay Zekâ ve Dijital Sağlık\n8 Nisan 2027\nHall A\n11:30 - 12:40\nYanık ve Elektrik Yaralanmaları\n8 Nisan 2027\nHall C\n15:30 - 16:40\nAritmilere Pratik Yaklaşım",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker W\nTalks\n7 April 2027\nHall B\n08:30 - 09:40\nThe First Hour in Sepsis\n7 April 2027\nHall C\n11:30 - 12:40\nPreparedness in Disaster Medicine\n7 April 2027\nHall D\n15:30 - 16:40\nOral Abstracts: AI and Digital Health\n8 April 2027\nHall A\n11:30 - 12:40\nBurns and Electrical Injuries\n8 April 2027\nHall C\n15:30 - 16:40\nA Practical Approach to Arrhythmias",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p24",
+   "name": "Speaker X",
+   "sessionIds": [
+    "1009",
+    "1018",
+    "1030",
+    "1041",
+    "1050"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker X\nKonuşmalar\n7 Nisan 2027\nHall B\n08:30 - 09:40\nSepsiste İlk Saat\n7 Nisan 2027\nHall C\n11:30 - 12:40\nAfet Tıbbında Hazırlık\n7 Nisan 2027\nHall E\n12:50 - 13:50\nUydu Sempozyumu: Acilde Analjezi\n8 Nisan 2027\nHall B\n11:30 - 12:40\nAnafilaksi ve Anjiyoödem\n8 Nisan 2027\nHall C\n15:30 - 16:40\nAritmilere Pratik Yaklaşım",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker X\nTalks\n7 April 2027\nHall B\n08:30 - 09:40\nThe First Hour in Sepsis\n7 April 2027\nHall C\n11:30 - 12:40\nPreparedness in Disaster Medicine\n7 April 2027\nHall E\n12:50 - 13:50\nSatellite Symposium: Analgesia in the ED\n8 April 2027\nHall B\n11:30 - 12:40\nAnaphylaxis and Angioedema\n8 April 2027\nHall C\n15:30 - 16:40\nA Practical Approach to Arrhythmias",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p25",
+   "name": "Speaker Y",
+   "sessionIds": [
+    "1009",
+    "1019",
+    "1031",
+    "1041",
+    "1050"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker Y\nKonuşmalar\n7 Nisan 2027\nHall B\n08:30 - 09:40\nSepsiste İlk Saat\n7 Nisan 2027\nHall D\n11:30 - 12:40\nAraştırma Yöntemleri: Kanıtı Okumak\n7 Nisan 2027\nHall F\n12:50 - 13:50\nUydu Sempozyumu: Dijital Triyaj Platformları\n8 Nisan 2027\nHall B\n11:30 - 12:40\nAnafilaksi ve Anjiyoödem\n8 Nisan 2027\nHall C\n15:30 - 16:40\nAritmilere Pratik Yaklaşım",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker Y\nTalks\n7 April 2027\nHall B\n08:30 - 09:40\nThe First Hour in Sepsis\n7 April 2027\nHall D\n11:30 - 12:40\nResearch Methods: Reading the Evidence\n7 April 2027\nHall F\n12:50 - 13:50\nSatellite Symposium: Digital Triage Platforms\n8 April 2027\nHall B\n11:30 - 12:40\nAnaphylaxis and Angioedema\n8 April 2027\nHall C\n15:30 - 16:40\nA Practical Approach to Arrhythmias",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p26",
+   "name": "Speaker Z",
+   "sessionIds": [
+    "1009",
+    "1019",
+    "1032",
+    "1041",
+    "1050"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker Z\nKonuşmalar\n7 Nisan 2027\nHall B\n08:30 - 09:40\nSepsiste İlk Saat\n7 Nisan 2027\nHall D\n11:30 - 12:40\nAraştırma Yöntemleri: Kanıtı Okumak\n8 Nisan 2027\nHall A\n08:30 - 09:40\nGöğüs Ağrısında Hızlı Karar\n8 Nisan 2027\nHall B\n11:30 - 12:40\nAnafilaksi ve Anjiyoödem\n8 Nisan 2027\nHall C\n15:30 - 16:40\nAritmilere Pratik Yaklaşım",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker Z\nTalks\n7 April 2027\nHall B\n08:30 - 09:40\nThe First Hour in Sepsis\n7 April 2027\nHall D\n11:30 - 12:40\nResearch Methods: Reading the Evidence\n8 April 2027\nHall A\n08:30 - 09:40\nRapid Decisions in Chest Pain\n8 April 2027\nHall B\n11:30 - 12:40\nAnaphylaxis and Angioedema\n8 April 2027\nHall C\n15:30 - 16:40\nA Practical Approach to Arrhythmias",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p27",
+   "name": "Speaker AA",
+   "sessionIds": [
+    "1010",
+    "1019",
+    "1032",
+    "1041",
+    "1051"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AA\nKonuşmalar\n7 Nisan 2027\nHall C\n08:30 - 09:40\nŞokta Yatak Başı Ultrasonografi\n7 Nisan 2027\nHall D\n11:30 - 12:40\nAraştırma Yöntemleri: Kanıtı Okumak\n8 Nisan 2027\nHall A\n08:30 - 09:40\nGöğüs Ağrısında Hızlı Karar\n8 Nisan 2027\nHall B\n11:30 - 12:40\nAnafilaksi ve Anjiyoödem\n8 Nisan 2027\nHall D\n15:30 - 16:40\nSözlü Bildiriler: Pediatri",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AA\nTalks\n7 April 2027\nHall C\n08:30 - 09:40\nPoint-of-Care Ultrasound in Shock\n7 April 2027\nHall D\n11:30 - 12:40\nResearch Methods: Reading the Evidence\n8 April 2027\nHall A\n08:30 - 09:40\nRapid Decisions in Chest Pain\n8 April 2027\nHall B\n11:30 - 12:40\nAnaphylaxis and Angioedema\n8 April 2027\nHall D\n15:30 - 16:40\nOral Abstracts: Paediatrics",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p28",
+   "name": "Speaker AB",
+   "sessionIds": [
+    "1010",
+    "1019",
+    "1032",
+    "1041",
+    "1051"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AB\nKonuşmalar\n7 Nisan 2027\nHall C\n08:30 - 09:40\nŞokta Yatak Başı Ultrasonografi\n7 Nisan 2027\nHall D\n11:30 - 12:40\nAraştırma Yöntemleri: Kanıtı Okumak\n8 Nisan 2027\nHall A\n08:30 - 09:40\nGöğüs Ağrısında Hızlı Karar\n8 Nisan 2027\nHall B\n11:30 - 12:40\nAnafilaksi ve Anjiyoödem\n8 Nisan 2027\nHall D\n15:30 - 16:40\nSözlü Bildiriler: Pediatri",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AB\nTalks\n7 April 2027\nHall C\n08:30 - 09:40\nPoint-of-Care Ultrasound in Shock\n7 April 2027\nHall D\n11:30 - 12:40\nResearch Methods: Reading the Evidence\n8 April 2027\nHall A\n08:30 - 09:40\nRapid Decisions in Chest Pain\n8 April 2027\nHall B\n11:30 - 12:40\nAnaphylaxis and Angioedema\n8 April 2027\nHall D\n15:30 - 16:40\nOral Abstracts: Paediatrics",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p29",
+   "name": "Speaker AC",
+   "sessionIds": [
+    "1010",
+    "1019",
+    "1032",
+    "1042",
+    "1051"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AC\nKonuşmalar\n7 Nisan 2027\nHall C\n08:30 - 09:40\nŞokta Yatak Başı Ultrasonografi\n7 Nisan 2027\nHall D\n11:30 - 12:40\nAraştırma Yöntemleri: Kanıtı Okumak\n8 Nisan 2027\nHall A\n08:30 - 09:40\nGöğüs Ağrısında Hızlı Karar\n8 Nisan 2027\nHall C\n11:30 - 12:40\nGebelikte Acil Durumlar\n8 Nisan 2027\nHall D\n15:30 - 16:40\nSözlü Bildiriler: Pediatri",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AC\nTalks\n7 April 2027\nHall C\n08:30 - 09:40\nPoint-of-Care Ultrasound in Shock\n7 April 2027\nHall D\n11:30 - 12:40\nResearch Methods: Reading the Evidence\n8 April 2027\nHall A\n08:30 - 09:40\nRapid Decisions in Chest Pain\n8 April 2027\nHall C\n11:30 - 12:40\nEmergencies in Pregnancy\n8 April 2027\nHall D\n15:30 - 16:40\nOral Abstracts: Paediatrics",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p30",
+   "name": "Speaker AD",
+   "sessionIds": [
+    "1010",
+    "1020",
+    "1032",
+    "1042",
+    "1051"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AD\nKonuşmalar\n7 Nisan 2027\nHall C\n08:30 - 09:40\nŞokta Yatak Başı Ultrasonografi\n7 Nisan 2027\nHall A\n14:00 - 15:10\nAcil Tıp Eğitiminde Simülasyon\n8 Nisan 2027\nHall A\n08:30 - 09:40\nGöğüs Ağrısında Hızlı Karar\n8 Nisan 2027\nHall C\n11:30 - 12:40\nGebelikte Acil Durumlar\n8 Nisan 2027\nHall D\n15:30 - 16:40\nSözlü Bildiriler: Pediatri",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AD\nTalks\n7 April 2027\nHall C\n08:30 - 09:40\nPoint-of-Care Ultrasound in Shock\n7 April 2027\nHall A\n14:00 - 15:10\nSimulation in Emergency Medicine Education\n8 April 2027\nHall A\n08:30 - 09:40\nRapid Decisions in Chest Pain\n8 April 2027\nHall C\n11:30 - 12:40\nEmergencies in Pregnancy\n8 April 2027\nHall D\n15:30 - 16:40\nOral Abstracts: Paediatrics",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p31",
+   "name": "Speaker AE",
+   "sessionIds": [
+    "1010",
+    "1020",
+    "1033",
+    "1042",
+    "1051"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AE\nKonuşmalar\n7 Nisan 2027\nHall C\n08:30 - 09:40\nŞokta Yatak Başı Ultrasonografi\n7 Nisan 2027\nHall A\n14:00 - 15:10\nAcil Tıp Eğitiminde Simülasyon\n8 Nisan 2027\nHall B\n08:30 - 09:40\nBaş Ağrısı ve Baş Dönmesi\n8 Nisan 2027\nHall C\n11:30 - 12:40\nGebelikte Acil Durumlar\n8 Nisan 2027\nHall D\n15:30 - 16:40\nSözlü Bildiriler: Pediatri",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AE\nTalks\n7 April 2027\nHall C\n08:30 - 09:40\nPoint-of-Care Ultrasound in Shock\n7 April 2027\nHall A\n14:00 - 15:10\nSimulation in Emergency Medicine Education\n8 April 2027\nHall B\n08:30 - 09:40\nHeadache and Dizziness\n8 April 2027\nHall C\n11:30 - 12:40\nEmergencies in Pregnancy\n8 April 2027\nHall D\n15:30 - 16:40\nOral Abstracts: Paediatrics",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p32",
+   "name": "Speaker AF",
+   "sessionIds": [
+    "1011",
+    "1020",
+    "1033",
+    "1042",
+    "1051"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AF\nKonuşmalar\n7 Nisan 2027\nHall D\n08:30 - 09:40\nZor Havayolu: Planlı Yaklaşım\n7 Nisan 2027\nHall A\n14:00 - 15:10\nAcil Tıp Eğitiminde Simülasyon\n8 Nisan 2027\nHall B\n08:30 - 09:40\nBaş Ağrısı ve Baş Dönmesi\n8 Nisan 2027\nHall C\n11:30 - 12:40\nGebelikte Acil Durumlar\n8 Nisan 2027\nHall D\n15:30 - 16:40\nSözlü Bildiriler: Pediatri",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AF\nTalks\n7 April 2027\nHall D\n08:30 - 09:40\nThe Difficult Airway: A Planned Approach\n7 April 2027\nHall A\n14:00 - 15:10\nSimulation in Emergency Medicine Education\n8 April 2027\nHall B\n08:30 - 09:40\nHeadache and Dizziness\n8 April 2027\nHall C\n11:30 - 12:40\nEmergencies in Pregnancy\n8 April 2027\nHall D\n15:30 - 16:40\nOral Abstracts: Paediatrics",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p33",
+   "name": "Speaker AG",
+   "sessionIds": [
+    "1011",
+    "1020",
+    "1033",
+    "1042",
+    "1054"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AG\nKonuşmalar\n7 Nisan 2027\nHall D\n08:30 - 09:40\nZor Havayolu: Planlı Yaklaşım\n7 Nisan 2027\nHall A\n14:00 - 15:10\nAcil Tıp Eğitiminde Simülasyon\n8 Nisan 2027\nHall B\n08:30 - 09:40\nBaş Ağrısı ve Baş Dönmesi\n8 Nisan 2027\nHall C\n11:30 - 12:40\nGebelikte Acil Durumlar\n8 Nisan 2027\nHall E\n12:50 - 13:50\nUydu Sempozyumu: Sepsiste Biyobelirteçler",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AG\nTalks\n7 April 2027\nHall D\n08:30 - 09:40\nThe Difficult Airway: A Planned Approach\n7 April 2027\nHall A\n14:00 - 15:10\nSimulation in Emergency Medicine Education\n8 April 2027\nHall B\n08:30 - 09:40\nHeadache and Dizziness\n8 April 2027\nHall C\n11:30 - 12:40\nEmergencies in Pregnancy\n8 April 2027\nHall E\n12:50 - 13:50\nSatellite Symposium: Biomarkers in Sepsis",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p34",
+   "name": "Speaker AH",
+   "sessionIds": [
+    "1011",
+    "1020",
+    "1033",
+    "1043",
+    "1055"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AH\nKonuşmalar\n7 Nisan 2027\nHall D\n08:30 - 09:40\nZor Havayolu: Planlı Yaklaşım\n7 Nisan 2027\nHall A\n14:00 - 15:10\nAcil Tıp Eğitiminde Simülasyon\n8 Nisan 2027\nHall B\n08:30 - 09:40\nBaş Ağrısı ve Baş Dönmesi\n8 Nisan 2027\nHall D\n11:30 - 12:40\nKanıta Dayalı Tıp Kulübü\n8 Nisan 2027\nHall F\n12:50 - 13:50\nUydu Sempozyumu: Taşınabilir Görüntüleme",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AH\nTalks\n7 April 2027\nHall D\n08:30 - 09:40\nThe Difficult Airway: A Planned Approach\n7 April 2027\nHall A\n14:00 - 15:10\nSimulation in Emergency Medicine Education\n8 April 2027\nHall B\n08:30 - 09:40\nHeadache and Dizziness\n8 April 2027\nHall D\n11:30 - 12:40\nEvidence-Based Medicine Journal Club\n8 April 2027\nHall F\n12:50 - 13:50\nSatellite Symposium: Portable Imaging",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p35",
+   "name": "Speaker AI",
+   "sessionIds": [
+    "1011",
+    "1021",
+    "1033",
+    "1043",
+    "1056"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AI\nKonuşmalar\n7 Nisan 2027\nHall D\n08:30 - 09:40\nZor Havayolu: Planlı Yaklaşım\n7 Nisan 2027\nHall B\n14:00 - 15:10\nHasta Güvenliği ve Tıbbi Hata\n8 Nisan 2027\nHall B\n08:30 - 09:40\nBaş Ağrısı ve Baş Dönmesi\n8 Nisan 2027\nHall D\n11:30 - 12:40\nKanıta Dayalı Tıp Kulübü\n9 Nisan 2027\nHall A\n09:00 - 10:10\nNöbet ve Status Epileptikus",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AI\nTalks\n7 April 2027\nHall D\n08:30 - 09:40\nThe Difficult Airway: A Planned Approach\n7 April 2027\nHall B\n14:00 - 15:10\nPatient Safety and Medical Error\n8 April 2027\nHall B\n08:30 - 09:40\nHeadache and Dizziness\n8 April 2027\nHall D\n11:30 - 12:40\nEvidence-Based Medicine Journal Club\n9 April 2027\nHall A\n09:00 - 10:10\nSeizures and Status Epilepticus",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p36",
+   "name": "Speaker AJ",
+   "sessionIds": [
+    "1011",
+    "1021",
+    "1034",
+    "1043",
+    "1056"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AJ\nKonuşmalar\n7 Nisan 2027\nHall D\n08:30 - 09:40\nZor Havayolu: Planlı Yaklaşım\n7 Nisan 2027\nHall B\n14:00 - 15:10\nHasta Güvenliği ve Tıbbi Hata\n8 Nisan 2027\nHall C\n08:30 - 09:40\nHastane Öncesi Acil Bakım\n8 Nisan 2027\nHall D\n11:30 - 12:40\nKanıta Dayalı Tıp Kulübü\n9 Nisan 2027\nHall A\n09:00 - 10:10\nNöbet ve Status Epileptikus",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AJ\nTalks\n7 April 2027\nHall D\n08:30 - 09:40\nThe Difficult Airway: A Planned Approach\n7 April 2027\nHall B\n14:00 - 15:10\nPatient Safety and Medical Error\n8 April 2027\nHall C\n08:30 - 09:40\nPrehospital Emergency Care\n8 April 2027\nHall D\n11:30 - 12:40\nEvidence-Based Medicine Journal Club\n9 April 2027\nHall A\n09:00 - 10:10\nSeizures and Status Epilepticus",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p37",
+   "name": "Speaker AK",
+   "sessionIds": [
+    "1012",
+    "1021",
+    "1034",
+    "1043",
+    "1056"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AK\nKonuşmalar\n7 Nisan 2027\nHall A\n09:50 - 11:00\nÇoklu Travmada Kanama Kontrolü\n7 Nisan 2027\nHall B\n14:00 - 15:10\nHasta Güvenliği ve Tıbbi Hata\n8 Nisan 2027\nHall C\n08:30 - 09:40\nHastane Öncesi Acil Bakım\n8 Nisan 2027\nHall D\n11:30 - 12:40\nKanıta Dayalı Tıp Kulübü\n9 Nisan 2027\nHall A\n09:00 - 10:10\nNöbet ve Status Epileptikus",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AK\nTalks\n7 April 2027\nHall A\n09:50 - 11:00\nHaemorrhage Control in Major Trauma\n7 April 2027\nHall B\n14:00 - 15:10\nPatient Safety and Medical Error\n8 April 2027\nHall C\n08:30 - 09:40\nPrehospital Emergency Care\n8 April 2027\nHall D\n11:30 - 12:40\nEvidence-Based Medicine Journal Club\n9 April 2027\nHall A\n09:00 - 10:10\nSeizures and Status Epilepticus",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p38",
+   "name": "Speaker AL",
+   "sessionIds": [
+    "1012",
+    "1021",
+    "1034",
+    "1043",
+    "1056"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AL\nKonuşmalar\n7 Nisan 2027\nHall A\n09:50 - 11:00\nÇoklu Travmada Kanama Kontrolü\n7 Nisan 2027\nHall B\n14:00 - 15:10\nHasta Güvenliği ve Tıbbi Hata\n8 Nisan 2027\nHall C\n08:30 - 09:40\nHastane Öncesi Acil Bakım\n8 Nisan 2027\nHall D\n11:30 - 12:40\nKanıta Dayalı Tıp Kulübü\n9 Nisan 2027\nHall A\n09:00 - 10:10\nNöbet ve Status Epileptikus",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AL\nTalks\n7 April 2027\nHall A\n09:50 - 11:00\nHaemorrhage Control in Major Trauma\n7 April 2027\nHall B\n14:00 - 15:10\nPatient Safety and Medical Error\n8 April 2027\nHall C\n08:30 - 09:40\nPrehospital Emergency Care\n8 April 2027\nHall D\n11:30 - 12:40\nEvidence-Based Medicine Journal Club\n9 April 2027\nHall A\n09:00 - 10:10\nSeizures and Status Epilepticus",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p39",
+   "name": "Speaker AM",
+   "sessionIds": [
+    "1012",
+    "1021",
+    "1034",
+    "1044",
+    "1056"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AM\nKonuşmalar\n7 Nisan 2027\nHall A\n09:50 - 11:00\nÇoklu Travmada Kanama Kontrolü\n7 Nisan 2027\nHall B\n14:00 - 15:10\nHasta Güvenliği ve Tıbbi Hata\n8 Nisan 2027\nHall C\n08:30 - 09:40\nHastane Öncesi Acil Bakım\n8 Nisan 2027\nHall A\n14:00 - 15:10\nAcil Tıpta Etik İkilemler\n9 Nisan 2027\nHall A\n09:00 - 10:10\nNöbet ve Status Epileptikus",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AM\nTalks\n7 April 2027\nHall A\n09:50 - 11:00\nHaemorrhage Control in Major Trauma\n7 April 2027\nHall B\n14:00 - 15:10\nPatient Safety and Medical Error\n8 April 2027\nHall C\n08:30 - 09:40\nPrehospital Emergency Care\n8 April 2027\nHall A\n14:00 - 15:10\nEthical Dilemmas in Emergency Medicine\n9 April 2027\nHall A\n09:00 - 10:10\nSeizures and Status Epilepticus",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p40",
+   "name": "Speaker AN",
+   "sessionIds": [
+    "1012",
+    "1022",
+    "1034",
+    "1044",
+    "1057"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AN\nKonuşmalar\n7 Nisan 2027\nHall A\n09:50 - 11:00\nÇoklu Travmada Kanama Kontrolü\n7 Nisan 2027\nHall C\n14:00 - 15:10\nYaşlı Hastada Acil Bakım\n8 Nisan 2027\nHall C\n08:30 - 09:40\nHastane Öncesi Acil Bakım\n8 Nisan 2027\nHall A\n14:00 - 15:10\nAcil Tıpta Etik İkilemler\n9 Nisan 2027\nHall B\n09:00 - 10:10\nGöğüs Travması",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AN\nTalks\n7 April 2027\nHall A\n09:50 - 11:00\nHaemorrhage Control in Major Trauma\n7 April 2027\nHall C\n14:00 - 15:10\nEmergency Care of the Older Adult\n8 April 2027\nHall C\n08:30 - 09:40\nPrehospital Emergency Care\n8 April 2027\nHall A\n14:00 - 15:10\nEthical Dilemmas in Emergency Medicine\n9 April 2027\nHall B\n09:00 - 10:10\nChest Trauma",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p41",
+   "name": "Speaker AO",
+   "sessionIds": [
+    "1012",
+    "1022",
+    "1035",
+    "1044",
+    "1057"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AO\nKonuşmalar\n7 Nisan 2027\nHall A\n09:50 - 11:00\nÇoklu Travmada Kanama Kontrolü\n7 Nisan 2027\nHall C\n14:00 - 15:10\nYaşlı Hastada Acil Bakım\n8 Nisan 2027\nHall D\n08:30 - 09:40\nAcil Serviste Liderlik\n8 Nisan 2027\nHall A\n14:00 - 15:10\nAcil Tıpta Etik İkilemler\n9 Nisan 2027\nHall B\n09:00 - 10:10\nGöğüs Travması",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AO\nTalks\n7 April 2027\nHall A\n09:50 - 11:00\nHaemorrhage Control in Major Trauma\n7 April 2027\nHall C\n14:00 - 15:10\nEmergency Care of the Older Adult\n8 April 2027\nHall D\n08:30 - 09:40\nLeadership in the Emergency Department\n8 April 2027\nHall A\n14:00 - 15:10\nEthical Dilemmas in Emergency Medicine\n9 April 2027\nHall B\n09:00 - 10:10\nChest Trauma",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p42",
+   "name": "Speaker AP",
+   "sessionIds": [
+    "1013",
+    "1022",
+    "1035",
+    "1044",
+    "1057"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AP\nKonuşmalar\n7 Nisan 2027\nHall B\n09:50 - 11:00\nKardiyak Arrestte Yeni Kanıtlar\n7 Nisan 2027\nHall C\n14:00 - 15:10\nYaşlı Hastada Acil Bakım\n8 Nisan 2027\nHall D\n08:30 - 09:40\nAcil Serviste Liderlik\n8 Nisan 2027\nHall A\n14:00 - 15:10\nAcil Tıpta Etik İkilemler\n9 Nisan 2027\nHall B\n09:00 - 10:10\nGöğüs Travması",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AP\nTalks\n7 April 2027\nHall B\n09:50 - 11:00\nNew Evidence in Cardiac Arrest\n7 April 2027\nHall C\n14:00 - 15:10\nEmergency Care of the Older Adult\n8 April 2027\nHall D\n08:30 - 09:40\nLeadership in the Emergency Department\n8 April 2027\nHall A\n14:00 - 15:10\nEthical Dilemmas in Emergency Medicine\n9 April 2027\nHall B\n09:00 - 10:10\nChest Trauma",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p43",
+   "name": "Speaker AQ",
+   "sessionIds": [
+    "1013",
+    "1022",
+    "1035",
+    "1044",
+    "1057"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AQ\nKonuşmalar\n7 Nisan 2027\nHall B\n09:50 - 11:00\nKardiyak Arrestte Yeni Kanıtlar\n7 Nisan 2027\nHall C\n14:00 - 15:10\nYaşlı Hastada Acil Bakım\n8 Nisan 2027\nHall D\n08:30 - 09:40\nAcil Serviste Liderlik\n8 Nisan 2027\nHall A\n14:00 - 15:10\nAcil Tıpta Etik İkilemler\n9 Nisan 2027\nHall B\n09:00 - 10:10\nGöğüs Travması",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AQ\nTalks\n7 April 2027\nHall B\n09:50 - 11:00\nNew Evidence in Cardiac Arrest\n7 April 2027\nHall C\n14:00 - 15:10\nEmergency Care of the Older Adult\n8 April 2027\nHall D\n08:30 - 09:40\nLeadership in the Emergency Department\n8 April 2027\nHall A\n14:00 - 15:10\nEthical Dilemmas in Emergency Medicine\n9 April 2027\nHall B\n09:00 - 10:10\nChest Trauma",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p44",
+   "name": "Speaker AR",
+   "sessionIds": [
+    "1013",
+    "1022",
+    "1035",
+    "1045",
+    "1057"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AR\nKonuşmalar\n7 Nisan 2027\nHall B\n09:50 - 11:00\nKardiyak Arrestte Yeni Kanıtlar\n7 Nisan 2027\nHall C\n14:00 - 15:10\nYaşlı Hastada Acil Bakım\n8 Nisan 2027\nHall D\n08:30 - 09:40\nAcil Serviste Liderlik\n8 Nisan 2027\nHall B\n14:00 - 15:10\nAcil Serviste Ağrı Yönetimi\n9 Nisan 2027\nHall B\n09:00 - 10:10\nGöğüs Travması",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AR\nTalks\n7 April 2027\nHall B\n09:50 - 11:00\nNew Evidence in Cardiac Arrest\n7 April 2027\nHall C\n14:00 - 15:10\nEmergency Care of the Older Adult\n8 April 2027\nHall D\n08:30 - 09:40\nLeadership in the Emergency Department\n8 April 2027\nHall B\n14:00 - 15:10\nPain Management in the Emergency Department\n9 April 2027\nHall B\n09:00 - 10:10\nChest Trauma",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p45",
+   "name": "Speaker AS",
+   "sessionIds": [
+    "1013",
+    "1023",
+    "1035",
+    "1045",
+    "1058"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AS\nKonuşmalar\n7 Nisan 2027\nHall B\n09:50 - 11:00\nKardiyak Arrestte Yeni Kanıtlar\n7 Nisan 2027\nHall D\n14:00 - 15:10\nSözlü Bildiriler: Travma\n8 Nisan 2027\nHall D\n08:30 - 09:40\nAcil Serviste Liderlik\n8 Nisan 2027\nHall B\n14:00 - 15:10\nAcil Serviste Ağrı Yönetimi\n9 Nisan 2027\nHall C\n09:00 - 10:10\nAcil Tıpta Yazmak ve Yayımlamak",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AS\nTalks\n7 April 2027\nHall B\n09:50 - 11:00\nNew Evidence in Cardiac Arrest\n7 April 2027\nHall D\n14:00 - 15:10\nOral Abstracts: Trauma\n8 April 2027\nHall D\n08:30 - 09:40\nLeadership in the Emergency Department\n8 April 2027\nHall B\n14:00 - 15:10\nPain Management in the Emergency Department\n9 April 2027\nHall C\n09:00 - 10:10\nWriting and Publishing in Emergency Medicine",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p46",
+   "name": "Speaker AT",
+   "sessionIds": [
+    "1013",
+    "1023",
+    "1036",
+    "1045",
+    "1058"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AT\nKonuşmalar\n7 Nisan 2027\nHall B\n09:50 - 11:00\nKardiyak Arrestte Yeni Kanıtlar\n7 Nisan 2027\nHall D\n14:00 - 15:10\nSözlü Bildiriler: Travma\n8 Nisan 2027\nHall A\n09:50 - 11:00\nDijital Sağlık ve Teletıp\n8 Nisan 2027\nHall B\n14:00 - 15:10\nAcil Serviste Ağrı Yönetimi\n9 Nisan 2027\nHall C\n09:00 - 10:10\nAcil Tıpta Yazmak ve Yayımlamak",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AT\nTalks\n7 April 2027\nHall B\n09:50 - 11:00\nNew Evidence in Cardiac Arrest\n7 April 2027\nHall D\n14:00 - 15:10\nOral Abstracts: Trauma\n8 April 2027\nHall A\n09:50 - 11:00\nDigital Health and Telemedicine\n8 April 2027\nHall B\n14:00 - 15:10\nPain Management in the Emergency Department\n9 April 2027\nHall C\n09:00 - 10:10\nWriting and Publishing in Emergency Medicine",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p47",
+   "name": "Speaker AU",
+   "sessionIds": [
+    "1014",
+    "1023",
+    "1036",
+    "1045",
+    "1058"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AU\nKonuşmalar\n7 Nisan 2027\nHall C\n09:50 - 11:00\nAkut İnmede Zaman Kazanmak\n7 Nisan 2027\nHall D\n14:00 - 15:10\nSözlü Bildiriler: Travma\n8 Nisan 2027\nHall A\n09:50 - 11:00\nDijital Sağlık ve Teletıp\n8 Nisan 2027\nHall B\n14:00 - 15:10\nAcil Serviste Ağrı Yönetimi\n9 Nisan 2027\nHall C\n09:00 - 10:10\nAcil Tıpta Yazmak ve Yayımlamak",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AU\nTalks\n7 April 2027\nHall C\n09:50 - 11:00\nSaving Time in Acute Stroke\n7 April 2027\nHall D\n14:00 - 15:10\nOral Abstracts: Trauma\n8 April 2027\nHall A\n09:50 - 11:00\nDigital Health and Telemedicine\n8 April 2027\nHall B\n14:00 - 15:10\nPain Management in the Emergency Department\n9 April 2027\nHall C\n09:00 - 10:10\nWriting and Publishing in Emergency Medicine",
+     "sourceUrl": null
+    }
+   }
+  },
+  {
+   "id": "p48",
+   "name": "Speaker AV",
+   "sessionIds": [
+    "1014",
+    "1023",
+    "1036",
+    "1045",
+    "1058"
+   ],
+   "translations": {
+    "tr": {
+     "text": "Speaker AV\nKonuşmalar\n7 Nisan 2027\nHall C\n09:50 - 11:00\nAkut İnmede Zaman Kazanmak\n7 Nisan 2027\nHall D\n14:00 - 15:10\nSözlü Bildiriler: Travma\n8 Nisan 2027\nHall A\n09:50 - 11:00\nDijital Sağlık ve Teletıp\n8 Nisan 2027\nHall B\n14:00 - 15:10\nAcil Serviste Ağrı Yönetimi\n9 Nisan 2027\nHall C\n09:00 - 10:10\nAcil Tıpta Yazmak ve Yayımlamak",
+     "sourceUrl": null
+    },
+    "en": {
+     "text": "Speaker AV\nTalks\n7 April 2027\nHall C\n09:50 - 11:00\nSaving Time in Acute Stroke\n7 April 2027\nHall D\n14:00 - 15:10\nOral Abstracts: Trauma\n8 April 2027\nHall A\n09:50 - 11:00\nDigital Health and Telemedicine\n8 April 2027\nHall B\n14:00 - 15:10\nPain Management in the Emergency Department\n9 April 2027\nHall C\n09:00 - 10:10\nWriting and Publishing in Emergency Medicine",
+     "sourceUrl": null
+    }
+   }
+  }
+ ],
+ "sourceIssues": []
+}
